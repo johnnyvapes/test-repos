@@ -1,33 +1,20 @@
 # Manitowoc Google Traffic Test v3
 
-Standalone Google Maps traffic display for Johnny Vapes Manitowoc.
+Standalone TV display for Johnny Vapes Manitowoc using Google Maps JavaScript API TrafficLayer.
 
-## Included
-
-- Google Maps JavaScript API
-- Google live TrafficLayer
-- TrafficLayer auto-refresh
+## Layout
+- Current Traffic Conditions header
+- Google live traffic map fills the content area
 - Johnny Vapes Manitowoc marker
-- Large map occupying the full content area
-- Compact CLOSURES & INCIDENTS panel on the right
-- Traffic legend overlaid on the bottom of the map
-- No duplicate footer
-- No favicon dependency
+- Closures & Incidents information panel on the RIGHT side
+- Compact traffic legend overlaid on the bottom of the map
+- Map zoom is set to 14 (one level closer than the previous test)
 
 ## Important
+The Google Maps JavaScript TrafficLayer provides the live traffic visualization, but does not expose Google's separate incident/closure list to page JavaScript. The right-side panel therefore does not fabricate incident data.
 
-The test page uses the temporary/demo Google Maps API key supplied for testing.
-
-Google's Maps JavaScript TrafficLayer provides the live traffic visualization, but it does not expose a separate list of Google's underlying traffic incidents/closures to webpage JavaScript. Therefore the incident panel does not fabricate incident data.
-
-For production, replace the demo key with a restricted production API key and restrict it to the production GitHub Pages domain.
+The API key in index.html is the temporary demo/test key previously supplied for this test. Replace it with the production-restricted key before deployment to the stores.
 
 ## GitHub Pages
-
-Set:
-
-- Source: Deploy from a branch
-- Branch: main
-- Folder: / (root)
-
-Then wait for the GitHub Pages deployment to complete.
+Publish the `main` branch from `/ (root)`, then open:
+`https://johnnyvapes.github.io/google-reviews-test/`
