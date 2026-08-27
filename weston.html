@@ -8,9 +8,9 @@
     left: 1.2vw;
     right: auto;
     top: 1.5vh;
-    width: min(24vw, 410px);
-    height: auto;
-    max-height: 84vh;
+    width: min(27vw, 475px);
+    height: calc(100% - 3vh);
+    max-height: none;
     overflow: hidden !important;
     background: rgba(17,17,17,.92);
     color: #fff;
@@ -109,7 +109,7 @@
   .severe { background:#d93025; }
 
   @media (max-width:900px) {
-    #incidents { width:280px; max-height:84vh; }
+    #incidents { width:300px; height:calc(100% - 3vh); max-height:none; }
     #footer { right:1vw; gap:7px; padding:5px 8px; }
   }
 
@@ -157,16 +157,20 @@ function fitIncidentPanel() {
   // Start at the normal readable size and let short feeds use only the
   // space they actually need.
   let scale = 1.0;
-  const minScale = 0.48;
+  const minScale = 0.30;
   panel.style.setProperty("--incident-scale", "1");
 
   // The panel is height:auto. If the feed is taller than the available
   // screen area, progressively reduce all incident typography/padding
   // until the complete feed fits without a scrollbar.
   const fit = () => {
+    // Force the browser to calculate the current layout before measuring.
+    void panel.offsetHeight;
+
     while (scale > minScale && panel.scrollHeight > panel.clientHeight + 1) {
-      scale = Math.max(minScale, scale - 0.025);
+      scale = Math.max(minScale, scale - 0.02);
       panel.style.setProperty("--incident-scale", scale.toFixed(3));
+      void panel.offsetHeight;
     }
   };
 
@@ -184,7 +188,7 @@ async function refreshIncidents(stores,radiusMiles){
     const all=feed.events;
     const nearby=all.filter(e=>{const lat=Number(e.Latitude),lng=Number(e.Longitude);return Number.isFinite(lat)&&Number.isFinite(lng)&&stores.some(s=>distanceMiles(s.lat,s.lng,lat,lng)<=radiusMiles);});
     nearby.sort((a,b)=>{const rank=e=>e.EventType==="closures"?0:(e.EventType==="accidentsAndIncidents"?1:2),ra=rank(a),rb=rank(b);if(ra!==rb)return ra-rb;const da=Math.min(...stores.map(s=>distanceMiles(s.lat,s.lng,Number(a.Latitude),Number(a.Longitude)))),db=Math.min(...stores.map(s=>distanceMiles(s.lat,s.lng,Number(b.Latitude),Number(b.Longitude))));return da-db;});
-    renderIncidents(nearby.slice(0,8),feed.updatedAt);
+    renderIncidents(nearby.slice(0,8),feed.updatedAt); fitIncidentPanel(); setTimeout(fitIncidentPanel,250);
   }catch(err){
     console.error("Incident feed error:",err);status.textContent="Unable to update";
     const detail=err&&err.message?err.message:"Feed unavailable.";
