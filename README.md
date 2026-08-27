@@ -1,38 +1,33 @@
-# Manitowoc Google Traffic Test v2
+# Manitowoc Google Traffic Test v3
 
-Standalone TV test for Johnny Vapes Manitowoc.
+Standalone Google Maps traffic display for Johnny Vapes Manitowoc.
 
-Features:
-- Full-screen 16:9 signage layout
-- CURRENT TRAFFIC CONDITIONS banner
+## Included
+
 - Google Maps JavaScript API
-- Google TrafficLayer with autoRefresh enabled
-- Custom Johnny Vapes store marker
-- Reserved closures/incidents panel
-- Traffic legend
-- No periodic page/map reload
+- Google live TrafficLayer
+- TrafficLayer auto-refresh
+- Johnny Vapes Manitowoc marker
+- Large map occupying the full content area
+- Compact CLOSURES & INCIDENTS panel on the right
+- Traffic legend overlaid on the bottom of the map
+- No duplicate footer
+- No favicon dependency
 
-This is still a TEST build. Do not put the demo API key into production.
+## Important
 
-GitHub Pages:
-Enable Pages from `main` / root, then open the repository's Pages URL in a desktop browser first and then TV Bro.
+The test page uses the temporary/demo Google Maps API key supplied for testing.
 
+Google's Maps JavaScript TrafficLayer provides the live traffic visualization, but it does not expose a separate list of Google's underlying traffic incidents/closures to webpage JavaScript. Therefore the incident panel does not fabricate incident data.
 
-## 511WI Incidents / Closures
+For production, replace the demo key with a restricted production API key and restrict it to the production GitHub Pages domain.
 
-The right-side CLOSURES & INCIDENTS panel now uses the 511WI Events API.
+## GitHub Pages
 
-Before deploying, open `index.html` and replace:
+Set:
 
-`PASTE_YOUR_511WI_API_KEY_HERE`
+- Source: Deploy from a branch
+- Branch: main
+- Folder: / (root)
 
-with your 511WI developer key.
-
-The page requests the 511WI event feed every 5 minutes and filters it to:
-- Manitowoc County
-- `accidentsAndIncidents`
-- `closures`
-
-The Google Maps traffic layer remains separate and unchanged.
-
-Note: because this is a static GitHub Pages site, the 511WI key is necessarily exposed to the browser. If 511WI later provides a safer browser/CORS approach or you want to hide the key behind a server-side proxy, the feed can be moved to that architecture.
+Then wait for the GitHub Pages deployment to complete.

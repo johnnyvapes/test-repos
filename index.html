@@ -22,12 +22,11 @@
     background: #111;
   }
 
-  /* Keep the title prominent, but give the map almost the entire screen. */
   #header {
     height: 11vh;
     min-height: 72px;
     background: #111;
-    color: white;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +34,7 @@
     border-bottom: 3px solid #444;
     letter-spacing: 1px;
     position: relative;
-    z-index: 5;
+    z-index: 10;
   }
 
   #title {
@@ -58,92 +57,104 @@
     min-height: 0;
   }
 
-  /* The map is now the entire content area. */
-  #mapWrap {
-    position: absolute;
-    inset: 0;
-  }
-
   #map {
     position: absolute;
     inset: 0;
   }
 
   /*
-    Compact incident panel overlays the map instead of taking map width away.
-    This leaves the vast majority of the screen available for Google traffic.
+    Compact right-side information panel.
+    Google Maps TrafficLayer supplies the live traffic visualization.
+    It does NOT expose Google's underlying incident list to JavaScript,
+    so this panel does not fabricate incident data.
   */
   #incidents {
     position: absolute;
-    z-index: 4;
-    left: 1.2vw;
+    z-index: 5;
+    right: 1.2vw;
     top: 1.5vh;
-    width: min(21vw, 360px);
-    max-height: 38vh;
+    width: min(20vw, 330px);
+    max-height: 30vh;
     overflow: hidden;
-    background: rgba(17,17,17,.90);
-    color: white;
-    border: 2px solid rgba(255,255,255,.30);
+    background: rgba(17,17,17,.91);
+    color: #fff;
+    border: 2px solid rgba(255,255,255,.28);
     border-radius: 10px;
-    padding: 14px 16px;
-    box-shadow: 0 3px 14px rgba(0,0,0,.45);
+    padding: 13px 15px;
+    box-shadow: 0 3px 14px rgba(0,0,0,.5);
   }
 
   #incidentTitle {
-    font-size: clamp(18px, 1.55vw, 28px);
+    font-size: clamp(17px, 1.45vw, 26px);
     font-weight: 800;
-    line-height: 1.1;
-    margin-bottom: 10px;
+    line-height: 1.08;
+    margin-bottom: 9px;
   }
 
-  #incidentPlaceholder {
-    font-size: clamp(13px, 1.05vw, 19px);
+  #incidentStatus {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: clamp(12px, .95vw, 17px);
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  #liveDot {
+    width: 10px;
+    height: 10px;
+    min-width: 10px;
+    border-radius: 50%;
+    background: #34a853;
+    box-shadow: 0 0 7px rgba(52,168,83,.75);
+  }
+
+  #incidentText {
+    font-size: clamp(12px, .9vw, 16px);
     line-height: 1.35;
     opacity: .82;
   }
 
   #incidentNote {
-    margin-top: 12px;
-    padding-top: 10px;
+    margin-top: 10px;
+    padding-top: 9px;
     border-top: 1px solid rgba(255,255,255,.18);
-    font-size: clamp(11px, .82vw, 15px);
-    opacity: .55;
+    font-size: clamp(10px, .72vw, 13px);
+    line-height: 1.3;
+    opacity: .52;
   }
 
-  /*
-    Traffic legend sits directly on top of the map.
-    It no longer consumes a separate footer area.
-  */
-  #footer {
+  /* Legend overlays the map instead of taking its own area. */
+  #legend {
     position: absolute;
-    z-index: 4;
+    z-index: 5;
     left: 50%;
     bottom: 12px;
     transform: translateX(-50%);
     background: rgba(17,17,17,.88);
-    color: white;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: clamp(14px, 2.2vw, 38px);
+    gap: clamp(12px, 2vw, 32px);
     border: 2px solid rgba(255,255,255,.25);
     border-radius: 9px;
-    padding: 8px 18px;
-    font-size: clamp(13px, 1.05vw, 20px);
+    padding: 7px 16px;
+    font-size: clamp(12px, 1vw, 19px);
     font-weight: 700;
     white-space: nowrap;
-    box-shadow: 0 2px 10px rgba(0,0,0,.4);
+    box-shadow: 0 2px 10px rgba(0,0,0,.45);
   }
 
   .legendItem {
     display: flex;
     align-items: center;
-    gap: 7px;
+    gap: 6px;
   }
 
   .dot {
-    width: clamp(11px, .9vw, 17px);
-    height: clamp(11px, .9vw, 17px);
+    width: clamp(10px, .82vw, 16px);
+    height: clamp(10px, .82vw, 16px);
     border-radius: 50%;
     display: inline-block;
   }
@@ -153,28 +164,15 @@
   .heavy { background: #f4511e; }
   .severe { background: #d93025; }
 
-  .store-label {
-    background: #111;
-    color: white;
-    border: 2px solid white;
-    border-radius: 8px;
-    padding: 7px 10px;
-    font-size: 15px;
-    font-weight: 800;
-    white-space: nowrap;
-    box-shadow: 0 2px 8px rgba(0,0,0,.45);
-  }
-
-  /* On narrow screens, keep the incident panel compact. */
   @media (max-width: 900px) {
     #incidents {
-      width: 250px;
-      max-height: 31vh;
+      width: 245px;
+      max-height: 30vh;
     }
 
-    #footer {
-      gap: 10px;
-      padding: 7px 12px;
+    #legend {
+      gap: 9px;
+      padding: 6px 10px;
     }
   }
 </style>
@@ -188,90 +186,102 @@
   </header>
 
   <main id="content">
-    <section id="mapWrap">
-      <div id="map"></div>
-    </section>
+    <div id="map"></div>
 
     <aside id="incidents">
       <div id="incidentTitle">CLOSURES &amp; INCIDENTS</div>
-      <div id="incidentPlaceholder">
-        No incident data source connected yet.
+
+      <div id="incidentStatus">
+        <span id="liveDot"></span>
+        <span>Google live traffic active</span>
       </div>
+
+      <div id="incidentText">
+        Traffic slowdowns, congestion, and visible traffic conditions are displayed directly on the map.
+      </div>
+
       <div id="incidentNote">
-        Reserved for a future incident feed.
+        Google's Maps JavaScript TrafficLayer does not provide a separate incident/closure list to the webpage, so this panel will not invent or duplicate incident information.
       </div>
     </aside>
 
-    <footer id="footer">
+    <div id="legend" aria-label="Traffic speed legend">
       <div class="legendItem"><span class="dot normal"></span>Normal</div>
       <div class="legendItem"><span class="dot moderate"></span>Moderate</div>
       <div class="legendItem"><span class="dot heavy"></span>Heavy</div>
       <div class="legendItem"><span class="dot severe"></span>Severe</div>
-    </footer>
+    </div>
   </main>
-
-  <footer id="footer">
-    <div class="legendItem"><span class="dot normal"></span>Normal</div>
-    <div class="legendItem"><span class="dot moderate"></span>Moderate</div>
-    <div class="legendItem"><span class="dot heavy"></span>Heavy</div>
-    <div class="legendItem"><span class="dot severe"></span>Severe</div>
-  </footer>
 </div>
 
 <script>
-function initMap() {
-  const store = { lat: 44.0764905, lng: -87.7022507 };
+  function initMap() {
+    const store = { lat: 44.0764905, lng: -87.7022507 };
 
-  const map = new google.maps.Map(document.getElementById("map"), {
-    center: store,
-    zoom: 13,
-    mapTypeId: "roadmap",
+    const map = new google.maps.Map(document.getElementById("map"), {
+      center: store,
+      zoom: 13,
+      mapTypeId: "roadmap",
 
-    disableDefaultUI: true,
-    clickableIcons: false,
-    keyboardShortcuts: false,
-    gestureHandling: "none",
+      disableDefaultUI: true,
+      clickableIcons: false,
+      keyboardShortcuts: false,
+      gestureHandling: "none",
 
-    streetViewControl: false,
-    fullscreenControl: false,
-    mapTypeControl: false,
-    zoomControl: false,
-    scaleControl: false,
-    rotateControl: false,
-    cameraControl: false
-  });
+      streetViewControl: false,
+      fullscreenControl: false,
+      mapTypeControl: false,
+      zoomControl: false,
+      scaleControl: false,
+      rotateControl: false,
+      cameraControl: false
+    });
 
-  // Google continuously refreshes the TrafficLayer while it remains active.
-  const trafficLayer = new google.maps.TrafficLayer({
-    autoRefresh: true
-  });
-  trafficLayer.setMap(map);
+    /*
+      Google's live traffic overlay.
+      autoRefresh keeps the traffic information updated while the
+      page remains open.
+    */
+    const trafficLayer = new google.maps.TrafficLayer({
+      autoRefresh: true
+    });
 
-  // Store marker: this is our own marker, independent of Google's POI data.
-  const marker = new google.maps.Marker({
-    position: store,
-    map: map,
-    title: "Johnny Vapes Manitowoc",
-    label: {
-      text: "JOHNNY VAPES",
-      color: "#ffffff",
-      fontWeight: "800",
-      fontSize: "14px"
+    trafficLayer.setMap(map);
+
+    /*
+      Johnny Vapes Manitowoc marker.
+      This is our own marker and is independent of Google's POI data.
+    */
+    new google.maps.Marker({
+      position: store,
+      map: map,
+      title: "Johnny Vapes Manitowoc",
+      label: {
+        text: "JOHNNY VAPES",
+        color: "#ffffff",
+        fontWeight: "800",
+        fontSize: "14px"
+      }
+    });
+
+    function resizeMap() {
+      google.maps.event.trigger(map, "resize");
+      map.setCenter(store);
     }
-  });
 
-  // Keep the map centered after browser/TV layout changes.
-  window.addEventListener("resize", () => {
-    google.maps.event.trigger(map, "resize");
-    map.setCenter(store);
-  });
-}
+    window.addEventListener("resize", resizeMap);
 
-window.gm_authFailure = function () {
-  document.body.innerHTML =
-    '<div style="font-family:Arial;color:#fff;background:#111;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px">' +
-    '<div><h1>Google Maps authentication failed</h1><p>Check the test API key and Maps JavaScript API configuration.</p></div></div>';
-};
+    // Re-center after the TV/browser has finished laying out the page.
+    setTimeout(resizeMap, 500);
+    setTimeout(resizeMap, 2000);
+  }
+
+  window.gm_authFailure = function () {
+    document.body.innerHTML =
+      '<div style="font-family:Arial;color:#fff;background:#111;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px">' +
+      '<div><h1>Google Maps authentication failed</h1>' +
+      '<p>Check the test API key and Maps JavaScript API configuration.</p></div></div>';
+  };
 </script>
 
 <script async
