@@ -19,16 +19,17 @@ html,body { width:100%; height:100%; margin:0; overflow:hidden; background:#111;
 #mapWrap,#map { position:absolute; inset:0; }
 
   /* Fixed incident panel: no scrollbar; JavaScript scales text to fit. */
+  
   #incidents {
     --incident-scale: 1;
     position: absolute;
     z-index: 4;
-    left: 1.2vw !important;
-    right: auto !important;
+    left: 1.2vw;
+    right: auto;
     top: 1.5vh;
     width: min(24vw, 410px);
-    height: min(84vh, 720px);
-    max-height: min(84vh, 720px);
+    height: auto;
+    max-height: 84vh;
     overflow: hidden !important;
     background: rgba(17,17,17,.92);
     color: #fff;
@@ -96,7 +97,7 @@ html,body { width:100%; height:100%; margin:0; overflow:hidden; background:#111;
     font-weight: 700;
   }
 
-  /* Traffic legend is now inside the upper banner. */
+  /* Legend remains inside the top banner. */
   #footer {
     position: absolute;
     z-index: 6;
@@ -127,9 +128,10 @@ html,body { width:100%; height:100%; margin:0; overflow:hidden; background:#111;
   .severe { background:#d93025; }
 
   @media (max-width:900px) {
-    #incidents { width:280px; height:min(84vh,650px); max-height:min(84vh,650px); }
+    #incidents { width:280px; max-height:84vh; }
     #footer { right:1vw; gap:7px; padding:5px 8px; }
   }
+
 </style>
 </head>
 <body>
@@ -190,19 +192,31 @@ async function get511Events(){
 }
 
 
+
 function fitIncidentPanel() {
   const panel = document.getElementById("incidents");
-  if (!panel) return;
+  const list = document.getElementById("incidentList");
+  if (!panel || !list) return;
 
+  // Start at the normal readable size and let short feeds use only the
+  // space they actually need.
   let scale = 1.0;
-  const minScale = 0.45;
-  panel.style.setProperty("--incident-scale", scale);
+  const minScale = 0.48;
+  panel.style.setProperty("--incident-scale", "1");
+
+  // The panel is height:auto. If the feed is taller than the available
+  // screen area, progressively reduce all incident typography/padding
+  // until the complete feed fits without a scrollbar.
+  const fit = () => {
+    while (scale > minScale && panel.scrollHeight > panel.clientHeight + 1) {
+      scale = Math.max(minScale, scale - 0.025);
+      panel.style.setProperty("--incident-scale", scale.toFixed(3));
+    }
+  };
 
   requestAnimationFrame(() => {
-    while (scale > minScale && panel.scrollHeight > panel.clientHeight) {
-      scale -= 0.03;
-      panel.style.setProperty("--incident-scale", scale.toFixed(2));
-    }
+    fit();
+    requestAnimationFrame(fit);
   });
 }
 

@@ -1,15 +1,16 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Johnny Vapes — Weston, Wisconsin Traffic</title><style>*{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#111;font-family:Arial,Helvetica,sans-serif}#app{width:100vw;height:100vh;background:#111}#header{height:11vh;min-height:72px;background:#111;color:#fff;display:flex;align-items:center;justify-content:center;flex-direction:column;border-bottom:3px solid #444;letter-spacing:1px;position:relative;z-index:5}#title{font-size:clamp(28px,3.1vw,54px);font-weight:800;line-height:1}#subtitle{margin-top:6px;font-size:clamp(15px,1.35vw,26px);font-weight:600;opacity:.9;letter-spacing:.5px}#content{position:relative;height:89vh;min-height:0}#mapWrap,#map{position:absolute;inset:0}
   /* Fixed incident panel: no scrollbar; JavaScript scales text to fit. */
+  
   #incidents {
     --incident-scale: 1;
     position: absolute;
     z-index: 4;
-    left: 1.2vw !important;
-    right: auto !important;
+    left: 1.2vw;
+    right: auto;
     top: 1.5vh;
     width: min(24vw, 410px);
-    height: min(84vh, 720px);
-    max-height: min(84vh, 720px);
+    height: auto;
+    max-height: 84vh;
     overflow: hidden !important;
     background: rgba(17,17,17,.92);
     color: #fff;
@@ -77,7 +78,7 @@
     font-weight: 700;
   }
 
-  /* Traffic legend is now inside the upper banner. */
+  /* Legend remains inside the top banner. */
   #footer {
     position: absolute;
     z-index: 6;
@@ -108,9 +109,10 @@
   .severe { background:#d93025; }
 
   @media (max-width:900px) {
-    #incidents { width:280px; height:min(84vh,650px); max-height:min(84vh,650px); }
+    #incidents { width:280px; max-height:84vh; }
     #footer { right:1vw; gap:7px; padding:5px 8px; }
   }
+
 </style></head><body><div id="app"><header id="header"><div id="title">CURRENT TRAFFIC CONDITIONS</div><div id="subtitle">Johnny Vapes — Weston, Wisconsin</div>
   <footer id="footer"><div class="legendItem"><span class="dot normal"></span>Normal</div><div class="legendItem"><span class="dot moderate"></span>Moderate</div><div class="legendItem"><span class="dot heavy"></span>Heavy</div><div class="legendItem"><span class="dot severe"></span>Severe</div></footer>
 </header><main id="content"><section id="mapWrap"><div id="map"></div></section><aside id="incidents">
@@ -146,19 +148,31 @@ async function get511Events(){
 }
 
 
+
 function fitIncidentPanel() {
   const panel = document.getElementById("incidents");
-  if (!panel) return;
+  const list = document.getElementById("incidentList");
+  if (!panel || !list) return;
 
+  // Start at the normal readable size and let short feeds use only the
+  // space they actually need.
   let scale = 1.0;
-  const minScale = 0.45;
-  panel.style.setProperty("--incident-scale", scale);
+  const minScale = 0.48;
+  panel.style.setProperty("--incident-scale", "1");
+
+  // The panel is height:auto. If the feed is taller than the available
+  // screen area, progressively reduce all incident typography/padding
+  // until the complete feed fits without a scrollbar.
+  const fit = () => {
+    while (scale > minScale && panel.scrollHeight > panel.clientHeight + 1) {
+      scale = Math.max(minScale, scale - 0.025);
+      panel.style.setProperty("--incident-scale", scale.toFixed(3));
+    }
+  };
 
   requestAnimationFrame(() => {
-    while (scale > minScale && panel.scrollHeight > panel.clientHeight) {
-      scale -= 0.03;
-      panel.style.setProperty("--incident-scale", scale.toFixed(2));
-    }
+    fit();
+    requestAnimationFrame(fit);
   });
 }
 
