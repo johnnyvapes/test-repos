@@ -3,289 +3,104 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Johnny Vapes — Manitowoc Traffic</title>
+<title>Johnny Vapes — Weston, Wisconsin Traffic</title>
 <style>
-  * { box-sizing: border-box; }
-
-  html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    overflow: hidden;
-    background: #111;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  #app {
-    width: 100vw;
-    height: 100vh;
-    background: #111;
-  }
-
-  #header {
-    height: 11vh;
-    min-height: 72px;
-    background: #111;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-bottom: 3px solid #444;
-    letter-spacing: 1px;
-    position: relative;
-    z-index: 10;
-  }
-
-  #title {
-    font-size: clamp(28px, 3.1vw, 54px);
-    font-weight: 800;
-    line-height: 1;
-  }
-
-  #subtitle {
-    margin-top: 6px;
-    font-size: clamp(15px, 1.35vw, 26px);
-    font-weight: 600;
-    opacity: .9;
-    letter-spacing: .5px;
-  }
-
-  #content {
-    position: relative;
-    height: 89vh;
-    min-height: 0;
-  }
-
-  #map {
-    position: absolute;
-    inset: 0;
-  }
-
-  /*
-    Compact right-side information panel.
-    Google Maps TrafficLayer supplies the live traffic visualization.
-    It does NOT expose Google's underlying incident list to JavaScript,
-    so this panel does not fabricate incident data.
-  */
-  #incidents {
-    position: absolute;
-    z-index: 5;
-    right: 1.2vw;
-    top: 1.5vh;
-    width: min(20vw, 330px);
-    max-height: 30vh;
-    overflow: hidden;
-    background: rgba(17,17,17,.91);
-    color: #fff;
-    border: 2px solid rgba(255,255,255,.28);
-    border-radius: 10px;
-    padding: 13px 15px;
-    box-shadow: 0 3px 14px rgba(0,0,0,.5);
-  }
-
-  #incidentTitle {
-    font-size: clamp(17px, 1.45vw, 26px);
-    font-weight: 800;
-    line-height: 1.08;
-    margin-bottom: 9px;
-  }
-
-  #incidentStatus {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: clamp(12px, .95vw, 17px);
-    font-weight: 700;
-    margin-bottom: 8px;
-  }
-
-  #liveDot {
-    width: 10px;
-    height: 10px;
-    min-width: 10px;
-    border-radius: 50%;
-    background: #34a853;
-    box-shadow: 0 0 7px rgba(52,168,83,.75);
-  }
-
-  #incidentText {
-    font-size: clamp(12px, .9vw, 16px);
-    line-height: 1.35;
-    opacity: .82;
-  }
-
-  #incidentNote {
-    margin-top: 10px;
-    padding-top: 9px;
-    border-top: 1px solid rgba(255,255,255,.18);
-    font-size: clamp(10px, .72vw, 13px);
-    line-height: 1.3;
-    opacity: .52;
-  }
-
-  /* Legend overlays the map instead of taking its own area. */
-  #legend {
-    position: absolute;
-    z-index: 5;
-    left: 50%;
-    bottom: 12px;
-    transform: translateX(-50%);
-    background: rgba(17,17,17,.88);
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: clamp(12px, 2vw, 32px);
-    border: 2px solid rgba(255,255,255,.25);
-    border-radius: 9px;
-    padding: 7px 16px;
-    font-size: clamp(12px, 1vw, 19px);
-    font-weight: 700;
-    white-space: nowrap;
-    box-shadow: 0 2px 10px rgba(0,0,0,.45);
-  }
-
-  .legendItem {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .dot {
-    width: clamp(10px, .82vw, 16px);
-    height: clamp(10px, .82vw, 16px);
-    border-radius: 50%;
-    display: inline-block;
-  }
-
-  .normal { background: #34a853; }
-  .moderate { background: #fbbc04; }
-  .heavy { background: #f4511e; }
-  .severe { background: #d93025; }
-
-  @media (max-width: 900px) {
-    #incidents {
-      width: 245px;
-      max-height: 30vh;
-    }
-
-    #legend {
-      gap: 9px;
-      padding: 6px 10px;
-    }
-  }
+* { box-sizing:border-box; }
+html,body { width:100%; height:100%; margin:0; overflow:hidden; background:#111; font-family:Arial,Helvetica,sans-serif; }
+#app { width:100vw; height:100vh; background:#111; }
+#header { height:11vh; min-height:72px; background:#111; color:#fff; display:flex; align-items:center; justify-content:center; flex-direction:column; border-bottom:3px solid #444; letter-spacing:1px; position:relative; z-index:5; }
+#title { font-size:clamp(28px,3.1vw,54px); font-weight:800; line-height:1; }
+#subtitle { margin-top:6px; font-size:clamp(15px,1.35vw,26px); font-weight:600; opacity:.9; letter-spacing:.5px; }
+#content { position:relative; height:89vh; min-height:0; }
+#mapWrap,#map { position:absolute; inset:0; }
+#incidents { position:absolute; z-index:4; right:1.2vw; top:1.8vh; width:min(18vw,340px); max-height:34vh; overflow:hidden; background:rgba(17,17,17,.92); color:#fff; border:2px solid rgba(255,255,255,.30); border-radius:10px; padding:14px 16px; box-shadow:0 3px 14px rgba(0,0,0,.45); }
+#incidentTitle { font-size:clamp(18px,1.55vw,28px); font-weight:800; line-height:1.1; margin-bottom:10px; }
+#incidentPlaceholder { font-size:clamp(13px,1.05vw,19px); line-height:1.35; opacity:.82; }
+#incidentNote { margin-top:12px; padding-top:10px; border-top:1px solid rgba(255,255,255,.18); font-size:clamp(11px,.82vw,15px); opacity:.55; }
+#footer { position:absolute; z-index:4; left:50%; bottom:12px; transform:translateX(-50%); background:rgba(17,17,17,.88); color:#fff; display:flex; align-items:center; justify-content:center; gap:clamp(14px,2.2vw,38px); border:2px solid rgba(255,255,255,.25); border-radius:9px; padding:8px 18px; font-size:clamp(13px,1.05vw,20px); font-weight:700; white-space:nowrap; box-shadow:0 2px 10px rgba(0,0,0,.4); }
+.legendItem { display:flex; align-items:center; gap:7px; }
+.dot { width:clamp(11px,.9vw,17px); height:clamp(11px,.9vw,17px); border-radius:50%; display:inline-block; }
+.normal { background:#34a853; } .moderate { background:#fbbc04; } .heavy { background:#f4511e; } .severe { background:#d93025; }
+@media (max-width:900px) {
+  #incidents { width:250px; max-height:31vh; }
+  #footer { gap:10px; padding:7px 12px; }
+}
 </style>
 </head>
-
 <body>
 <div id="app">
-  <header id="header">
-    <div id="title">CURRENT TRAFFIC CONDITIONS</div>
-    <div id="subtitle">Johnny Vapes — Manitowoc, Wisconsin</div>
-  </header>
-
-  <main id="content">
-    <div id="map"></div>
-
-    <aside id="incidents">
-      <div id="incidentTitle">CLOSURES &amp; INCIDENTS</div>
-
-      <div id="incidentStatus">
-        <span id="liveDot"></span>
-        <span>Google live traffic active</span>
-      </div>
-
-      <div id="incidentText">
-        Traffic slowdowns, congestion, and visible traffic conditions are displayed directly on the map.
-      </div>
-
-      <div id="incidentNote">
-        Google's Maps JavaScript TrafficLayer does not provide a separate incident/closure list to the webpage, so this panel will not invent or duplicate incident information.
-      </div>
-    </aside>
-
-    <div id="legend" aria-label="Traffic speed legend">
-      <div class="legendItem"><span class="dot normal"></span>Normal</div>
-      <div class="legendItem"><span class="dot moderate"></span>Moderate</div>
-      <div class="legendItem"><span class="dot heavy"></span>Heavy</div>
-      <div class="legendItem"><span class="dot severe"></span>Severe</div>
+<header id="header">
+  <div id="title">CURRENT TRAFFIC CONDITIONS</div>
+  <div id="subtitle">Johnny Vapes — Weston, Wisconsin</div>
+</header>
+<main id="content">
+  <section id="mapWrap"><div id="map"></div></section>
+  <aside id="incidents">
+    <div id="incidentTitle">CLOSURES &amp; INCIDENTS</div>
+    <div id="incidentPlaceholder">
+      <strong style="color:#34a853">● Google live traffic active</strong><br><br>
+      Traffic slowdowns, congestion, and visible traffic conditions are displayed directly on the map.
     </div>
-  </main>
+    <div id="incidentNote">
+      Google Maps JavaScript TrafficLayer does not provide a separate incident/closure list to the webpage, so this panel will not invent or duplicate incident information.
+    </div>
+  </aside>
+  <footer id="footer">
+    <div class="legendItem"><span class="dot normal"></span>Normal</div>
+    <div class="legendItem"><span class="dot moderate"></span>Moderate</div>
+    <div class="legendItem"><span class="dot heavy"></span>Heavy</div>
+    <div class="legendItem"><span class="dot severe"></span>Severe</div>
+  </footer>
+</main>
 </div>
 
 <script>
-  function initMap() {
-    const store = { lat: 44.0764905, lng: -87.7022507 };
+function initMap() {
+  const store = { lat:44.9068107, lng:-89.5895614 };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    center: store,
+    zoom: 14,
+    mapTypeId: "roadmap",
+    disableDefaultUI: true,
+    clickableIcons: false,
+    keyboardShortcuts: false,
+    gestureHandling: "none",
+    streetViewControl: false,
+    fullscreenControl: false,
+    mapTypeControl: false,
+    zoomControl: false,
+    scaleControl: false,
+    rotateControl: false,
+    cameraControl: false
+  });
 
-    const map = new google.maps.Map(document.getElementById("map"), {
-      center: store,
-      zoom: 14,
-      mapTypeId: "roadmap",
+  const trafficLayer = new google.maps.TrafficLayer({ autoRefresh:true });
+  trafficLayer.setMap(map);
 
-      disableDefaultUI: true,
-      clickableIcons: false,
-      keyboardShortcuts: false,
-      gestureHandling: "none",
-
-      streetViewControl: false,
-      fullscreenControl: false,
-      mapTypeControl: false,
-      zoomControl: false,
-      scaleControl: false,
-      rotateControl: false,
-      cameraControl: false
-    });
-
-    /*
-      Google's live traffic overlay.
-      autoRefresh keeps the traffic information updated while the
-      page remains open.
-    */
-    const trafficLayer = new google.maps.TrafficLayer({
-      autoRefresh: true
-    });
-
-    trafficLayer.setMap(map);
-
-    /*
-      Johnny Vapes Manitowoc marker.
-      This is our own marker and is independent of Google's POI data.
-    */
-    new google.maps.Marker({
-      position: store,
-      map: map,
-      title: "Johnny Vapes Manitowoc",
-      label: {
-        text: "JOHNNY VAPES",
-        color: "#ffffff",
-        fontWeight: "800",
-        fontSize: "14px"
-      }
-    });
-
-    function resizeMap() {
-      google.maps.event.trigger(map, "resize");
-      map.setCenter(store);
+  new google.maps.Marker({
+    position: store,
+    map: map,
+    title: "Johnny Vapes",
+    label: {
+      text: "JOHNNY VAPES",
+      color: "#ffffff",
+      fontWeight: "800",
+      fontSize: "14px"
     }
+  });
 
-    window.addEventListener("resize", resizeMap);
+  window.addEventListener("resize", () => {
+    google.maps.event.trigger(map, "resize");
+    map.setCenter(store);
+  });
+}
 
-    // Re-center after the TV/browser has finished laying out the page.
-    setTimeout(resizeMap, 500);
-    setTimeout(resizeMap, 2000);
-  }
-
-  window.gm_authFailure = function () {
-    document.body.innerHTML =
-      '<div style="font-family:Arial;color:#fff;background:#111;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px">' +
-      '<div><h1>Google Maps authentication failed</h1>' +
-      '<p>Check the test API key and Maps JavaScript API configuration.</p></div></div>';
-  };
+window.gm_authFailure = function() {
+  document.body.innerHTML =
+    '<div style="font-family:Arial;color:#fff;background:#111;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px">' +
+    '<div><h1>Google Maps authentication failed</h1><p>Check the test API key and Maps JavaScript API configuration.</p></div></div>';
+};
 </script>
-
-<script async
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdbPq5kk4D1xjx4Z4jgp6feB1I4kvOPCA&loading=async&callback=initMap&v=weekly">
-</script>
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdbPq5kk4D1xjx4Z4jgp6feB1I4kvOPCA&loading=async&callback=initMap&v=weekly"></script>
 </body>
 </html>
