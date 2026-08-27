@@ -19,7 +19,7 @@ html,body { width:100%; height:100%; margin:0; overflow:hidden; background:#111;
 #mapWrap,#map { position:absolute; inset:0; }
 #incidents {
   position:absolute; z-index:4; right:1.2vw; top:1.8vh;
-  width:min(18vw,330px); max-height:34vh; overflow:hidden;
+  width:min(18vw,330px); max-height:82vh; overflow:visible;
   background:rgba(17,17,17,.90); color:#fff; border:2px solid rgba(255,255,255,.30);
   border-radius:10px; padding:14px 16px; box-shadow:0 3px 14px rgba(0,0,0,.45);
 }
@@ -40,7 +40,7 @@ html,body { width:100%; height:100%; margin:0; overflow:hidden; background:#111;
 .normal { background:#34a853; } .moderate { background:#fbbc04; }
 .heavy { background:#f4511e; } .severe { background:#d93025; }
 @media (max-width:900px) {
-  #incidents { width:250px; max-height:31vh; }
+  #incidents { width:250px; max-height:82vh; }
   #footer { gap:10px; padding:7px 12px; }
 }
 
@@ -51,8 +51,8 @@ html,body { width:100%; height:100%; margin:0; overflow:hidden; background:#111;
   margin:-4px 0 9px;
 }
 #incidentList {
-  max-height: 24vh;
-  overflow-y: auto;
+  max-height: none;
+  overflow: visible;
   padding-right: 3px;
 }
 .incidentCard {
