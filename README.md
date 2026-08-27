@@ -4,7 +4,7 @@ This version keeps Google Maps traffic exactly as before, but removes the direct
 
 ## How the incident feed works
 
-GitHub Actions requests the 511WI Events API every 10 minutes using the repository secret `511WI_API_KEY`. The returned events are stored in `events.json` on the GitHub Pages site. The three display pages read that same JSON file and locally filter events to an 18-mile radius around their store location(s).
+GitHub Actions requests the 511WI Events API every 10 minutes using the repository secret `WI_511_API_KEY`. The returned events are stored in `events.json` on the GitHub Pages site. The three display pages read that same JSON file and locally filter events to an 18-mile radius around their store location(s).
 
 This means:
 - The 511WI developer key is NOT placed in the HTML.
@@ -17,7 +17,7 @@ This means:
 
 1. In the repository, open **Settings → Secrets and variables → Actions**.
 2. Create a repository secret named exactly:
-   `511WI_API_KEY`
+   `WI_511_API_KEY`
 3. Paste the 511WI developer key as the secret value.
 4. Make sure Actions are enabled for the repository.
 5. Open **Actions → Update 511WI incident feed** and use **Run workflow** for the first test.
