@@ -6,6 +6,7 @@
 <title>Johnny Vapes — Manitowoc Traffic</title>
 <style>
   * { box-sizing: border-box; }
+
   html, body {
     width: 100%;
     height: 100%;
@@ -18,14 +19,13 @@
   #app {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
     background: #111;
   }
 
+  /* Keep the title prominent, but give the map almost the entire screen. */
   #header {
-    height: 13vh;
-    min-height: 80px;
+    height: 11vh;
+    min-height: 72px;
     background: #111;
     color: white;
     display: flex;
@@ -34,6 +34,8 @@
     flex-direction: column;
     border-bottom: 3px solid #444;
     letter-spacing: 1px;
+    position: relative;
+    z-index: 5;
   }
 
   #title {
@@ -43,24 +45,23 @@
   }
 
   #subtitle {
-    margin-top: 7px;
-    font-size: clamp(16px, 1.45vw, 28px);
+    margin-top: 6px;
+    font-size: clamp(15px, 1.35vw, 26px);
     font-weight: 600;
     opacity: .9;
     letter-spacing: .5px;
   }
 
   #content {
-    flex: 1;
+    position: relative;
+    height: 89vh;
     min-height: 0;
-    display: flex;
   }
 
+  /* The map is now the entire content area. */
   #mapWrap {
-    position: relative;
-    flex: 1;
-    min-width: 0;
-    min-height: 0;
+    position: absolute;
+    inset: 0;
   }
 
   #map {
@@ -68,61 +69,81 @@
     inset: 0;
   }
 
+  /*
+    Compact incident panel overlays the map instead of taking map width away.
+    This leaves the vast majority of the screen available for Google traffic.
+  */
   #incidents {
-    width: 29%;
-    min-width: 300px;
-    max-width: 520px;
-    background: #171717;
+    position: absolute;
+    z-index: 4;
+    left: 1.2vw;
+    top: 1.5vh;
+    width: min(21vw, 360px);
+    max-height: 38vh;
+    overflow: hidden;
+    background: rgba(17,17,17,.90);
     color: white;
-    border-left: 3px solid #444;
-    padding: 22px 24px;
-    display: flex;
-    flex-direction: column;
+    border: 2px solid rgba(255,255,255,.30);
+    border-radius: 10px;
+    padding: 14px 16px;
+    box-shadow: 0 3px 14px rgba(0,0,0,.45);
   }
 
   #incidentTitle {
-    font-size: clamp(22px, 2vw, 36px);
+    font-size: clamp(18px, 1.55vw, 28px);
     font-weight: 800;
-    margin-bottom: 18px;
+    line-height: 1.1;
+    margin-bottom: 10px;
   }
 
   #incidentPlaceholder {
-    font-size: clamp(17px, 1.45vw, 25px);
-    line-height: 1.45;
-    opacity: .78;
+    font-size: clamp(13px, 1.05vw, 19px);
+    line-height: 1.35;
+    opacity: .82;
   }
 
   #incidentNote {
-    margin-top: auto;
-    padding-top: 18px;
-    font-size: clamp(13px, 1vw, 18px);
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255,255,255,.18);
+    font-size: clamp(11px, .82vw, 15px);
     opacity: .55;
   }
 
+  /*
+    Traffic legend sits directly on top of the map.
+    It no longer consumes a separate footer area.
+  */
   #footer {
-    height: 9vh;
-    min-height: 60px;
-    background: #111;
+    position: absolute;
+    z-index: 4;
+    left: 50%;
+    bottom: 12px;
+    transform: translateX(-50%);
+    background: rgba(17,17,17,.88);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: clamp(18px, 3vw, 55px);
-    border-top: 3px solid #444;
-    font-size: clamp(14px, 1.35vw, 24px);
+    gap: clamp(14px, 2.2vw, 38px);
+    border: 2px solid rgba(255,255,255,.25);
+    border-radius: 9px;
+    padding: 8px 18px;
+    font-size: clamp(13px, 1.05vw, 20px);
     font-weight: 700;
+    white-space: nowrap;
+    box-shadow: 0 2px 10px rgba(0,0,0,.4);
   }
 
   .legendItem {
     display: flex;
     align-items: center;
-    gap: 8px;
-    white-space: nowrap;
+    gap: 7px;
   }
 
   .dot {
-    width: clamp(12px, 1vw, 20px);
-    height: clamp(12px, 1vw, 20px);
+    width: clamp(11px, .9vw, 17px);
+    height: clamp(11px, .9vw, 17px);
     border-radius: 50%;
     display: inline-block;
   }
@@ -132,7 +153,6 @@
   .heavy { background: #f4511e; }
   .severe { background: #d93025; }
 
-  /* Our own store marker label. It is positioned geographically by Google Maps. */
   .store-label {
     background: #111;
     color: white;
@@ -143,6 +163,19 @@
     font-weight: 800;
     white-space: nowrap;
     box-shadow: 0 2px 8px rgba(0,0,0,.45);
+  }
+
+  /* On narrow screens, keep the incident panel compact. */
+  @media (max-width: 900px) {
+    #incidents {
+      width: 250px;
+      max-height: 31vh;
+    }
+
+    #footer {
+      gap: 10px;
+      padding: 7px 12px;
+    }
   }
 </style>
 </head>
@@ -163,11 +196,18 @@
       <div id="incidentTitle">CLOSURES &amp; INCIDENTS</div>
       <div id="incidentPlaceholder">
         No incident data source connected yet.
-        <br><br>
-        This area is reserved for a future incident feed.
       </div>
-      <div id="incidentNote">Google live traffic remains active on the map.</div>
+      <div id="incidentNote">
+        Reserved for a future incident feed.
+      </div>
     </aside>
+
+    <footer id="footer">
+      <div class="legendItem"><span class="dot normal"></span>Normal</div>
+      <div class="legendItem"><span class="dot moderate"></span>Moderate</div>
+      <div class="legendItem"><span class="dot heavy"></span>Heavy</div>
+      <div class="legendItem"><span class="dot severe"></span>Severe</div>
+    </footer>
   </main>
 
   <footer id="footer">
