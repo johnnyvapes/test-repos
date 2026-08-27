@@ -17,148 +17,119 @@ html,body { width:100%; height:100%; margin:0; overflow:hidden; background:#111;
 #subtitle { margin-top:6px; font-size:clamp(15px,1.35vw,26px); font-weight:600; opacity:.9; letter-spacing:.5px; }
 #content { position:relative; height:89vh; min-height:0; }
 #mapWrap,#map { position:absolute; inset:0; }
-#incidents {
-  position:absolute; z-index:4; right:1.2vw; top:1.8vh;
-  width:min(18vw,330px); max-height:82vh; overflow:visible;
-  background:rgba(17,17,17,.90); color:#fff; border:2px solid rgba(255,255,255,.30);
-  border-radius:10px; padding:14px 16px; box-shadow:0 3px 14px rgba(0,0,0,.45);
-}
-#incidentTitle { font-size:clamp(18px,1.45vw,27px); font-weight:800; line-height:1.05; margin-bottom:10px; }
-#incidentLive { font-size:clamp(12px,.92vw,17px); line-height:1.35; font-weight:700; }
-.liveDot { display:inline-block; width:10px; height:10px; border-radius:50%; background:#34a853; margin-right:7px; }
-#incidentText { margin-top:8px; font-size:clamp(12px,.9vw,16px); line-height:1.35; opacity:.9; }
-#incidentNote { margin-top:10px; padding-top:9px; border-top:1px solid rgba(255,255,255,.18); font-size:clamp(10px,.72vw,14px); opacity:.55; }
-#footer {
-  position:absolute; z-index:4; left:1.2vw; bottom:12px; transform:none;
-  background:rgba(17,17,17,.88); color:#fff; display:flex; align-items:center;
-  justify-content:center; gap:clamp(14px,2.2vw,38px); border:2px solid rgba(255,255,255,.25);
-  border-radius:9px; padding:8px 18px; font-size:clamp(13px,1.05vw,20px);
-  font-weight:700; white-space:nowrap; box-shadow:0 2px 10px rgba(0,0,0,.4);
-}
-.legendItem { display:flex; align-items:center; gap:7px; }
-.dot { width:clamp(11px,.9vw,17px); height:clamp(11px,.9vw,17px); border-radius:50%; display:inline-block; }
-.normal { background:#34a853; } .moderate { background:#fbbc04; }
-.heavy { background:#f4511e; } .severe { background:#d93025; }
-@media (max-width:900px) {
-  #incidents { width:250px; max-height:82vh; }
-  #footer { gap:10px; padding:7px 12px; }
-}
 
-/* Readable live incident list — adaptive, left side, no scrolling */
-#incidents {
-  position:absolute;
-  z-index:4;
-  left:1.2vw;
-  right:auto;
-  top:1.5vh;
-  width:min(25vw,390px);
-  max-height:none;
-  overflow:visible;
-  background:rgba(17,17,17,.92);
-  color:#fff;
-  border:2px solid rgba(255,255,255,.30);
-  border-radius:10px;
-  padding:12px 14px;
-  box-shadow:0 3px 14px rgba(0,0,0,.45);
-}
-#incidentTitle {
-  font-size:clamp(17px,1.4vw,26px);
-  font-weight:800;
-  line-height:1.05;
-  margin-bottom:7px;
-}
-#incidentStatus {
-  font-size:clamp(9px,.65vw,13px);
-  opacity:.65;
-  margin:-2px 0 5px;
-}
-#incidentList {
-  max-height:none;
-  overflow:visible;
-}
-.incidentCard {
-  border-top:1px solid rgba(255,255,255,.18);
-  padding:6px 0 7px;
-}
-.incidentHead {
-  display:flex;
-  align-items:center;
-  gap:5px;
-  font-size:clamp(10px,.72vw,14px);
-  font-weight:800;
-}
-.incidentIcon { font-size:1em; }
-.incidentType { letter-spacing:.4px; }
-.incidentRoad {
-  margin-top:2px;
-  font-size:clamp(12px,.9vw,17px);
-  font-weight:800;
-  line-height:1.05;
-}
-.incidentDirection {
-  margin-top:2px;
-  font-size:clamp(9px,.65vw,13px);
-  opacity:.72;
-  font-weight:700;
-  line-height:1.05;
-}
-.incidentDescription {
-  margin-top:3px;
-  font-size:clamp(10px,.7vw,14px);
-  line-height:1.18;
-  opacity:.92;
-}
-.incidentLanes {
-  margin-top:2px;
-  font-size:clamp(9px,.62vw,12px);
-  font-weight:700;
-  opacity:.72;
-  line-height:1.1;
-}
-.noIncidents {
-  padding:7px 0 3px;
-  font-size:clamp(11px,.76vw,15px);
-  line-height:1.25;
-  font-weight:700;
-}
-.feedError {
-  padding:7px 0 3px;
-  font-size:clamp(10px,.7vw,14px);
-  line-height:1.3;
-}
-.feedError small { opacity:.65; }
-
-/* When the panel has many reports, the script reduces text/padding rather than
-   introducing a scrollbar, keeping the complete report readable on-screen. */
-#incidents.compact {
-  width:min(27vw,430px);
-  padding:10px 12px;
-}
-#incidents.compact .incidentCard { padding:4px 0 5px; }
-#incidents.compact .incidentDescription { line-height:1.1; }
-#incidents.compact .incidentRoad { font-size:clamp(11px,.8vw,15px); }
-#incidents.compact .incidentDirection,
-#incidents.compact .incidentLanes { font-size:clamp(8px,.58vw,11px); }
-#incidents.compact .incidentDescription { font-size:clamp(9px,.62vw,12px); }
-
-@media (max-width:900px) {
+  /* Fixed incident panel: no scrollbar; JavaScript scales text to fit. */
   #incidents {
-    width:250px;
+    --incident-scale: 1;
+    position: absolute;
+    z-index: 4;
+    left: 1.2vw !important;
+    right: auto !important;
+    top: 1.5vh;
+    width: min(24vw, 410px);
+    height: min(84vh, 720px);
+    max-height: min(84vh, 720px);
+    overflow: hidden !important;
+    background: rgba(17,17,17,.92);
+    color: #fff;
+    border: 2px solid rgba(255,255,255,.30);
+    border-radius: 10px;
+    padding: calc(13px * var(--incident-scale)) calc(15px * var(--incident-scale));
+    box-shadow: 0 3px 14px rgba(0,0,0,.45);
   }
-}
+  #incidentTitle {
+    font-size: calc(27px * var(--incident-scale));
+    font-weight: 800;
+    line-height: 1.02;
+    margin-bottom: calc(7px * var(--incident-scale));
+  }
+  #incidentStatus {
+    font-size: calc(14px * var(--incident-scale));
+    line-height: 1.2;
+    opacity: .7;
+    margin-bottom: calc(4px * var(--incident-scale));
+    white-space: nowrap;
+  }
+  #incidentList { overflow: visible !important; }
+  .incidentCard {
+    border-top: 1px solid rgba(255,255,255,.18);
+    padding: calc(6px * var(--incident-scale)) 0 calc(7px * var(--incident-scale));
+  }
+  .incidentHead {
+    display: flex;
+    align-items: center;
+    gap: calc(5px * var(--incident-scale));
+    font-size: calc(14px * var(--incident-scale));
+    font-weight: 800;
+    line-height: 1.05;
+  }
+  .incidentRoad {
+    margin-top: calc(2px * var(--incident-scale));
+    font-size: calc(17px * var(--incident-scale));
+    font-weight: 800;
+    line-height: 1.05;
+  }
+  .incidentDirection {
+    margin-top: calc(2px * var(--incident-scale));
+    font-size: calc(12px * var(--incident-scale));
+    opacity: .75;
+    font-weight: 700;
+    line-height: 1.05;
+  }
+  .incidentDescription {
+    margin-top: calc(3px * var(--incident-scale));
+    font-size: calc(14px * var(--incident-scale));
+    line-height: 1.16;
+    opacity: .92;
+  }
+  .incidentLanes {
+    margin-top: calc(2px * var(--incident-scale));
+    font-size: calc(12px * var(--incident-scale));
+    font-weight: 700;
+    opacity: .72;
+    line-height: 1.05;
+  }
+  .noIncidents, .feedError {
+    padding-top: calc(7px * var(--incident-scale));
+    font-size: calc(15px * var(--incident-scale));
+    line-height: 1.25;
+    font-weight: 700;
+  }
 
+  /* Traffic legend is now inside the upper banner. */
+  #footer {
+    position: absolute;
+    z-index: 6;
+    right: 1.2vw;
+    left: auto;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    background: rgba(17,17,17,.88);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(10px, 1.3vw, 24px);
+    border: 2px solid rgba(255,255,255,.25);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: clamp(11px, .8vw, 16px);
+    font-weight: 700;
+    white-space: nowrap;
+    box-shadow: 0 2px 10px rgba(0,0,0,.35);
+  }
+  .legendItem { display:flex; align-items:center; gap:5px; }
+  .dot { width:clamp(9px,.65vw,13px); height:clamp(9px,.65vw,13px); border-radius:50%; display:inline-block; }
+  .normal { background:#34a853; }
+  .moderate { background:#fbbc04; }
+  .heavy { background:#f4511e; }
+  .severe { background:#d93025; }
 
-/* Final panel placement */
-#incidents {
-  left: 1.2vw !important;
-  right: auto !important;
-  overflow: visible !important;
-  max-height: none !important;
-}
-#incidentList {
-  overflow: visible !important;
-  max-height: none !important;
-}
+  @media (max-width:900px) {
+    #incidents { width:280px; height:min(84vh,650px); max-height:min(84vh,650px); }
+    #footer { right:1vw; gap:7px; padding:5px 8px; }
+  }
 </style>
 </head>
 <body>
@@ -166,6 +137,13 @@ html,body { width:100%; height:100%; margin:0; overflow:hidden; background:#111;
 <header id="header">
   <div id="title">CURRENT TRAFFIC CONDITIONS</div>
   <div id="subtitle">Johnny Vapes — Green Bay, Wisconsin</div>
+
+  <footer id="footer">
+    <div class="legendItem"><span class="dot normal"></span>Normal</div>
+    <div class="legendItem"><span class="dot moderate"></span>Moderate</div>
+    <div class="legendItem"><span class="dot heavy"></span>Heavy</div>
+    <div class="legendItem"><span class="dot severe"></span>Severe</div>
+  </footer>
 </header>
 <main id="content">
   <section id="mapWrap"><div id="map"></div></section>
@@ -174,12 +152,7 @@ html,body { width:100%; height:100%; margin:0; overflow:hidden; background:#111;
       <div id="incidentStatus">Loading live events…</div>
       <div id="incidentList"></div>
     </aside>
-  <footer id="footer">
-    <div class="legendItem"><span class="dot normal"></span>Normal</div>
-    <div class="legendItem"><span class="dot moderate"></span>Moderate</div>
-    <div class="legendItem"><span class="dot heavy"></span>Heavy</div>
-    <div class="legendItem"><span class="dot severe"></span>Severe</div>
-  </footer>
+  
 </main>
 </div>
 
@@ -216,23 +189,20 @@ async function get511Events(){
   return {events:payload.events,updatedAt:payload.updatedAt||null};
 }
 
+
 function fitIncidentPanel() {
   const panel = document.getElementById("incidents");
   if (!panel) return;
 
-  panel.classList.remove("compact");
-  // Start at normal size; if the full report set is tall, compact it.
+  let scale = 1.0;
+  const minScale = 0.45;
+  panel.style.setProperty("--incident-scale", scale);
+
   requestAnimationFrame(() => {
-    const available = window.innerHeight * 0.84;
-    if (panel.getBoundingClientRect().height > available) {
-      panel.classList.add("compact");
+    while (scale > minScale && panel.scrollHeight > panel.clientHeight) {
+      scale -= 0.03;
+      panel.style.setProperty("--incident-scale", scale.toFixed(2));
     }
-    requestAnimationFrame(() => {
-      // A second pass catches unusually long descriptions.
-      if (panel.getBoundingClientRect().height > available) {
-        panel.classList.add("compact");
-      }
-    });
   });
 }
 
