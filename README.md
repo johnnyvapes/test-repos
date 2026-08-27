@@ -1,23 +1,23 @@
-# Google Traffic TV Test
+# Google Traffic Test — Fixed
 
-This repository is a standalone test for the Google Maps JavaScript API TrafficLayer on a Chromecast running TV Bro.
+This is a standalone Google Maps JavaScript API test for the Johnny Vapes TV traffic display.
 
-## Files
+The previous version defined `initMap()` but never actually invoked it. That caused the page to remain black.
 
-- `index.html` — fullscreen Manitowoc live-traffic test page.
+This version uses Google's standard `callback=initMap` loading method.
 
-## GitHub Pages
+## Test URL
 
-Enable GitHub Pages for this repository using the `main` branch and `/ (root)`.
-
-Then open:
-
-`https://YOUR-GITHUB-USERNAME.github.io/test-repos/`
-
-in TV Bro.
+https://johnnyvapes.github.io/google-reviews-test/
 
 ## Important
 
-This is a temporary test. The Google Maps demo key in `index.html` is for testing/prototyping only and should not be used for production.
+The API key currently embedded in this test file is a temporary/demo key. After testing, rotate/restrict the key in Google Cloud.
 
-Do not modify the existing `business-signage` repository for this test.
+The page intentionally uses the Google Maps JavaScript API rather than the normal Google Maps website. This should avoid the "Open the Google Maps app?" prompt and the normal Maps web UI/search panel.
+
+It displays:
+- Manitowoc centered on Johnny Vapes
+- Google live traffic layer
+- No normal Maps controls
+- Full-screen map

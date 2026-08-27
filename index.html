@@ -1,1 +1,69 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Johnny Vapes — Google Traffic Test</title><style>html,body,#map{width:100%;height:100%;margin:0;padding:0;overflow:hidden;background:#000}</style></head><body><div id="map"></div><script>async function initMap(){const{Map,TrafficLayer}=await google.maps.importLibrary("maps");const center={lat:44.0764905,lng:-87.7022507};const map=new Map(document.getElementById("map"),{center,zoom:14,mapTypeId:"roadmap",disableDefaultUI:true,clickableIcons:false,keyboardShortcuts:false,gestureHandling:"none",streetViewControl:false,fullscreenControl:false,mapTypeControl:false,zoomControl:false,scaleControl:false,rotateControl:false,cameraControl:false});const trafficLayer=new TrafficLayer({autoRefresh:true});trafficLayer.setMap(map)}window.initMap=initMap;</script><script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await(a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f))})({key:"AIzaSyAdbPq5kk4D1xjx4Z4jgp6feB1I4kvOPCA",v:"weekly"});</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Johnny Vapes — Google Traffic Test</title>
+  <style>
+    html, body, #map {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #000;
+    }
+  </style>
+</head>
+<body>
+  <div id="map"></div>
+
+  <script>
+    function initMap() {
+      const center = {
+        lat: 44.0764905,
+        lng: -87.7022507
+      };
+
+      const map = new google.maps.Map(document.getElementById("map"), {
+        center: center,
+        zoom: 14,
+        mapTypeId: "roadmap",
+
+        // Remove the normal Google Maps web UI.
+        disableDefaultUI: true,
+        clickableIcons: false,
+        keyboardShortcuts: false,
+        gestureHandling: "none",
+
+        streetViewControl: false,
+        fullscreenControl: false,
+        mapTypeControl: false,
+        zoomControl: false,
+        scaleControl: false,
+        rotateControl: false,
+        cameraControl: false
+      });
+
+      // Live Google traffic overlay.
+      const trafficLayer = new google.maps.TrafficLayer({
+        autoRefresh: true
+      });
+
+      trafficLayer.setMap(map);
+    }
+
+    window.gm_authFailure = function () {
+      document.body.innerHTML =
+        '<div style="font-family:Arial,sans-serif;color:white;background:#111;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;box-sizing:border-box">' +
+        '<div><h2>Google Maps API authentication failed</h2>' +
+        '<p>Check the API key, billing, API restrictions, and that the Maps JavaScript API is enabled.</p></div></div>';
+    };
+  </script>
+
+  <script
+    async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdbPq5kk4D1xjx4Z4jgp6feB1I4kvOPCA&callback=initMap&v=weekly">
+  </script>
+</body>
+</html>
