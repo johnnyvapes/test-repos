@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T05:38:17Z",
+  "updatedAt": "2026-08-29T05:51:14Z",
   "events": [
     {
       "ID": 566011,
@@ -12831,8 +12831,8 @@
       "StartDate": 1786338000,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2088491,
-      "Longitude": -88.3293055,
+      "Latitude": 44.2088499,
+      "Longitude": -88.3293039,
       "LatitudeSecondary": 44.2087018,
       "LongitudeSecondary": -88.3295631,
       "EventType": "roadwork",
@@ -12840,7 +12840,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "ipylGdybzO\\p@bArC^xARl@d@dCXnBZfDLrC@p@@tCE~MOl_@@vEGba@Af]Ef]Ah]IjRGhDM~C[~Dq@|FiAvIcA~GaCfRs@fGWhCa@tD]~DQ`Cq@zKqBz^WnGUrFW~FIdB@z@]hK[jMYxJEbF?vH@tJ",
+      "EncodedPolyline": "ipylGbybzO\\r@bArC^xARl@d@dCXnBZfDLrC@p@@tCE~MOl_@@vEGba@Af]Ef]Ah]IjRGhDM~C[~Dq@|FiAvIcA~GaCfRs@fGWhCa@tD]~DQ`Cq@zKqBz^WnGUrFW~FIdB@z@]hK[jMYxJEbF?vH@tJ",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -28063,8 +28063,8 @@
       "StartDate": 1787967986,
       "PlannedEndDate": 1788008400,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 43.0868913,
-      "Longitude": -88.7456295,
+      "Latitude": 43.086893,
+      "Longitude": -88.7456915,
       "LatitudeSecondary": 43.0869755,
       "LongitudeSecondary": -88.748798,
       "EventType": "roadwork",
@@ -28072,7 +28072,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "al~eGdct|OQxRGxLCxDA~D@nFB~CD~ADnCPjLVlQB~@LbIRdNLpIHtER`MHlFBrB@xCD|GBrZ@rL?|F",
+      "EncodedPolyline": "al~eGpct|OQlRGxLCxDA~D@nFB~CD~ADnCPjLVlQB~@LbIRdNLpIHtER`MHlFBrB@xCD|GBrZ@rL?|F",
       "Restrictions": {
         "Width": 18.0,
         "Height": null,
@@ -28131,7 +28131,7 @@
       "StartDate": 1787747131,
       "PlannedEndDate": 1790377200,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 43.0806439,
+      "Latitude": 43.0806424,
       "Longitude": -88.0476848,
       "LatitudeSecondary": 43.0821023,
       "LongitudeSecondary": -88.0476488,
@@ -47940,6 +47940,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Portage"
+    },
+    {
+      "ID": 735854,
+      "SourceId": "829000030",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "w",
+      "Description": "I-94 West at Ramp from WIS 83. The right shoulder is closed due to a fire.",
+      "Reported": 1787982136,
+      "LastUpdated": 1787982030,
+      "StartDate": 1787982136,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.052584,
+      "Longitude": -88.381615,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Fire",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "suweGb`mzO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Waukesha"
     }
   ]
 }
