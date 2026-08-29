@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T11:21:31Z",
+  "updatedAt": "2026-08-29T11:38:17Z",
   "events": [
     {
       "ID": 566011,
@@ -21943,8 +21943,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 5 blocked.",
-      "Latitude": 43.148581,
-      "Longitude": -88.009855,
+      "Latitude": 43.149209,
+      "Longitude": -88.009652,
       "LatitudeSecondary": 43.14865,
       "LongitudeSecondary": -88.000943,
       "EventType": "roadwork",
@@ -21952,7 +21952,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "smjfGrldxOMwv@",
+      "EncodedPolyline": "qqjfGhkdxOnBmu@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -22181,8 +22181,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134058,
-      "Longitude": -88.007441,
+      "Latitude": 43.13409,
+      "Longitude": -88.007402,
       "LatitudeSecondary": 43.134004,
       "LongitudeSecondary": -88.001976,
       "EventType": "roadwork",
@@ -22190,7 +22190,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{rgfGn}cxOJca@",
+      "EncodedPolyline": "asgfGf}cxOP{`@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -27757,7 +27757,7 @@
       "StartDate": 1787747131,
       "PlannedEndDate": 1790377200,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 43.0806424,
+      "Latitude": 43.0806439,
       "Longitude": -88.0476848,
       "LatitudeSecondary": 43.0821023,
       "LongitudeSecondary": -88.0476488,
@@ -46988,6 +46988,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
+    },
+    {
+      "ID": 735876,
+      "SourceId": "829000120",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-39/90",
+      "DirectionOfTravel": "n",
+      "Description": "I-39/90 North 7.8 miles beyond Ramp From US 51 South. The right shoulder is blocked due to a disabled vehicle.",
+      "Reported": 1788002883,
+      "LastUpdated": 1788002828,
+      "StartDate": 1788002883,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.000102,
+      "Longitude": -89.171545,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "smmeGbig_P",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Dane"
     }
   ]
 }
