@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T06:51:10Z",
+  "updatedAt": "2026-08-29T07:21:40Z",
   "events": [
     {
       "ID": 566011,
@@ -12525,8 +12525,8 @@
       "StartDate": 1783933200,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6687781,
-      "Longitude": -89.0314889,
+      "Latitude": 42.6687694,
+      "Longitude": -89.0314885,
       "LatitudeSecondary": 42.6685539,
       "LongitudeSecondary": -89.0314772,
       "EventType": "roadwork",
@@ -12534,7 +12534,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{vlcGx}k~Ol@AfAEvDI|EEnJErJCZA",
+      "EncodedPolyline": "yvlcGx}k~Oj@AfAEvDI|EEnJErJCZA",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -12559,8 +12559,8 @@
       "StartDate": 1784032872,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.663138,
-      "Longitude": -89.0313228,
+      "Latitude": 42.6631988,
+      "Longitude": -89.0313234,
       "LatitudeSecondary": 42.6643202,
       "LongitudeSecondary": -89.0313355,
       "EventType": "roadwork",
@@ -12568,7 +12568,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "sskcGv|k~OkFBoJD}EDwDHgADO?",
+      "EncodedPolyline": "_tkcGv|k~O_FBoJD}EDwDHgADO?",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -22113,8 +22113,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134305,
-      "Longitude": -88.004089,
+      "Latitude": 43.134285,
+      "Longitude": -88.003968,
       "LatitudeSecondary": 43.13425,
       "LongitudeSecondary": -88.007501,
       "EventType": "roadwork",
@@ -22122,7 +22122,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "ktgfGphcxOHhT",
+      "EncodedPolyline": "gtgfGxgcxOD`U",
       "Restrictions": {
         "Width": null,
         "Height": null,
