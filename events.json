@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T15:51:28Z",
+  "updatedAt": "2026-08-29T16:08:31Z",
   "events": [
     {
       "ID": 566011,
@@ -12423,8 +12423,8 @@
       "StartDate": 1783933200,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6687821,
-      "Longitude": -89.0314891,
+      "Latitude": 42.6687843,
+      "Longitude": -89.0314893,
       "LatitudeSecondary": 42.6685539,
       "LongitudeSecondary": -89.0314772,
       "EventType": "roadwork",
@@ -30085,8 +30085,8 @@
         "Weight": null,
         "Speed": null
       },
-      "DetourPolyline": "csviGtipjPpDDrGAAuH@sD?eD?wM@_NeAABkK_E?aEH",
-      "DetourInstructions": "[{\"Instructions\":[\"Old Mill Rd to Lien St to Hiawatha St to Lien St to Lier St\"],\"Language\":\"en\"}]",
+      "DetourPolyline": null,
+      "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Vernon"
@@ -30119,8 +30119,8 @@
         "Weight": null,
         "Speed": null
       },
-      "DetourPolyline": "_sviGlknjP`EG~DAAlKbA?AjF?zi@uG@kDE",
-      "DetourInstructions": "[{\"Instructions\":[\"Lier St to Lien St to Hiawatha St to Lien St to Old Mill Rd\"],\"Language\":\"en\"}]",
+      "DetourPolyline": null,
+      "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Vernon"
@@ -45154,40 +45154,6 @@
       "County": "Dane"
     },
     {
-      "ID": 735889,
-      "SourceId": "829000170",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "e",
-      "Description": "I-94 East at County F (Waukesha County). The left shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788005044,
-      "LastUpdated": 1788004964,
-      "StartDate": 1788005044,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.048159,
-      "Longitude": -88.208694,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "_zveGhgkyO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Waukesha"
-    },
-    {
       "ID": 735976,
       "SourceId": "829000290",
       "Organization": "WIATMS",
@@ -45254,40 +45220,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
-    },
-    {
-      "ID": 736043,
-      "SourceId": "829000360",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "w",
-      "Description": "I-94 West 1.1 miles beyond Ramp from WIS 100. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788017896,
-      "LastUpdated": 1788017785,
-      "StartDate": 1788017896,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.028794,
-      "Longitude": -88.072293,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "}`seGxrpxO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Waukesha"
     },
     {
       "ID": 736053,
