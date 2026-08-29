@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T16:50:53Z",
+  "updatedAt": "2026-08-29T17:08:24Z",
   "events": [
     {
       "ID": 566011,
@@ -17557,8 +17557,8 @@
       "StartDate": 1786359600,
       "PlannedEndDate": 1788174000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2410449,
-      "Longitude": -88.7921278,
+      "Latitude": 44.2410374,
+      "Longitude": -88.7921099,
       "LatitudeSecondary": 44.241654,
       "LongitudeSecondary": -88.7935851,
       "EventType": "roadwork",
@@ -17566,7 +17566,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "oy_mGxe}|OyBbHwFtQWv@cAfDcGfRgHhUsHxUWz@iHjUwB~GqAxEeAdFy@hFk@nFYvFIbDCdD@fDH`LTl[DtNG|KWtLUhG_@jI_@tGe@vGu@lIO`B}@zHa@xDs@fGaAxKc@jFEl@OtCU|EOfFMrFCfDAjDAbBBhC@hABjCDfEJbELhGDlBDrCNlGF`EHtCDfCFdC?dCCdCIfCWdEW`CYbCq@xDi@xBaApDmAfDqAbDsFlNeBlEA@yCtHADc@jA]x@s@nBYt@Qd@IP[x@q@rBOl@]hAEZs@zCg@hCy@pFs@`FEZUxAYbBi@~DUpAg@jD{@|Fy@|Fs@~Fo@~FQdCY`EKbA[fGKdCGdCAPErBGbCCdACfEEtGc@ba@Al@c@tWE`CG~BEbAKlBi@fGQfAIz@]nBm@nDOv@g@rBo@fCsAjE_AlCq@~AmArC{@~Au@tA}@zAiBnCSVc@j@iBzBmBpBuBjBsAbAwA~@sAx@[P",
+      "EncodedPolyline": "oy_mGte}|OyBfHwFtQWv@cAfDcGfRgHhUsHxUWz@iHjUwB~GqAxEeAdFy@hFk@nFYvFIbDCdD@fDH`LTl[DtNG|KWtLUhG_@jI_@tGe@vGu@lIO`B}@zHa@xDs@fGaAxKc@jFEl@OtCU|EOfFMrFCfDAjDAbBBhC@hABjCDfEJbELhGDlBDrCNlGF`EHtCDfCFdC?dCCdCIfCWdEW`CYbCq@xDi@xBaApDmAfDqAbDsFlNeBlEA@yCtHADc@jA]x@s@nBYt@Qd@IP[x@q@rBOl@]hAEZs@zCg@hCy@pFs@`FEZUxAYbBi@~DUpAg@jD{@|Fy@|Fs@~Fo@~FQdCY`EKbA[fGKdCGdCAPErBGbCCdACfEEtGc@ba@Al@c@tWE`CG~BEbAKlBi@fGQfAIz@]nBm@nDOv@g@rBo@fCsAjE_AlCq@~AmArC{@~Au@tA}@zAiBnCSVc@j@iBzBmBpBuBjBsAbAwA~@sAx@[P",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -21841,8 +21841,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134039,
-      "Longitude": -88.00747,
+      "Latitude": 43.134034,
+      "Longitude": -88.007398,
       "LatitudeSecondary": 43.134004,
       "LongitudeSecondary": -88.001976,
       "EventType": "roadwork",
@@ -21850,7 +21850,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "wrgfGt}cxOFia@",
+      "EncodedPolyline": "urgfGf}cxOD{`@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -45016,40 +45016,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Brown"
-    },
-    {
-      "ID": 736053,
-      "SourceId": "829000370",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-39/90/94",
-      "DirectionOfTravel": "s",
-      "Description": "Disabled vehicle on Exit to WIS 19 West from I-39/90/94 South.",
-      "Reported": 1788018607,
-      "LastUpdated": 1788018539,
-      "StartDate": 1788018607,
-      "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 43.19675,
-      "Longitude": -89.347085,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "uzsfGhri`P",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
     },
     {
       "ID": 736081,
