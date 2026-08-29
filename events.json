@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T07:21:40Z",
+  "updatedAt": "2026-08-29T07:38:08Z",
   "events": [
     {
       "ID": 566011,
@@ -47906,6 +47906,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Portage"
+    },
+    {
+      "ID": 735860,
+      "SourceId": "829000040",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-43/94",
+      "DirectionOfTravel": "n",
+      "Description": "I-43/94 North 0.6 miles beyond Ramp from Holt Ave. The right shoulder is closed due to an incident.",
+      "Reported": 1787988783,
+      "LastUpdated": 1787988716,
+      "StartDate": 1787988783,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 42.994155,
+      "Longitude": -87.914833,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Incident",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "mhleGtzqwO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
     }
   ]
 }
