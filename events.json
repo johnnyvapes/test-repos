@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T05:51:14Z",
+  "updatedAt": "2026-08-29T06:09:13Z",
   "events": [
     {
       "ID": 566011,
@@ -12559,8 +12559,8 @@
       "StartDate": 1784032872,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6631971,
-      "Longitude": -89.0313234,
+      "Latitude": 42.6632548,
+      "Longitude": -89.031324,
       "LatitudeSecondary": 42.6643202,
       "LongitudeSecondary": -89.0313355,
       "EventType": "roadwork",
@@ -12568,7 +12568,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "_tkcGv|k~O_FBoJD}EDwDHgADO?",
+      "EncodedPolyline": "itkcGv|k~OuEBoJD}EDwDHgADO?",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -22181,8 +22181,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134033,
-      "Longitude": -88.007413,
+      "Latitude": 43.134083,
+      "Longitude": -88.007505,
       "LatitudeSecondary": 43.134004,
       "LongitudeSecondary": -88.001976,
       "EventType": "roadwork",
@@ -22190,7 +22190,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "urgfGh}cxOD}`@",
+      "EncodedPolyline": "_sgfGz}cxONoa@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -28063,8 +28063,8 @@
       "StartDate": 1787967986,
       "PlannedEndDate": 1788008400,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 43.086893,
-      "Longitude": -88.7456915,
+      "Latitude": 43.0868923,
+      "Longitude": -88.7456659,
       "LatitudeSecondary": 43.0869755,
       "LongitudeSecondary": -88.748798,
       "EventType": "roadwork",
@@ -28072,7 +28072,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "al~eGpct|OQlRGxLCxDA~D@nFB~CD~ADnCPjLVlQB~@LbIRdNLpIHtER`MHlFBrB@xCD|GBrZ@rL?|F",
+      "EncodedPolyline": "al~eGlct|OQpRGxLCxDA~D@nFB~CD~ADnCPjLVlQB~@LbIRdNLpIHtER`MHlFBrB@xCD|GBrZ@rL?|F",
       "Restrictions": {
         "Width": 18.0,
         "Height": null,
@@ -47337,7 +47337,7 @@
       "DirectionOfTravel": "e",
       "Description": "US 12/18 East 0.4 miles beyond Ramp from Park St North. The right shoulder is blocked due to a disabled vehicle.",
       "Reported": 1787972410,
-      "LastUpdated": 1787972467,
+      "LastUpdated": 1787983573,
       "StartDate": 1787972410,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
@@ -47940,40 +47940,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Portage"
-    },
-    {
-      "ID": 735854,
-      "SourceId": "829000030",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "w",
-      "Description": "I-94 West at Ramp from WIS 83. The right shoulder is closed due to a fire.",
-      "Reported": 1787982136,
-      "LastUpdated": 1787982030,
-      "StartDate": 1787982136,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.052584,
-      "Longitude": -88.381615,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Fire",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "suweGb`mzO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Waukesha"
     }
   ]
 }
