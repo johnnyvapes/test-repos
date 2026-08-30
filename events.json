@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T08:28:17Z",
+  "updatedAt": "2026-08-30T08:41:29Z",
   "events": [
     {
       "ID": 566011,
@@ -26941,7 +26941,7 @@
       "StartDate": 1787747131,
       "PlannedEndDate": 1790377200,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 43.0806042,
+      "Latitude": 43.0806037,
       "Longitude": -88.0476858,
       "LatitudeSecondary": 43.0821023,
       "LongitudeSecondary": -88.0476488,
@@ -44710,6 +44710,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Marathon"
+    },
+    {
+      "ID": 736548,
+      "SourceId": "830000100",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-794",
+      "DirectionOfTravel": "e",
+      "Description": "Disabled vehicle on Exit to Van Buren St from I-794 East.",
+      "Reported": 1788078915,
+      "LastUpdated": 1788078822,
+      "StartDate": 1788078915,
+      "PlannedEndDate": null,
+      "LanesAffected": "No lanes blocked.",
+      "Latitude": 43.035462,
+      "Longitude": -87.906765,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "sjteGhhpwO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
     }
   ]
 }
