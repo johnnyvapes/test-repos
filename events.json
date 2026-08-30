@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T12:28:31Z",
+  "updatedAt": "2026-08-30T12:58:29Z",
   "events": [
     {
       "ID": 566011,
@@ -44665,6 +44665,40 @@
       "Severity": "2",
       "Comment": "",
       "EncodedPolyline": "oiqeGnmrwO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
+    },
+    {
+      "ID": 736581,
+      "SourceId": "830000230",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "w",
+      "Description": "Disabled vehicle on Ramp from WIS 100 to I-94 West.",
+      "Reported": 1788094515,
+      "LastUpdated": 1788094421,
+      "StartDate": 1788094515,
+      "PlannedEndDate": null,
+      "LanesAffected": "No lanes blocked.",
+      "Latitude": 43.030528,
+      "Longitude": -88.051084,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "ykseGfnlxO",
       "Restrictions": {
         "Width": null,
         "Height": null,
