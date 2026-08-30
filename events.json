@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T06:41:36Z",
+  "updatedAt": "2026-08-30T06:57:59Z",
   "events": [
     {
       "ID": 566011,
@@ -44710,6 +44710,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Marathon"
+    },
+    {
+      "ID": 736544,
+      "SourceId": "830000050",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-43/94",
+      "DirectionOfTravel": "s",
+      "Description": "I-43/94 South 0.3 miles beyond Ramp from Holt Ave. The right shoulder is closed due to an incident.",
+      "Reported": 1788072489,
+      "LastUpdated": 1788072422,
+      "StartDate": 1788072489,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 42.976167,
+      "Longitude": -87.915773,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Incident",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "axheGp`rwO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
     }
   ]
 }
