@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T01:57:56Z",
+  "updatedAt": "2026-08-30T02:11:05Z",
   "events": [
     {
       "ID": 566011,
@@ -2971,16 +2971,16 @@
       "StartDate": 1775469600,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9454417,
-      "Longitude": -90.0916174,
-      "LatitudeSecondary": 44.9454088,
-      "LongitudeSecondary": -90.0902902,
+      "Latitude": 44.9454006,
+      "Longitude": -90.1030759,
+      "LatitudeSecondary": 44.9454102,
+      "LongitudeSecondary": -90.0995055,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "_liqGr_{dPDiGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
+      "EncodedPolyline": "wkiqGfg}dPAoWCwOA{\\DyGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -12423,8 +12423,8 @@
       "StartDate": 1783933200,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6687848,
-      "Longitude": -89.0314893,
+      "Latitude": 42.6688033,
+      "Longitude": -89.0314902,
       "LatitudeSecondary": 42.6685539,
       "LongitudeSecondary": -89.0314772,
       "EventType": "roadwork",
@@ -12432,7 +12432,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{vlcGx}k~Ol@AfAEvDI|EEnJErJCZA",
+      "EncodedPolyline": "_wlcGx}k~Op@AfAEvDI|EEnJErJCZA",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -45016,6 +45016,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
+    },
+    {
+      "ID": 736496,
+      "SourceId": "829000850",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "e",
+      "Description": "I-94 East 0.6 miles beyond Ramp from County N. The 2 left lanes are closed due to a crash.",
+      "Reported": 1788055396,
+      "LastUpdated": 1788055615,
+      "StartDate": 1788055396,
+      "PlannedEndDate": null,
+      "LanesAffected": "2 lane(s) of 3 blocked.",
+      "Latitude": 43.1099,
+      "Longitude": -89.183818,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Crash",
+      "IsFullClosure": false,
+      "Severity": "3",
+      "Comment": "",
+      "EncodedPolyline": "{{bfGzui_P",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Dane"
     }
   ]
 }
