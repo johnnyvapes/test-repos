@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T15:41:16Z",
+  "updatedAt": "2026-08-30T15:58:14Z",
   "events": [
     {
       "ID": 566011,
@@ -12151,8 +12151,8 @@
       "StartDate": 1783933200,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.668808,
-      "Longitude": -89.0314905,
+      "Latitude": 42.6688025,
+      "Longitude": -89.0314902,
       "LatitudeSecondary": 42.6685539,
       "LongitudeSecondary": -89.0314772,
       "EventType": "roadwork",
@@ -12160,7 +12160,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "awlcGx}k~Or@AfAEvDI|EEnJErJCZA",
+      "EncodedPolyline": "_wlcGx}k~Op@AfAEvDI|EEnJErJCZA",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -21161,8 +21161,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 3 blocked.",
-      "Latitude": 43.1222571,
-      "Longitude": -88.0058975,
+      "Latitude": 43.1222172,
+      "Longitude": -88.0058979,
       "LatitudeSecondary": 43.1231811,
       "LongitudeSecondary": -88.005887,
       "EventType": "roadwork",
@@ -21170,7 +21170,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "ciefGzscxOwDAeJ?gECmBA}@Ay@Ce@@uDEcD?eB@yE@iDGw@CcAEqEG}ACyA?aVWuHGcLI{DEkDCwEE",
+      "EncodedPolyline": "{hefGzscxO_EAeJ?gECmBA}@Ay@Ce@@uDEcD?eB@yE@iDGw@CcAEqEG}ACyA?aVWuHGcLI{DEkDCwEE",
       "Restrictions": {
         "Width": 22.0,
         "Height": null,
@@ -26737,7 +26737,7 @@
       "StartDate": 1787747131,
       "PlannedEndDate": 1790377200,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 43.0806807,
+      "Latitude": 43.080681,
       "Longitude": -88.0476839,
       "LatitudeSecondary": 43.0821023,
       "LongitudeSecondary": -88.0476488,
@@ -38306,7 +38306,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "ueadGp}v}Og@?{C?kFDuAA}IDqDBm@?uC?iAEyAMkASqAYyBu@oDsA_DgAsBg@kAUkASsAMw@CeAAkDEo@CqEEmRS{EGeB?wADsAHqAN_Dv@gAd@aAd@o@\\uA`AsAbAaBxAuAhA_DnCqBvAi@^_DxA}@ZmA\\gAVy@NaAH{AJ{A@uGKaKSgEMkEIoEMmEGqEKoEMqEIwCI{@CoEGmEIgEMoEKu@?c@C{BEqEMeDGc@AiEKwCEwAA{ACkBI}ACuAA}BEaAEmAEeBI{@EsDU}@E{BWeBUsCa@iF{@sHaBoK_CeGeAcFy@{Fq@uFq@aD_@oBYcAScAWyAi@gB{@}Aw@oAaAkBcBy@}@gAoAo@{@k@y@eEeGyDoFyAsBwB{CuBuCwAkB_BwB}CwD}C_EiEoF_GoHaDaEyEcGaFkGwEsFkNsOkIaJuJkKcLsLuCuCa@_@iAiA_GyFuDuDmEiEoF}EyBwBsBiBeCaC}A_BcBkBoC{C_CyCcAyAwDiFiCqDsC_EgGkIuCcE{@mAcB}Bk@s@s@gA]c@a@m@aAqAmD}EcAuAm@}@{@gAiBiCo@w@u@{@q@i@{@o@w@g@}@e@m@[qAYuAYmAM_ACeABiAFcALy@Py@Xm@Tq@Zi@X_BbAiAp@u@^ULoCfBuCbBo@`@oCzA{A|@y@b@}@^]N]L{@XkAVsAVmB^uDv@iCf@}Cn@mARa@LeHvAqCh@_Dn@mEj@kBNyBJaEHqG@eABaG@uACcAEu@OaAW}@WqAm@cCkAoCsAiBw@u@[qA_@eAWwAUeAI_AEaBA}F@u@@gEBqDAaB?{DAm@@oDEw@@wD@gSHuHBqF?wB@eA?aAC_AO{@Q}@WaA[_Ac@{@i@o@c@q@k@gCwBsCgCmEuD_EkDcCwB_EiDkEwD_CuBcA}@kBaBqBcBw@m@oCcCuCeCm@i@SWyBgB}AqA}CqC}@_Am@y@i@y@i@kAm@{Ac@mAWs@[}@a@gAoAwDcCgHw@sBuCuIgCiH_@qAYgAYwAUsAMaBIiAEkBC}AFyFFyEDoEB{CHsJFcOHsKFkDAgBEiBKgDIyA[wCUeBYmBi@gCS}@]sAs@sBs@qB}@oBaAgBcA_BuAkBwByBsAiA{@o@iBkAkBaAiAc@uA]_Dq@oAY_Ce@iDs@kCe@eDq@cDs@oBo@iBq@mBcAkAw@gD_CaBmA}EmD{BaBoBoAo@c@aAg@cAc@oAi@yBu@kBk@qBa@}AS_BMeAGeACcA@qBDeA@{ANsBT]D}AXsBb@u@T}DnA[Jm@RmCjAyAr@uBhAqAx@wBxAq@j@cBrA{AtAaCbC_CjCwDbEmCxCcGtG_A`AsDbEeB`BqB~AcAt@oAr@qAj@sAf@wBn@kB\\gBPuBJiFFiORcPVkJL{FHqCHqCBeCDyBD_CBwBGqAGaC[e@IWGk@IgA_@eBk@_CcAoBeAq@c@g@_@i@a@g@e@c@]i@g@sAsA_E_EgBiBsAmAyAgAaAo@qAu@sAi@eAa@uBk@mB_@cBOeCK{BImIWaM]oGQwAEy@E_AKw@KwA_@sAa@y@]iAg@mAw@s@e@aA{@}@{@o@q@o@y@s@eAq@iAg@cAeAcCw@yB_@qAYmA_@sB]wBc@uDcAgJY_CkBaOqAaLUkBKu@mA}JUuAYyAg@mBQo@i@aBa@gAk@qAoA{BuAoBo@{@s@{@oAiAa@]kAs@}BqA{@]cA[gAY}@OcAOe@GcCIyCKmCWw@IuEk@gBYyB_@iBc@w@Uo@Mg@MkC{@mC_A_@KoBu@oCmAsAk@eAm@mCuAsBoAaC}AmBsAgFcEw@s@oAiAqAqAiBkByBcC{GkI}FuI_CmDoIgMsBwCeBiCsCeEiHsKyDqF_C_DwBiCaByBcCyCkAkB{@yAsAmCuA}CWa@s@yAgBaD}AcCsB_DmAgB{CkE{BiDoAkBMQcB}BeDyDiE}D}DyCcC}A_DaBkAk@gAg@cAe@y]yPcDcBiAk@]Q",
+      "EncodedPolyline": "ueadGp}v}Og@?{C?kFDuAA}IDqDBm@?uC?iAEyAMkASqAYyBu@oDsA_DgAsBg@kAUkASsAMw@CeAAkDEo@CqEEmRS{EGeB?wADsAHqAN_Dv@gAd@aAd@o@\\uA`AsAbAaBxAuAhA_DnCqBvAi@^_DxA}@ZmA\\gAVy@NaAH{AJ{A@uGKaKSgEMkEIoEMmEGqEKoEMqEIwCI{@CoEGmEIgEMoEKu@?c@C{BEqEMeDGc@AiEKwCEwAA{ACkBI}ACuAA}BEaAEmAEeBI{@EsDU}@E{BWeBUsCa@iF{@sHaBoK_CeGeAcFy@{Fq@uFq@aD_@oBYcAScAWyAi@gB{@}Aw@oAaAkBcBy@}@gAoAo@{@k@y@eEeGyDoFyAsBwB{CuBuCwAkB_BwB}CwD}C_EiEoF_GoHaDaEyEcGaFkGwEsFkNsOkIaJuJkKcLsLuCuCa@_@iAiA_GyFuDuDmEiEoF}EyBwBsBiBeCaC}A_BcBkBoC{C_CyCcAyAwDiFiCqDsC_EgGkIuCcE{@mAcB}Bk@s@s@gA]c@a@m@aAqAmD}EcAuAm@}@{@gAiBiCo@w@u@{@q@i@{@o@w@g@}@e@m@[qAYuAYmAM_ACeABiAFcALy@Py@Xm@Tq@Zi@X_BbAiAp@u@^ULoCfBuCbBo@`@oCzA{A|@y@b@}@^]N]L{@XkAVsAVmB^uDv@iCf@}Cn@mARa@LeHvAqCh@_Dn@mEj@kBNyBJaEHqG@eABaG@uACcAEu@OaAW}@WqAm@cCkAoCsAiBw@u@[qA_@eAWwAUeAI_AEaBA}F@u@@gEBqDAaB?{DAm@@oDEw@@wD@gSHuHBqF?wB@eA?aAC_AO{@Q}@WaA[_Ac@{@i@o@c@q@k@gCwBsCgCmEuD_EkDcCwB_EiDkEwD_CuBcA}@kBaBqBcBw@m@oCcCuCeCm@i@SWyBgB}AqA}CqC}@_Am@y@i@y@i@kAm@{Ac@mAWs@[}@a@gAoAwDcCgHw@sBuCuIgCiH_@qAYgAYwAUsAMaBIiAEkBC}AFyFFyEDoEB{CHsJFcOHsKFkDAgBEiBKgDIyA[wCUeBYmBi@gCS}@]sAs@sBs@qB}@oBaAgBcA_BuAkBwByBsAiA{@o@iBkAkBaAiAc@uA]_Dq@oAY_Ce@iDs@kCe@eDq@cDs@oBo@iBq@mBcAkAw@gD_CaBmA}EmD{BaBoBoAo@c@aAg@cAc@oAi@yBu@kBk@qBa@}AS_BMeAGeACcA@qBDeA@{ANsBT]D}AXsBb@u@T}DnA[Jm@RmCjAyAr@uBhAqAx@wBxAq@j@cBrA{AtAaCbC_CjCwDbEmCxCcGtG_A`AsDbEeB`BqB~AcAt@oAr@qAj@sAf@wBn@kB\\gBPuBJiFFiORcPVkJL{FHqCHqCBeCDyBD_CBwBGqAGaC[e@IWGk@IgA_@eBk@_CcAoBeAq@c@g@_@i@a@g@e@c@]i@g@sAsA_E_EgBiBsAmAyAgAaAo@qAu@sAi@eAa@uBk@mB_@cBOeCK{BImIWaM]oGQwAEy@E_AKw@KwA_@sAa@y@]iAg@mAw@s@e@aA{@}@{@o@q@o@y@s@eAq@iAg@cAeAcCw@yB_@qAYmA_@sB]wBc@uDcAgJY_CkBaOqAaLUkBKu@mA}JUuAYyAg@mBQo@i@aBa@gAk@qAoA{BuAoBo@{@s@{@oAiAa@]kAs@}BqA{@]cA[gAY}@OcAOe@GcCIyCKmCWw@IuEk@gBYyB_@iBc@w@Uo@Mg@MkC{@mC_A_@KoBu@oCmAsAk@eAm@mCuAsBoAaC}AmBsAgFcEw@s@oAiAqAqAiBkByBcC{GkI}FuI_CmDoIgMsBwCeBiCsCeEiHsKyDqF_C_DwBiCaByBcCyCkAkB{@yAsAmCuA}CWa@s@yAgBaD}AcCsB_DmAgB{CkE{BiDoAkBMQcB}BeDyDiE}D}DyCcC}A_DaBkAk@gAg@cAe@y]yPcDcBiAk@YO",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -44372,19 +44372,19 @@
       "County": "Rock"
     },
     {
-      "ID": 736651,
-      "SourceId": "830000310",
+      "ID": 736680,
+      "SourceId": "830000330",
       "Organization": "WIATMS",
-      "RoadwayName": "I-94",
+      "RoadwayName": "I-41/43/894",
       "DirectionOfTravel": "w",
-      "Description": "I-94 West at County SS. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788102786,
-      "LastUpdated": 1788102745,
-      "StartDate": 1788102786,
+      "Description": "I-41/43/894 West 0.4 miles beyond Ramp from 84th St. The right shoulder is blocked due to a disabled vehicle.",
+      "Reported": 1788104654,
+      "LastUpdated": 1788104578,
+      "StartDate": 1788104654,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.05081,
-      "Longitude": -88.301631,
+      "Latitude": 42.961955,
+      "Longitude": -88.027967,
       "LatitudeSecondary": null,
       "LongitudeSecondary": null,
       "EventType": "accidentsAndIncidents",
@@ -44392,7 +44392,7 @@
       "IsFullClosure": false,
       "Severity": "1",
       "Comment": "",
-      "EncodedPolyline": "qjweGdl}yO",
+      "EncodedPolyline": "g_feGx}gxO",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -44403,7 +44403,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Waukesha"
+      "County": "Milwaukee"
     },
     {
       "ID": 736633,
