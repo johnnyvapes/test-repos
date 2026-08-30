@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T14:58:12Z",
+  "updatedAt": "2026-08-30T15:11:25Z",
   "events": [
     {
       "ID": 566011,
@@ -5589,8 +5589,8 @@
       "StartDate": 1779361200,
       "PlannedEndDate": 1788865200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 43.3244983,
-      "Longitude": -88.2449742,
+      "Latitude": 43.3244984,
+      "Longitude": -88.2449893,
       "LatitudeSecondary": 43.3245017,
       "LongitudeSecondary": -88.2453998,
       "EventType": "roadwork",
@@ -5598,7 +5598,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "cylgG`jryO?tA?hBBxH?rC@|C@lFCdBA`A?|BAjCCzA@h@?j@Dd@?^Gb`@Kj@@hC?VAnI?`C",
+      "EncodedPolyline": "cylgGdjryO?pA?hBBxH?rC@|C@lFCdBA`A?|BAjCCzA@h@?j@Dd@?^Gb`@Kj@@hC?VAnI?`C",
       "Restrictions": {
         "Width": 25.0,
         "Height": null,
@@ -12151,8 +12151,8 @@
       "StartDate": 1783933200,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6687936,
-      "Longitude": -89.0314897,
+      "Latitude": 42.668798,
+      "Longitude": -89.03149,
       "LatitudeSecondary": 42.6685539,
       "LongitudeSecondary": -89.0314772,
       "EventType": "roadwork",
@@ -12160,7 +12160,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "}vlcGx}k~On@AfAEvDI|EEnJErJCZA",
+      "EncodedPolyline": "_wlcGx}k~Op@AfAEvDI|EEnJErJCZA",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -44404,6 +44404,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
+    },
+    {
+      "ID": 736649,
+      "SourceId": "830000300",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-39/90",
+      "DirectionOfTravel": "s",
+      "Description": "I-39/90 South 3.5 miles beyond Ramp from WIS 11 East/Avalon Rd. The right shoulder is blocked due to a disabled vehicle.",
+      "Reported": 1788102432,
+      "LastUpdated": 1788102342,
+      "StartDate": 1788102432,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 42.580439,
+      "Longitude": -88.981687,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "wn{bGpfb~O",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Rock"
     },
     {
       "ID": 736633,
