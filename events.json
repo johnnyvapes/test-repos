@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T07:28:05Z",
+  "updatedAt": "2026-08-30T07:41:02Z",
   "events": [
     {
       "ID": 566011,
@@ -21637,8 +21637,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134251,
-      "Longitude": -88.004158,
+      "Latitude": 43.134294,
+      "Longitude": -88.00405,
       "LatitudeSecondary": 43.13425,
       "LongitudeSecondary": -88.007501,
       "EventType": "roadwork",
@@ -21646,7 +21646,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "atgfG~hcxO?zS",
+      "EncodedPolyline": "itgfGhhcxOFpT",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -26941,7 +26941,7 @@
       "StartDate": 1787747131,
       "PlannedEndDate": 1790377200,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 43.0806037,
+      "Latitude": 43.0806042,
       "Longitude": -88.0476858,
       "LatitudeSecondary": 43.0821023,
       "LongitudeSecondary": -88.0476488,
@@ -44719,7 +44719,7 @@
       "DirectionOfTravel": "w",
       "Description": "The 2 left lanes are blocked on I-94 in both directions 0.8 miles beyond Ramp from Bluemound Rd. Due to crash.",
       "Reported": 1788073746,
-      "LastUpdated": 1788074060,
+      "LastUpdated": 1788075021,
       "StartDate": 1788073746,
       "PlannedEndDate": null,
       "LanesAffected": "2 lane(s) of 3 blocked.",
