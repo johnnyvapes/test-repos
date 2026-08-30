@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T10:11:18Z",
+  "updatedAt": "2026-08-30T10:28:35Z",
   "events": [
     {
       "ID": 566011,
@@ -12287,8 +12287,8 @@
       "StartDate": 1783933200,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6688874,
-      "Longitude": -89.0314946,
+      "Latitude": 42.6687857,
+      "Longitude": -89.0314893,
       "LatitudeSecondary": 42.6685539,
       "LongitudeSecondary": -89.0314772,
       "EventType": "roadwork",
@@ -12296,7 +12296,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "qwlcGx}k~ObAAfAEvDI|EEnJErJCZA",
+      "EncodedPolyline": "}vlcGx}k~On@AfAEvDI|EEnJErJCZA",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -44744,6 +44744,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
+    },
+    {
+      "ID": 736553,
+      "SourceId": "830000150",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-41/US-45",
+      "DirectionOfTravel": "n",
+      "Description": "I-41/US 45 North at Main St West. The right shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788085456,
+      "LastUpdated": 1788085459,
+      "StartDate": 1788085456,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.178934,
+      "Longitude": -88.093115,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "ikpfG~ttxO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Waukesha"
     }
   ]
 }
