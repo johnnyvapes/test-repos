@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T11:58:01Z",
+  "updatedAt": "2026-08-30T12:11:13Z",
   "events": [
     {
       "ID": 566011,
@@ -44631,40 +44631,6 @@
       "Severity": "1",
       "Comment": "",
       "EncodedPolyline": "sujfGndmxO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
-    },
-    {
-      "ID": 736560,
-      "SourceId": "830000200",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-43/94",
-      "DirectionOfTravel": "n",
-      "Description": "I-43/94 North at Ramp from Howard Ave. The left lane is blocked due to a disabled vehicle.",
-      "Reported": 1788089230,
-      "LastUpdated": 1788090326,
-      "StartDate": 1788089230,
-      "PlannedEndDate": null,
-      "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 42.984084,
-      "Longitude": -87.915627,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "2",
-      "Comment": "",
-      "EncodedPolyline": "oijeGt_rwO",
       "Restrictions": {
         "Width": null,
         "Height": null,
