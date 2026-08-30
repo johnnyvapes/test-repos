@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T09:41:32Z",
+  "updatedAt": "2026-08-30T09:57:58Z",
   "events": [
     {
       "ID": 566011,
@@ -26941,7 +26941,7 @@
       "StartDate": 1787747131,
       "PlannedEndDate": 1790377200,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 43.0806037,
+      "Latitude": 43.0806042,
       "Longitude": -88.0476858,
       "LatitudeSecondary": 43.0821023,
       "LongitudeSecondary": -88.0476488,
@@ -44710,40 +44710,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Marathon"
-    },
-    {
-      "ID": 736549,
-      "SourceId": "830000110",
-      "Organization": "WIATMS",
-      "RoadwayName": "US-12/18",
-      "DirectionOfTravel": "w",
-      "Description": "Incident on Ramp from US 51/Stoughton Rd to US 12/18 West.",
-      "Reported": 1788080282,
-      "LastUpdated": 1788080284,
-      "StartDate": 1788080282,
-      "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 43.045448,
-      "Longitude": -89.310709,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "aiveG|nb`P",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
     }
   ]
 }
