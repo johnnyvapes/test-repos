@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T03:58:18Z",
+  "updatedAt": "2026-08-30T04:11:28Z",
   "events": [
     {
       "ID": 566011,
@@ -44780,40 +44780,6 @@
       "County": "Milwaukee"
     },
     {
-      "ID": 736521,
-      "SourceId": "829000950",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-43",
-      "DirectionOfTravel": "n",
-      "Description": "I-43 North 0.2 miles beyond North Ave. The left shoulder is closed due to a crash.",
-      "Reported": 1788059951,
-      "LastUpdated": 1788059870,
-      "StartDate": 1788059951,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.059886,
-      "Longitude": -87.921136,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Crash",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "icyeGbbswO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
-    },
-    {
       "ID": 736522,
       "SourceId": "829000960",
       "Organization": "WIATMS",
@@ -44835,6 +44801,40 @@
       "Severity": "1",
       "Comment": "",
       "EncodedPolyline": "isweG``|_P",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Dane"
+    },
+    {
+      "ID": 736531,
+      "SourceId": "829000980",
+      "Organization": "WIATMS",
+      "RoadwayName": "US-12/18",
+      "DirectionOfTravel": "e",
+      "Description": "US 12/18 East at Rimrock Rd. The right shoulder is blocked due to an incident.",
+      "Reported": 1788062893,
+      "LastUpdated": 1788062808,
+      "StartDate": 1788062893,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.039781,
+      "Longitude": -89.380035,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Incident",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "seueGd`p`P",
       "Restrictions": {
         "Width": null,
         "Height": null,
