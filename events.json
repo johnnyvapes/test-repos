@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T08:11:39Z",
+  "updatedAt": "2026-08-30T08:28:17Z",
   "events": [
     {
       "ID": 566011,
@@ -44710,74 +44710,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Marathon"
-    },
-    {
-      "ID": 736546,
-      "SourceId": "830000070",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "w",
-      "Description": "The 2 left lanes are blocked on I-94 in both directions 0.8 miles beyond Ramp from Bluemound Rd. Due to crash.",
-      "Reported": 1788073746,
-      "LastUpdated": 1788077268,
-      "StartDate": 1788073746,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.043279,
-      "Longitude": -88.190375,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Crash",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "o{ueGxtgyO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Waukesha"
-    },
-    {
-      "ID": 736547,
-      "SourceId": "830000080",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "e",
-      "Description": "The 2 left lanes are blocked on I-94 in both directions 0.8 miles beyond Ramp from Bluemound Rd. Due to crash.",
-      "Reported": 1788074162,
-      "LastUpdated": 1788077294,
-      "StartDate": 1788074162,
-      "PlannedEndDate": null,
-      "LanesAffected": "1 lane(s) of 3 blocked.",
-      "Latitude": 43.043143,
-      "Longitude": -88.190412,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Crash",
-      "IsFullClosure": false,
-      "Severity": "2",
-      "Comment": "",
-      "EncodedPolyline": "szueG`ugyO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Waukesha"
     }
   ]
 }
