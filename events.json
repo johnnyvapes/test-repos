@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T21:57:56Z",
+  "updatedAt": "2026-08-30T22:10:58Z",
   "events": [
     {
       "ID": 566011,
@@ -7595,8 +7595,8 @@
       "StartDate": 1781521200,
       "PlannedEndDate": 1788670799,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 43.3833231,
-      "Longitude": -87.9337884,
+      "Latitude": 43.3833074,
+      "Longitude": -87.933826,
       "LatitudeSecondary": 43.3833757,
       "LongitudeSecondary": -87.933662,
       "EventType": "roadwork",
@@ -7604,7 +7604,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "whxgGdquwOKYw@cCaA_DSo@Ek@Kc@Oy@k@oCc@wCQoBQsAMgCGuACo@AyA?m@AgA?kBBaBHcD@iC?i@?a@DUHWJKFU?QAMEIEm@?i@GsAOcE@[F[FKBM@UCQGII]qA}Iu@gEmB}Ji@{C]wCSgBKeAKy@U}DM{CEqB?yEB}HN_\\B{G@_BCiA?o@@YH_@JKBS@SCMIKAOEgAAwA?qBE{IEcBCsACi@AqIAsAAuB?cB?y@?SCiC?eB",
+      "EncodedPolyline": "uhxgGlquwOMa@w@cCaA_DSo@Ek@Kc@Oy@k@oCc@wCQoBQsAMgCGuACo@AyA?m@AgA?kBBaBHcD@iC?i@?a@DUHWJKFU?QAMEIEm@?i@GsAOcE@[F[FKBM@UCQGII]qA}Iu@gEmB}Ji@{C]wCSgBKeAKy@U}DM{CEqB?yEB}HN_\\B{G@_BCiA?o@@YH_@JKBS@SCMIKAOEgAAwA?qBE{IEcBCsACi@AqIAsAAuB?cB?y@?SCiC?eB",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -10553,8 +10553,8 @@
       "StartDate": 1783335600,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 45.1229799,
-      "Longitude": -92.6365661,
+      "Latitude": 45.122994,
+      "Longitude": -92.6366929,
       "LatitudeSecondary": 45.1229423,
       "LongitudeSecondary": -92.6362272,
       "EventType": "roadwork",
@@ -10562,7 +10562,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "salrGpaltPFcAFuBDsCBuFHaZAKFoU?eB@}OJ_WTgx@@oR@gB@kQ@oMBs[Fee@?]?qPBwGOkKWyCk@wDq@uCoAwDgFaOgAiD_AiDgAaFo@eDm@kDu@kFqBqMaAcHc@qC[gCe@aE]aFYqEEk@c@mH[uEWgBWyAw@uCkDsHsCuFiEqIm@wAe@{A_AaDk@{CS}AIeBKkCKwGg@oYMcFIoDM_BIuAQiASmAYkAe@cBs@_CgAcDw@yB[_Bm@yD{A{JOeAIe@QkAQeAe@qCO{@",
+      "EncodedPolyline": "ualrGhbltPH{AFuBDsCBuFHaZAKFoU?eB@}OJ_WTgx@@oR@gB@kQ@oMBs[Fee@?]?qPBwGOkKWyCk@wDq@uCoAwDgFaOgAiD_AiDgAaFo@eDm@kDu@kFqBqMaAcHc@qC[gCe@aE]aFYqEEk@c@mH[uEWgBWyAw@uCkDsHsCuFiEqIm@wAe@{A_AaDk@{CS}AIeBKkCKwGg@oYMcFIoDM_BIuAQiASmAYkAe@cBs@_CgAcDw@yB[_Bm@yD{A{JOeAIe@QkAQeAe@qCO{@",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -12151,8 +12151,8 @@
       "StartDate": 1783933200,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6687905,
-      "Longitude": -89.0314896,
+      "Latitude": 42.6687613,
+      "Longitude": -89.0314881,
       "LatitudeSecondary": 42.6685539,
       "LongitudeSecondary": -89.0314772,
       "EventType": "roadwork",
@@ -12160,7 +12160,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "}vlcGx}k~On@AfAEvDI|EEnJErJCZA",
+      "EncodedPolyline": "wvlcGx}k~Oh@AfAEvDI|EEnJErJCZA",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -16299,8 +16299,8 @@
       "StartDate": 1786320000,
       "PlannedEndDate": 1793422799,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 44.9437583,
-      "Longitude": -89.6667003,
+      "Latitude": 44.9438179,
+      "Longitude": -89.6667009,
       "LatitudeSecondary": 44.9435898,
       "LongitudeSecondary": -89.6666988,
       "EventType": "roadwork",
@@ -16308,7 +16308,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "oaiqGz_hbP`@?hB?bDGVCrCGpCKhFa@pCUjFo@nBQdDm@jASjB]rBc@~HeBxCy@bEoAjC}@p@S|D}ApFwB~BgAdJuEpC}AbDkBrBsA|EeDnPsKdJcG|FsDzDeCjFiDl@e@pPwKj@_@vL{HlDaCbEkC|HgFz@e@xHeF",
+      "EncodedPolyline": "{aiqGz_hbPl@?hB?bDGVCrCGpCKhFa@pCUjFo@nBQdDm@jASjB]rBc@~HeBxCy@bEoAjC}@p@S|D}ApFwB~BgAdJuEpC}AbDkBrBsA|EeDnPsKdJcG|FsDzDeCjFiDl@e@pPwKj@_@vL{HlDaCbEkC|HgFz@e@xHeF",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -44438,40 +44438,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Waukesha"
-    },
-    {
-      "ID": 737128,
-      "SourceId": "830000650",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "e",
-      "Description": "I-94 East at WIS 175 South/Brewers Blvd. The left lane is closed due to a crash.",
-      "Reported": 1788126789,
-      "LastUpdated": 1788126641,
-      "StartDate": 1788126789,
-      "PlannedEndDate": null,
-      "LanesAffected": "1 lane(s) of 3 blocked.",
-      "Latitude": 43.03242,
-      "Longitude": -87.973262,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Crash",
-      "IsFullClosure": false,
-      "Severity": "2",
-      "Comment": "",
-      "EncodedPolyline": "swseGzg}wO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
     }
   ]
 }
