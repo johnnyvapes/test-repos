@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T03:41:08Z",
+  "updatedAt": "2026-08-30T03:58:18Z",
   "events": [
     {
       "ID": 566011,
@@ -17557,16 +17557,16 @@
       "StartDate": 1786359600,
       "PlannedEndDate": 1788174000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2435267,
-      "Longitude": -88.7981075,
-      "LatitudeSecondary": 44.2446467,
-      "LongitudeSecondary": -88.8007755,
+      "Latitude": 44.2410318,
+      "Longitude": -88.7920965,
+      "LatitudeSecondary": 44.241654,
+      "LongitudeSecondary": -88.7935851,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "ai`mGdk~|O_FtOgHhUsHxUWz@iHjUwB~GqAxEeAdFy@hFk@nFYvFIbDCdD@fDH`LTl[DtNG|KWtLUhG_@jI_@tGe@vGu@lIO`B}@zHa@xDs@fGaAxKc@jFEl@OtCU|EOfFMrFCfDAjDAbBBhC@hABjCDfEJbELhGDlBDrCNlGF`EHtCDfCFdC?dCCdCIfCWdEW`CYbCq@xDi@xBaApDmAfDqAbDsFlNeBlEA@yCtHADc@jA]x@s@nBYt@Qd@IP[x@q@rBOl@]hAEZs@zCg@hCy@pFs@`FEZUxAYbBi@~DUpAg@jD{@|Fy@|Fs@~Fo@~FQdCY`EKbA[fGKdCGdCAPErBGbCCdACfEEtGc@ba@Al@c@tWE`CG~BEbAKlBi@fGQfAIz@]nBm@nDOv@g@rBo@fCsAjE_AlCq@~AmArC{@~Au@tA}@zAiBnCw@bAiBzBmBpBuBjBsAbAwA~@sAx@[P",
+      "EncodedPolyline": "my_mGre}|O{BhHwFtQWv@cAfDcGfRgHhUsHxUWz@iHjUwB~GqAxEeAdFy@hFk@nFYvFIbDCdD@fDH`LTl[DtNG|KWtLUhG_@jI_@tGe@vGu@lIO`B}@zHa@xDs@fGaAxKc@jFEl@OtCU|EOfFMrFCfDAjDAbBBhC@hABjCDfEJbELhGDlBDrCNlGF`EHtCDfCFdC?dCCdCIfCWdEW`CYbCq@xDi@xBaApDmAfDqAbDsFlNeBlEA@yCtHADc@jA]x@s@nBYt@Qd@IP[x@q@rBOl@]hAEZs@zCg@hCy@pFs@`FEZUxAYbBi@~DUpAg@jD{@|Fy@|Fs@~Fo@~FQdCY`EKbA[fGKdCGdCAPErBGbCCdACfEEtGc@ba@Al@c@tWE`CG~BEbAKlBi@fGQfAIz@]nBm@nDOv@g@rBo@fCsAjE_AlCq@~AmArC{@~Au@tA}@zAiBnCSVc@j@iBzBmBpBuBjBsAbAwA~@sAx@[P",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -17577,7 +17577,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Waupaca"
+      "County": "Winnebago"
     },
     {
       "ID": 692603,
@@ -44778,40 +44778,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
-    },
-    {
-      "ID": 736496,
-      "SourceId": "829000850",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "e",
-      "Description": "I-94 East 0.6 miles beyond Ramp from County N. The left shoulder is closed due to a crash.",
-      "Reported": 1788055396,
-      "LastUpdated": 1788058518,
-      "StartDate": 1788055396,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.1099,
-      "Longitude": -89.183818,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Crash",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "{{bfGzui_P",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
     },
     {
       "ID": 736521,
