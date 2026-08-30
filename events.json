@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T10:41:51Z",
+  "updatedAt": "2026-08-30T10:57:58Z",
   "events": [
     {
       "ID": 566011,
@@ -44712,40 +44712,6 @@
       "County": "Marathon"
     },
     {
-      "ID": 736552,
-      "SourceId": "830000140",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-43",
-      "DirectionOfTravel": "n",
-      "Description": "I-43 North at WIS 145/Fond Du Lac Ave. The left shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788084663,
-      "LastUpdated": 1788084549,
-      "StartDate": 1788084663,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.043647,
-      "Longitude": -87.92556,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "y}ueGv}swO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
-    },
-    {
       "ID": 736553,
       "SourceId": "830000150",
       "Organization": "WIATMS",
@@ -44778,6 +44744,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Waukesha"
+    },
+    {
+      "ID": 736555,
+      "SourceId": "830000170",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-41/94",
+      "DirectionOfTravel": "s",
+      "Description": "Disabled vehicle on Ramp from Elm Rd to I-41/94 South.",
+      "Reported": 1788087256,
+      "LastUpdated": 1788087168,
+      "StartDate": 1788087256,
+      "PlannedEndDate": null,
+      "LanesAffected": "No lanes blocked.",
+      "Latitude": 42.848271,
+      "Longitude": -87.947111,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "uxodGldxwO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
     }
   ]
 }
