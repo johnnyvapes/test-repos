@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T07:11:35Z",
+  "updatedAt": "2026-08-31T07:28:20Z",
   "events": [
     {
       "ID": 566011,
@@ -12321,8 +12321,8 @@
       "StartDate": 1786338000,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2088462,
-      "Longitude": -88.3293105,
+      "Latitude": 44.2088481,
+      "Longitude": -88.3293071,
       "LatitudeSecondary": 44.2087018,
       "LongitudeSecondary": -88.3295631,
       "EventType": "roadwork",
@@ -21297,8 +21297,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.13408,
-      "Longitude": -88.007542,
+      "Latitude": 43.134019,
+      "Longitude": -88.007403,
       "LatitudeSecondary": 43.134052,
       "LongitudeSecondary": -88.001988,
       "EventType": "roadwork",
@@ -21306,7 +21306,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "_sgfGb~cxODua@",
+      "EncodedPolyline": "srgfGf}cxOEy`@",
       "Restrictions": {
         "Width": null,
         "Height": null,
