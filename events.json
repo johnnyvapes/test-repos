@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T02:41:26Z",
+  "updatedAt": "2026-08-31T02:58:19Z",
   "events": [
     {
       "ID": 566011,
@@ -2971,16 +2971,16 @@
       "StartDate": 1775469600,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9454417,
-      "Longitude": -90.0916174,
-      "LatitudeSecondary": 44.9454088,
-      "LongitudeSecondary": -90.0902902,
+      "Latitude": 44.9454006,
+      "Longitude": -90.1030778,
+      "LatitudeSecondary": 44.9454102,
+      "LongitudeSecondary": -90.0995055,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "_liqGr_{dPDiGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
+      "EncodedPolyline": "wkiqGfg}dPAoWCwOA{\\DyGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -12457,8 +12457,8 @@
       "StartDate": 1786338000,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2088481,
-      "Longitude": -88.3293071,
+      "Latitude": 44.2088462,
+      "Longitude": -88.3293105,
       "LatitudeSecondary": 44.2087018,
       "LongitudeSecondary": -88.3295631,
       "EventType": "roadwork",
@@ -44168,19 +44168,19 @@
       "County": "Dane"
     },
     {
-      "ID": 737250,
-      "SourceId": "830000780",
+      "ID": 737266,
+      "SourceId": "830000820",
       "Organization": "WIATMS",
-      "RoadwayName": "I-39/90",
+      "RoadwayName": "I-41",
       "DirectionOfTravel": "n",
-      "Description": "I-39/90 North 1.1 miles beyond Ramp From US 51 South. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788139877,
-      "LastUpdated": 1788139821,
-      "StartDate": 1788139877,
+      "Description": "I-41 North 2.6 miles beyond Ramp from County K. The right shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788144423,
+      "LastUpdated": 1788144359,
+      "StartDate": 1788144423,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
-      "Latitude": 42.933258,
-      "Longitude": -89.087374,
+      "Latitude": 43.405297,
+      "Longitude": -88.325762,
       "LatitudeSecondary": null,
       "LongitudeSecondary": null,
       "EventType": "accidentsAndIncidents",
@@ -44188,7 +44188,7 @@
       "IsFullClosure": false,
       "Severity": "1",
       "Comment": "",
-      "EncodedPolyline": "{k`eG`{v~O",
+      "EncodedPolyline": "cr|gG~bbzO",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -44199,7 +44199,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Dane"
+      "County": "Washington"
     }
   ]
 }
