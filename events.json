@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T01:28:32Z",
+  "updatedAt": "2026-08-31T01:41:36Z",
   "events": [
     {
       "ID": 566011,
@@ -18849,8 +18849,8 @@
       "StartDate": 1787934691,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "4 lane(s) of 4 blocked.",
-      "Latitude": 44.9450169,
-      "Longitude": -91.0363714,
+      "Latitude": 44.944976,
+      "Longitude": -91.0364392,
       "LatitudeSecondary": 44.9455023,
       "LongitudeSecondary": -91.0355686,
       "EventType": "roadwork",
@@ -18858,7 +18858,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "kiiqGhpsjPwDqHkAiCcAkBeAmBeBeD}@oBw@yAgBiE_AiCqAkEq@kCc@yBm@mDc@mCo@iE}@mHc@}Eu@qJa@yH[_HQeHO}JAeF@aMAad@C{z@AkT?kT@mX?w@Ceg@?_SAwA?}}@CmdAAiVBaJB{MBgFByB?_BBoIDkJBaE?W@gHDaHBaKAy@@w@EaJEsFAaAAg@I{G[aTEgE",
+      "EncodedPolyline": "ciiqGvpsjP_E_IkAiCcAkBeAmBeBeD}@oBw@yAgBiE_AiCqAkEq@kCc@yBm@mDc@mCo@iE}@mHc@}Eu@qJa@yH[_HQeHO}JAeF@aMAad@C{z@AkT?kT@mX?w@Ceg@?_SAwA?}}@CmdAAiVBaJB{MBgFByB?_BBoIDkJBaE?W@gHDaHBaKAy@@w@EaJEsFAaAAg@I{G[aTEgE",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -44189,6 +44189,40 @@
       "Severity": "4",
       "Comment": "",
       "EncodedPolyline": "uuveGvu{_P",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Dane"
+    },
+    {
+      "ID": 737250,
+      "SourceId": "830000780",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-39/90",
+      "DirectionOfTravel": "n",
+      "Description": "I-39/90 North 1.1 miles beyond Ramp From US 51 South. The right shoulder is blocked due to a disabled vehicle.",
+      "Reported": 1788139877,
+      "LastUpdated": 1788139821,
+      "StartDate": 1788139877,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 42.933258,
+      "Longitude": -89.087374,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "{k`eG`{v~O",
       "Restrictions": {
         "Width": null,
         "Height": null,
