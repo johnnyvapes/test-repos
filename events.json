@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T06:58:23Z",
+  "updatedAt": "2026-08-31T07:11:35Z",
   "events": [
     {
       "ID": 566011,
@@ -47,16 +47,16 @@
       "StartDate": 1772604000,
       "PlannedEndDate": 1795240799,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.3494158479332,
-      "Longitude": -88.1934612288233,
-      "LatitudeSecondary": 44.3510296591206,
-      "LongitudeSecondary": -88.1920194433269,
+      "Latitude": 44.3493411,
+      "Longitude": -88.1932314,
+      "LatitudeSecondary": 44.3493411,
+      "LongitudeSecondary": -88.1932314,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{~tmGbhhyOyKoJ{YiW_NoLwLkK{BqByIwHiDyC_XoU_@EUm@aQaO",
+      "EncodedPolyline": "k~tmGtfhyOOOyEgEiDwCqGqFcJcIkDyCSQiHkGoEwDuUoSuUmScSeQ",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -43690,40 +43690,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Dane"
-    },
-    {
-      "ID": 737293,
-      "SourceId": "831000050",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-41/894",
-      "DirectionOfTravel": "s",
-      "Description": "I-41/894 South 0.3 miles before I-41 South. The right shoulder is closed due to a disabled vehicle.",
-      "Reported": 1788154933,
-      "LastUpdated": 1788154904,
-      "StartDate": 1788154933,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.028416,
-      "Longitude": -88.035047,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "s~reG`jixO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
     }
   ]
 }
