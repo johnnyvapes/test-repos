@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T01:41:36Z",
+  "updatedAt": "2026-08-31T01:58:23Z",
   "events": [
     {
       "ID": 566011,
@@ -12457,8 +12457,8 @@
       "StartDate": 1786338000,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2088481,
-      "Longitude": -88.3293071,
+      "Latitude": 44.2088462,
+      "Longitude": -88.3293105,
       "LatitudeSecondary": 44.2087018,
       "LongitudeSecondary": -88.3295631,
       "EventType": "roadwork",
@@ -18849,8 +18849,8 @@
       "StartDate": 1787934691,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "4 lane(s) of 4 blocked.",
-      "Latitude": 44.944976,
-      "Longitude": -91.0364392,
+      "Latitude": 44.9449728,
+      "Longitude": -91.0364443,
       "LatitudeSecondary": 44.9455023,
       "LongitudeSecondary": -91.0355686,
       "EventType": "roadwork",
@@ -18858,7 +18858,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "ciiqGvpsjP_E_IkAiCcAkBeAmBeBeD}@oBw@yAgBiE_AiCqAkEq@kCc@yBm@mDc@mCo@iE}@mHc@}Eu@qJa@yH[_HQeHO}JAeF@aMAad@C{z@AkT?kT@mX?w@Ceg@?_SAwA?}}@CmdAAiVBaJB{MBgFByB?_BBoIDkJBaE?W@gHDaHBaKAy@@w@EaJEsFAaAAg@I{G[aTEgE",
+      "EncodedPolyline": "aiiqGvpsjPaE_IkAiCcAkBeAmBeBeD}@oBw@yAgBiE_AiCqAkEq@kCc@yBm@mDc@mCo@iE}@mHc@}Eu@qJa@yH[_HQeHO}JAeF@aMAad@C{z@AkT?kT@mX?w@Ceg@?_SAwA?}}@CmdAAiVBaJB{MBgFByB?_BBoIDkJBaE?W@gHDaHBaKAy@@w@EaJEsFAaAAg@I{G[aTEgE",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -21161,8 +21161,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 3 blocked.",
-      "Latitude": 43.1222169,
-      "Longitude": -88.0058979,
+      "Latitude": 43.1222451,
+      "Longitude": -88.0058976,
       "LatitudeSecondary": 43.1231811,
       "LongitudeSecondary": -88.005887,
       "EventType": "roadwork",
@@ -21170,7 +21170,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{hefGzscxO_EAeJ?gECmBA}@Ay@Ce@@uDEcD?eB@yE@iDGw@CcAEqEG}ACyA?aVWuHGcLI{DEkDCwEE",
+      "EncodedPolyline": "aiefGzscxOyDAeJ?gECmBA}@Ay@Ce@@uDEcD?eB@yE@iDGw@CcAEqEG}ACyA?aVWuHGcLI{DEkDCwEE",
       "Restrictions": {
         "Width": 22.0,
         "Height": null,
