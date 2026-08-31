@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T05:11:04Z",
+  "updatedAt": "2026-08-31T05:28:18Z",
   "events": [
     {
       "ID": 566011,
@@ -43726,40 +43726,6 @@
       "County": "Dane"
     },
     {
-      "ID": 737280,
-      "SourceId": "830000900",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "e",
-      "Description": "I-94 East 0.3 miles beyond Ramp from 25th St/St Paul Ave. The right shoulder is closed due to an incident.",
-      "Reported": 1788149897,
-      "LastUpdated": 1788149829,
-      "StartDate": 1788149897,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.035451,
-      "Longitude": -87.936185,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "qjteGb`vwO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
-    },
-    {
       "ID": 737282,
       "SourceId": "830000920",
       "Organization": "WIATMS",
@@ -43801,7 +43767,7 @@
       "DirectionOfTravel": "e",
       "Description": "I-94 East at 84th St. The left shoulder is closed due to a crash.",
       "Reported": 1788150675,
-      "LastUpdated": 1788150601,
+      "LastUpdated": 1788153024,
       "StartDate": 1788150675,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
