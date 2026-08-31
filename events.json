@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T05:58:16Z",
+  "updatedAt": "2026-08-31T06:28:28Z",
   "events": [
     {
       "ID": 566011,
@@ -43656,40 +43656,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Marathon"
-    },
-    {
-      "ID": 737238,
-      "SourceId": "830000770",
-      "Organization": "WIATMS",
-      "RoadwayName": "Ramp from I-39/90  to US-12/18",
-      "DirectionOfTravel": "u",
-      "Description": "Ramp from I-39/90 North to US 12/18 West closed because of a crash.",
-      "Reported": 1788138191,
-      "LastUpdated": 1788145278,
-      "StartDate": 1788138191,
-      "PlannedEndDate": null,
-      "LanesAffected": "All lanes closed.",
-      "Latitude": 43.047466,
-      "Longitude": -89.275956,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "closures",
-      "EventSubType": "Crash",
-      "IsFullClosure": true,
-      "Severity": "4",
-      "Comment": "",
-      "EncodedPolyline": "uuveGvu{_P",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
     },
     {
       "ID": 737275,
