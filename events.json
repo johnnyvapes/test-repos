@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T20:57:58Z",
+  "updatedAt": "2026-08-31T21:11:14Z",
   "events": [
     {
       "ID": 566011,
@@ -2307,8 +2307,8 @@
         "Weight": null,
         "Speed": null
       },
-      "DetourPolyline": "qsbmG`xazO_AwN@uEJiL_GuxCFmARY?i@Ky@[oFgCa~Am@aKDoAvBc@zJa@baAXfCLtBp@~@f@XjAHdEyAb~GGtH",
-      "DetourInstructions": "[{\"Instructions\":[\"Signed detour route follows: CTH CE to STH 55 to CTH KK\"],\"Language\":\"en\"}]",
+      "DetourPolyline": null,
+      "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Outagamie"
@@ -3667,8 +3667,8 @@
         "Weight": null,
         "Speed": null
       },
-      "DetourPolyline": "wh`mGprazOxAqlH`@k@To@Ii@qB]eD}@yCKiaAYiFH_DLq@Cc@e@c@LGt@TpA`@~GtC`bBVbEIn@W\\Id@Jh@TtBlFjlC@`KKdD]pGq@xEmChM",
-      "DetourInstructions": "[{\"Instructions\":[\"Signed detour follows: CTH KK to STH 55 to CTH CE\"],\"Language\":\"en\"}]",
+      "DetourPolyline": null,
+      "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Outagamie"
@@ -4671,8 +4671,8 @@
       "StartDate": 1775473200,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9444883,
-      "Longitude": -89.8555966,
+      "Latitude": 44.9444884,
+      "Longitude": -89.8556267,
       "LatitudeSecondary": 44.9444893,
       "LongitudeSecondary": -89.855789,
       "EventType": "roadwork",
@@ -4680,7 +4680,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "afiqGn|lcP?|SAV?bA@rA?b@Ax@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
+      "EncodedPolyline": "afiqGt|lcP?vSAV?bA@rA?b@Ax@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -5462,7 +5462,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "cfkgGdgqyOgJpNwKvPyJjOmDpFsDtFkBzCU`@EHqHvKq@bAkF`IkGpJ",
+      "EncodedPolyline": "cfkgGdgqyOgJpNwKvPyJjOmDpFsDtFkBzCU`@EHqHvKq@bAkF`IiGnJ",
       "Restrictions": {
         "Width": 33.0,
         "Height": null,
@@ -6217,8 +6217,8 @@
         "Weight": null,
         "Speed": null
       },
-      "DetourPolyline": "sh`mGlrazOtAglHx@kAEaAkBS}Bw@gCWohAYgGV]OWY_@DMn@Nr@\\xExCvdBV~EIp@W\\Aj@Lj@RdClF~lCDxJk@vJ{@nGgCjL",
-      "DetourInstructions": "[{\"Instructions\":[\"Signed detour route follows: CTH KK to STH 55 to CTH CE\"],\"Language\":\"en\"}]",
+      "DetourPolyline": null,
+      "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Outagamie"
@@ -6251,8 +6251,8 @@
         "Weight": null,
         "Speed": null
       },
-      "DetourPolyline": "osbmG`xazO}@wMGgBPyGIkKmF{qCIkCJo@LMDg@McASmCGwAiCy|AIyD_@qFAiAXYzB_@jJWn`ATlCJpAZbB|@Vf@Dj@JvCuAh_HItH",
-      "DetourInstructions": "[{\"Instructions\":[\"Signed detour route follows: CTH CE to STH 55 to CTH KK\"],\"Language\":\"en\"}]",
+      "DetourPolyline": null,
+      "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Outagamie"
@@ -18543,8 +18543,8 @@
       "StartDate": 1787934691,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "4 lane(s) of 4 blocked.",
-      "Latitude": 44.9449878,
-      "Longitude": -91.0364195,
+      "Latitude": 44.9449719,
+      "Longitude": -91.0364458,
       "LatitudeSecondary": 44.9455023,
       "LongitudeSecondary": -91.0355686,
       "EventType": "roadwork",
@@ -18552,7 +18552,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "eiiqGrpsjP}D{HkAiCcAkBeAmBeBeD}@oBw@yAgBiE_AiCqAkEq@kCc@yBm@mDc@mCo@iE}@mHc@}Eu@qJa@yH[_HQeHO}JAeF@aMAad@C{z@AkT?kT@mX?w@Ceg@?_SAwA?}}@CmdAAiVBaJB{MBgFByB?_BBoIDkJBaE?W@gHDaHBaKAy@@w@EaJEsFAaAAg@I{G[aTEgE",
+      "EncodedPolyline": "aiiqGxpsjPaEaIkAiCcAkBeAmBeBeD}@oBw@yAgBiE_AiCqAkEq@kCc@yBm@mDc@mCo@iE}@mHc@}Eu@qJa@yH[_HQeHO}JAeF@aMAad@C{z@AkT?kT@mX?w@Ceg@?_SAwA?}}@CmdAAiVBaJB{MBgFByB?_BBoIDkJBaE?W@gHDaHBaKAy@@w@EaJEsFAaAAg@I{G[aTEgE",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -20583,8 +20583,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 3 blocked.",
-      "Latitude": 43.1222192,
-      "Longitude": -88.0058979,
+      "Latitude": 43.1221988,
+      "Longitude": -88.0058982,
       "LatitudeSecondary": 43.1231811,
       "LongitudeSecondary": -88.005887,
       "EventType": "roadwork",
@@ -20592,7 +20592,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{hefGzscxO_EAeJ?gECmBA}@Ay@Ce@@uDEcD?eB@yE@iDGw@CcAEqEG}ACyA?aVWuHGcLI{DEkDCwEE",
+      "EncodedPolyline": "whefGzscxOcEAeJ?gECmBA}@Ay@Ce@@uDEcD?eB@yE@iDGw@CcAEqEG}ACyA?aVWuHGcLI{DEkDCwEE",
       "Restrictions": {
         "Width": 22.0,
         "Height": null,
@@ -20991,8 +20991,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134035,
-      "Longitude": -88.007421,
+      "Latitude": 43.134032,
+      "Longitude": -88.007449,
       "LatitudeSecondary": 43.134052,
       "LongitudeSecondary": -88.001988,
       "EventType": "roadwork",
@@ -21000,7 +21000,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "wrgfGj}cxOA}`@",
+      "EncodedPolyline": "urgfGp}cxOCca@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -43420,40 +43420,6 @@
       "County": "Milwaukee"
     },
     {
-      "ID": 737917,
-      "SourceId": "831000840",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-43/94",
-      "DirectionOfTravel": "n",
-      "Description": "I-43/94 North 0.8 miles beyond Ramp from Holt Ave. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788206527,
-      "LastUpdated": 1788206454,
-      "StartDate": 1788206527,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 42.996343,
-      "Longitude": -87.915093,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "cvleGh|qwO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
-    },
-    {
       "ID": 737921,
       "SourceId": "831000860",
       "Organization": "WIATMS",
@@ -43475,40 +43441,6 @@
       "Severity": "1",
       "Comment": "",
       "EncodedPolyline": "sujfGndmxO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
-    },
-    {
-      "ID": 737940,
-      "SourceId": "831000880",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-41/94",
-      "DirectionOfTravel": "n",
-      "Description": "I-41/94 North at College Ave. The right shoulder is blocked due to a crash.",
-      "Reported": 1788207858,
-      "LastUpdated": 1788207832,
-      "StartDate": 1788207858,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 42.924949,
-      "Longitude": -87.935284,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Crash",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "}w~dGnzuwO",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -43588,6 +43520,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Dane"
+    },
+    {
+      "ID": 737998,
+      "SourceId": "831000960",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-41/894",
+      "DirectionOfTravel": "s",
+      "Description": "I-41/894 South at Oklahoma Ave. The left lane is blocked due to a disabled vehicle.",
+      "Reported": 1788210135,
+      "LastUpdated": 1788210124,
+      "StartDate": 1788210135,
+      "PlannedEndDate": null,
+      "LanesAffected": "1 lane(s) of 4 blocked.",
+      "Latitude": 42.99065,
+      "Longitude": -88.038146,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "2",
+      "Comment": "",
+      "EncodedPolyline": "qrkeGl}ixO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
     }
   ]
 }
