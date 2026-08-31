@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T12:28:18Z",
+  "updatedAt": "2026-08-31T12:41:36Z",
   "events": [
     {
       "ID": 566011,
@@ -12049,8 +12049,8 @@
       "StartDate": 1784032872,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6630756,
-      "Longitude": -89.0313221,
+      "Latitude": 42.6631945,
+      "Longitude": -89.0313234,
       "LatitudeSecondary": 42.6643202,
       "LongitudeSecondary": -89.0313355,
       "EventType": "roadwork",
@@ -12058,7 +12058,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "gskcGv|k~OwFBoJD}EDwDHgADO?",
+      "EncodedPolyline": "}skcGv|k~OaFBoJD}EDwDHgADO?",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -43182,40 +43182,6 @@
       "County": "Jefferson"
     },
     {
-      "ID": 737380,
-      "SourceId": "831000190",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-794",
-      "DirectionOfTravel": "w",
-      "Description": "I-794 West 1.1 miles beyond Ramp from Carferry Rd. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788178037,
-      "LastUpdated": 1788177984,
-      "StartDate": 1788178037,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.022021,
-      "Longitude": -87.898044,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "svqeGvqnwO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
-    },
-    {
       "ID": 737397,
       "SourceId": "831000220",
       "Organization": "WIATMS",
@@ -43248,6 +43214,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
+    },
+    {
+      "ID": 737416,
+      "SourceId": "831000230",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "e",
+      "Description": "I-94 East 1.3 miles beyond Ramp from County F (Waukesha County). The left shoulder is blocked due to a crash.",
+      "Reported": 1788180073,
+      "LastUpdated": 1788179980,
+      "StartDate": 1788180073,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.040548,
+      "Longitude": -88.181039,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Crash",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "mjueGnzeyO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Waukesha"
     }
   ]
 }
