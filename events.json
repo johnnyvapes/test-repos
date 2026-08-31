@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T00:12:38Z",
+  "updatedAt": "2026-08-31T00:28:12Z",
   "events": [
     {
       "ID": 566011,
@@ -12457,8 +12457,8 @@
       "StartDate": 1786338000,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2088481,
-      "Longitude": -88.3293071,
+      "Latitude": 44.2088462,
+      "Longitude": -88.3293105,
       "LatitudeSecondary": 44.2087018,
       "LongitudeSecondary": -88.3295631,
       "EventType": "roadwork",
@@ -17285,16 +17285,16 @@
       "StartDate": 1786359600,
       "PlannedEndDate": 1788174000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2435267,
-      "Longitude": -88.7981075,
-      "LatitudeSecondary": 44.2446467,
-      "LongitudeSecondary": -88.8007755,
+      "Latitude": 44.2410645,
+      "Longitude": -88.7921746,
+      "LatitudeSecondary": 44.241654,
+      "LongitudeSecondary": -88.7935851,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "ai`mGdk~|O_FtOgHhUsHxUWz@iHjUwB~GqAxEeAdFy@hFk@nFYvFIbDCdD@fDH`LTl[DtNG|KWtLUhG_@jI_@tGe@vGu@lIO`B}@zHa@xDs@fGaAxKc@jFEl@OtCU|EOfFMrFCfDAjDAbBBhC@hABjCDfEJbELhGDlBDrCNlGF`EHtCDfCFdC?dCCdCIfCWdEW`CYbCq@xDi@xBaApDmAfDqAbDsFlNeBlEA@yCtHADc@jA]x@s@nBYt@Qd@IP[x@q@rBOl@]hAEZs@zCg@hCy@pFs@`FEZUxAYbBi@~DUpAg@jD{@|Fy@|Fs@~Fo@~FQdCY`EKbA[fGKdCGdCAPErBGbCCdACfEEtGc@ba@Al@c@tWE`CG~BEbAKlBi@fGQfAIz@]nBm@nDOv@g@rBo@fCsAjE_AlCq@~AmArC{@~Au@tA}@zAiBnCw@bAiBzBmBpBuBjBsAbAwA~@sAx@[P",
+      "EncodedPolyline": "sy_mG`f}|OuBzGwFtQWv@cAfDcGfRgHhUsHxUWz@iHjUwB~GqAxEeAdFy@hFk@nFYvFIbDCdD@fDH`LTl[DtNG|KWtLUhG_@jI_@tGe@vGu@lIO`B}@zHa@xDs@fGaAxKc@jFEl@OtCU|EOfFMrFCfDAjDAbBBhC@hABjCDfEJbELhGDlBDrCNlGF`EHtCDfCFdC?dCCdCIfCWdEW`CYbCq@xDi@xBaApDmAfDqAbDsFlNeBlEA@yCtHADc@jA]x@s@nBYt@Qd@IP[x@q@rBOl@]hAEZs@zCg@hCy@pFs@`FEZUxAYbBi@~DUpAg@jD{@|Fy@|Fs@~Fo@~FQdCY`EKbA[fGKdCGdCAPErBGbCCdACfEEtGc@ba@Al@c@tWE`CG~BEbAKlBi@fGQfAIz@]nBm@nDOv@g@rBo@fCsAjE_AlCq@~AmArC{@~Au@tA}@zAiBnCSVc@j@iBzBmBpBuBjBsAbAwA~@sAx@[P",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -17305,7 +17305,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Waupaca"
+      "County": "Winnebago"
     },
     {
       "ID": 692603,
@@ -21569,8 +21569,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134039,
-      "Longitude": -88.007352,
+      "Latitude": 43.134015,
+      "Longitude": -88.007398,
       "LatitudeSecondary": 43.134052,
       "LongitudeSecondary": -88.001988,
       "EventType": "roadwork",
@@ -21578,7 +21578,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "wrgfG||cxOAo`@",
+      "EncodedPolyline": "srgfGf}cxOEy`@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -44168,40 +44168,6 @@
       "County": "St Croix"
     },
     {
-      "ID": 737163,
-      "SourceId": "830000690",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-41/94",
-      "DirectionOfTravel": "s",
-      "Description": "Disabled vehicle on Ramp from Ryan Rd to I-41/94 South.",
-      "Reported": 1788129198,
-      "LastUpdated": 1788129162,
-      "StartDate": 1788129198,
-      "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 42.869026,
-      "Longitude": -87.937492,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "mzsdGhhvwO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
-    },
-    {
       "ID": 737200,
       "SourceId": "830000720",
       "Organization": "WIATMS",
@@ -44268,6 +44234,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Monroe"
+    },
+    {
+      "ID": 737222,
+      "SourceId": "830000740",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "e",
+      "Description": "Disabled vehicle on Ramp from WIS 121 to I-94 East.",
+      "Reported": 1788135558,
+      "LastUpdated": 1788135486,
+      "StartDate": 1788135558,
+      "PlannedEndDate": null,
+      "LanesAffected": "No lanes blocked.",
+      "Latitude": 44.457525,
+      "Longitude": -91.091703999999993,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "qbjnGbj~jP",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Jackson"
     }
   ]
 }
