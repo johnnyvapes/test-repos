@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T11:41:27Z",
+  "updatedAt": "2026-08-31T11:57:59Z",
   "events": [
     {
       "ID": 566011,
@@ -17795,8 +17795,8 @@
       "StartDate": 1785992400,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "4 lane(s) of 4 blocked.",
-      "Latitude": 44.9523964,
-      "Longitude": -90.8546171,
+      "Latitude": 44.9523962,
+      "Longitude": -90.8546501,
       "LatitudeSecondary": 44.9523908,
       "LongitudeSecondary": -90.8559905,
       "EventType": "roadwork",
@@ -17804,7 +17804,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "owjqGj`piP@pG@pUArK@hN@vc@Bv[BznA@l^Bp^Dl~@?|^BpJ@xOBzJDfHNlK",
+      "EncodedPolyline": "owjqGp`piP@jG@pUArK@hN@vc@Bv[BznA@l^Bp^Dl~@?|^BpJ@xOBzJDfHNlK",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -24250,9 +24250,9 @@
       "RoadwayName": "I-39",
       "DirectionOfTravel": "S",
       "Description": "Roadwork - Mainline Left Lane Closed on I-39 SB from WAUSHARA - MARQUETTE CO LINE to EAST SECOND ST(CTH J) (BRIDGE CROSSING)",
-      "Reported": 1788177600,
+      "Reported": 1788176745,
       "LastUpdated": 1786943631,
-      "StartDate": 1788177600,
+      "StartDate": 1788176745,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
       "Latitude": 43.981855206044,
@@ -26397,8 +26397,8 @@
       "StartDate": 1787747131,
       "PlannedEndDate": 1790377200,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 43.0806827,
-      "Longitude": -88.0476838,
+      "Latitude": 43.0805989,
+      "Longitude": -88.0476859,
       "LatitudeSecondary": 43.0821023,
       "LongitudeSecondary": -88.0476488,
       "EventType": "roadwork",
@@ -26406,7 +26406,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "ge}eG~xkxO{GEU@}H?yBAiDCmA?",
+      "EncodedPolyline": "wd}eG`ykxOkHGU@}H?yBAiDCmA?",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -43316,6 +43316,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
+    },
+    {
+      "ID": 737363,
+      "SourceId": "831000180",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "w",
+      "Description": "I-94 West 0.9 mile beyond Ramp from County F. The right shoulder is blocked due to a disabled vehicle.",
+      "Reported": 1788177190,
+      "LastUpdated": 1788177185,
+      "StartDate": 1788177190,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.084031,
+      "Longitude": -88.606975,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "ez}eGp`y{O",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Jefferson"
     }
   ]
 }
