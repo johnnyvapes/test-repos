@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T08:41:58Z",
+  "updatedAt": "2026-08-31T08:57:56Z",
   "events": [
     {
       "ID": 566011,
@@ -43597,7 +43597,7 @@
       "DirectionOfTravel": "e",
       "Description": "US 12/18 East at John Nolen Dr. The right shoulder is closed due to a disabled vehicle.",
       "Reported": 1788148684,
-      "LastUpdated": 1788148638,
+      "LastUpdated": 1788165974,
       "StartDate": 1788148684,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
