@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T10:11:10Z",
+  "updatedAt": "2026-08-31T10:28:14Z",
   "events": [
     {
       "ID": 566011,
@@ -43554,6 +43554,74 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Dane"
+    },
+    {
+      "ID": 737302,
+      "SourceId": "831000090",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "e",
+      "Description": "I-94 East 1 mile beyond Ramp from Barker Rd. The left shoulder is closed due to a crash.",
+      "Reported": 1788171666,
+      "LastUpdated": 1788171626,
+      "StartDate": 1788171666,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.028905,
+      "Longitude": -88.146835,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Crash",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "uaseGtd_yO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Waukesha"
+    },
+    {
+      "ID": 737303,
+      "SourceId": "831000100",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-43",
+      "DirectionOfTravel": "n",
+      "Description": "I-43 North at Ramp from Kilbourne/Highland Ave. The right lane is closed due to a crash.",
+      "Reported": 1788171790,
+      "LastUpdated": 1788171749,
+      "StartDate": 1788171790,
+      "PlannedEndDate": null,
+      "LanesAffected": "1 lane(s) of 5 blocked.",
+      "Latitude": 43.049597,
+      "Longitude": -87.925783,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Crash",
+      "IsFullClosure": false,
+      "Severity": "2",
+      "Comment": "",
+      "EncodedPolyline": "_cweGb_twO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
     }
   ]
 }
