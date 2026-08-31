@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T02:11:37Z",
+  "updatedAt": "2026-08-31T02:28:24Z",
   "events": [
     {
       "ID": 566011,
@@ -17965,8 +17965,8 @@
       "StartDate": 1785992400,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "4 lane(s) of 4 blocked.",
-      "Latitude": 44.9523963,
-      "Longitude": -90.8546419,
+      "Latitude": 44.9523962,
+      "Longitude": -90.8546531,
       "LatitudeSecondary": 44.9523908,
       "LongitudeSecondary": -90.8559905,
       "EventType": "roadwork",
@@ -17974,7 +17974,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "owjqGn`piP@lG@pUArK@hN@vc@Bv[BznA@l^Bp^Dl~@?|^BpJ@xOBzJDfHNlK",
+      "EncodedPolyline": "owjqGp`piP@jG@pUArK@hN@vc@Bv[BznA@l^Bp^Dl~@?|^BpJ@xOBzJDfHNlK",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -18849,8 +18849,8 @@
       "StartDate": 1787934691,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "4 lane(s) of 4 blocked.",
-      "Latitude": 44.9449755,
-      "Longitude": -91.0364399,
+      "Latitude": 44.9449759,
+      "Longitude": -91.0364393,
       "LatitudeSecondary": 44.9455023,
       "LongitudeSecondary": -91.0355686,
       "EventType": "roadwork",
@@ -44132,40 +44132,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Marathon"
-    },
-    {
-      "ID": 737204,
-      "SourceId": "830000730",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "e",
-      "Description": "I-94 East 0.5 miles beyond Ramp from Industrial Ave. The right shoulder is closed due to a disabled vehicle.",
-      "Reported": 1788132551,
-      "LastUpdated": 1788132424,
-      "StartDate": 1788132551,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.992895,
-      "Longitude": -90.460605,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "qjokGxacgP",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Monroe"
     },
     {
       "ID": 737238,
