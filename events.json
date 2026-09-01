@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T05:31:52Z",
+  "updatedAt": "2026-09-01T05:49:08Z",
   "events": [
     {
       "ID": 566011,
@@ -8760,7 +8760,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "cpwmGzg~~OWhAmAzGuCzNkAxFw@vDkBrJwB~Ke@bC_AfEgAxEyBnIwAnFgRzq@yBjIyAfFgBvGCDqB|Is@zCo@nCi@xBa@|AmApEyBvHeBrFcC~HaAxCsA~DuArDy@lBm@|A}BnFgJrT{BpFq@zAwOf_@sAvCsAzCoClGkAxC}AxEeAlDi@lBoCtI_BrEiA`Di@tA}@bCoBxF}EdN}BnGuC`IsFvOiChHgAxCmA|C}B|F_AdCgAdDkAbDiChIoCbIkDrJ{ApEeBrEmGjQwCrIi@vAm@fB}BlGyJvXUn@cAvCkBhF_ApC",
+      "EncodedPolyline": "cpwmGzg~~OWhAmAzGuCzNkAxFw@vDkBrJwB~Ke@bC_AfEgAxEyBnIwAnFgRzq@yBjIyAfFgBvGCDqB|Is@zCo@nCi@xBa@|AmApEyBvHeBrFcC~HaAxCsA~DuArDy@lBm@|A}BnFgJrT{BpFq@zAwOf_@sAvCsAzCoClGkAxC}AxEeAlDi@lBoCtI_BrEiA`Di@tA}@bCoBxF}EdN}BnGuC`IsFvOiChHgAxCmA|C}B|F_AdCgAdDkAbDiChIoCbIkDrJ{ApEeBrEmGjQwCrIi@vAm@fB}BlGyJvXUn@Wr@",
       "Restrictions": {
         "Width": 14.0,
         "Height": null,
@@ -16945,8 +16945,8 @@
       "StartDate": 1785992400,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "4 lane(s) of 4 blocked.",
-      "Latitude": 44.9523962,
-      "Longitude": -90.8546709,
+      "Latitude": 44.9523964,
+      "Longitude": -90.854618,
       "LatitudeSecondary": 44.9523908,
       "LongitudeSecondary": -90.8559905,
       "EventType": "roadwork",
@@ -16954,7 +16954,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "owjqGt`piP@fG@pUArK@hN@vc@Bv[BznA@l^Bp^Dl~@?|^BpJ@xOBzJDfHNlK",
+      "EncodedPolyline": "owjqGj`piP@pG@pUArK@hN@vc@Bv[BznA@l^Bp^Dl~@?|^BpJ@xOBzJDfHNlK",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -42738,6 +42738,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Chippewa"
+    },
+    {
+      "ID": 738335,
+      "SourceId": "901000020",
+      "Organization": "WIATMS",
+      "RoadwayName": "US-12/14/18/151",
+      "DirectionOfTravel": "e",
+      "Description": "US 12/14/18/151 East at Ramp from Todd Dr. The right shoulder is closed due to an incident.",
+      "Reported": 1788241383,
+      "LastUpdated": 1788241338,
+      "StartDate": 1788241383,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.034841,
+      "Longitude": -89.412334,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Incident",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "wfteG`jv`P",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Dane"
     }
   ]
 }
