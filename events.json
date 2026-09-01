@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T03:44:27Z",
+  "updatedAt": "2026-09-01T03:58:17Z",
   "events": [
     {
       "ID": 566011,
@@ -625,8 +625,8 @@
       "StartDate": 1788217893,
       "PlannedEndDate": 1788278400,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2731855,
-      "Longitude": -88.4349762,
+      "Latitude": 44.2731854,
+      "Longitude": -88.4349724,
       "LatitudeSecondary": 44.2732031,
       "LongitudeSecondary": -88.4359989,
       "EventType": "roadwork",
@@ -634,7 +634,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "mbfmGrmwzOCzFAxO@lI?hCErL?tA?|BAbD?bCAfICzH?jC?dI?hHCzEGf@@`@?jA@~FDvJBxDNb[AbF?fACpB?tB@v@ArA@tJ@fJDlI@f@JvW?hCBpDB`A",
+      "EncodedPolyline": "mbfmGpmwzOC|FAxO@lI?hCErL?tA?|BAbD?bCAfICzH?jC?dI?hHCzEGf@@`@?jA@~FDvJBxDNb[AbF?fACpB?tB@v@ArA@tJ@fJDlI@f@JvW?hCBpDB`A",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -8649,8 +8649,8 @@
       "StartDate": 1788231600,
       "PlannedEndDate": 1788260400,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 43.5893945,
-      "Longitude": -89.7938809,
+      "Latitude": 43.5893948,
+      "Longitude": -89.7938811,
       "LatitudeSecondary": 43.5895472,
       "LongitudeSecondary": -89.7940037,
       "EventType": "roadwork",
@@ -16886,7 +16886,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "gjgiG`o`cPK}AK{AQuAMsASsAYmBUiAm@{Cg@wB[yA]mA[cAO]e@uAmEqJ",
+      "EncodedPolyline": "gjgiG`o`cPK}AK{AQuAMsASsAYmBUiAm@{Cg@wB[yA]mA[cAO]e@uAkEqJ",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -16911,8 +16911,8 @@
       "StartDate": 1788231600,
       "PlannedEndDate": 1788260400,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 43.62771,
-      "Longitude": -89.7824455,
+      "Latitude": 43.6277095,
+      "Longitude": -89.782448,
       "LatitudeSecondary": 43.6276676,
       "LongitudeSecondary": -89.7826308,
       "EventType": "roadwork",
