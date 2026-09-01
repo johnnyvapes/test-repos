@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T05:49:08Z",
+  "updatedAt": "2026-09-01T06:05:09Z",
   "events": [
     {
       "ID": 566011,
@@ -8760,7 +8760,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "cpwmGzg~~OWhAmAzGuCzNkAxFw@vDkBrJwB~Ke@bC_AfEgAxEyBnIwAnFgRzq@yBjIyAfFgBvGCDqB|Is@zCo@nCi@xBa@|AmApEyBvHeBrFcC~HaAxCsA~DuArDy@lBm@|A}BnFgJrT{BpFq@zAwOf_@sAvCsAzCoClGkAxC}AxEeAlDi@lBoCtI_BrEiA`Di@tA}@bCoBxF}EdN}BnGuC`IsFvOiChHgAxCmA|C}B|F_AdCgAdDkAbDiChIoCbIkDrJ{ApEeBrEmGjQwCrIi@vAm@fB}BlGyJvXUn@Wr@",
+      "EncodedPolyline": "cpwmGzg~~OWhAmAzGuCzNkAxFw@vDkBrJwB~Ke@bC_AfEgAxEyBnIwAnFgRzq@yBjIyAfFgBvGCDqB|Is@zCo@nCi@xBa@|AmApEyBvHeBrFcC~HaAxCsA~DuArDy@lBm@|A}BnFgJrT{BpFq@zAwOf_@sAvCsAzCoClGkAxC}AxEeAlDi@lBoCtI_BrEiA`Di@tA}@bCoBxF}EdN}BnGuC`IsFvOiChHgAxCmA|C}B|F_AdCgAdDkAbDiChIoCbIkDrJ{ApEeBrEmGjQwCrIi@vAm@fB}BlGyJvXUn@cAvCkBhF_ApC",
       "Restrictions": {
         "Width": 14.0,
         "Height": null,
