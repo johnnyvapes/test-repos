@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T04:36:14Z",
+  "updatedAt": "2026-09-01T04:51:06Z",
   "events": [
     {
       "ID": 566011,
@@ -2937,16 +2937,16 @@
       "StartDate": 1775469600,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9454417,
-      "Longitude": -90.0916174,
-      "LatitudeSecondary": 44.9454088,
-      "LongitudeSecondary": -90.0902902,
+      "Latitude": 44.9454006,
+      "Longitude": -90.1030828,
+      "LatitudeSecondary": 44.9454102,
+      "LongitudeSecondary": -90.0995055,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "_liqGr_{dPDiGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
+      "EncodedPolyline": "wkiqGfg}dPAoWCwOA{\\DyGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -4603,8 +4603,8 @@
       "StartDate": 1775473200,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9444882,
-      "Longitude": -89.8555769,
+      "Latitude": 44.9444883,
+      "Longitude": -89.8556059,
       "LatitudeSecondary": 44.9444893,
       "LongitudeSecondary": -89.855789,
       "EventType": "roadwork",
@@ -4612,7 +4612,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "afiqGj|lcP?`TAV?bA@rA?b@Ax@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
+      "EncodedPolyline": "afiqGp|lcP?zSAV?bA@rA?b@Ax@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -43044,40 +43044,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "La Crosse"
-    },
-    {
-      "ID": 738329,
-      "SourceId": "831001410",
-      "Organization": "WIATMS",
-      "RoadwayName": "US-12/18",
-      "DirectionOfTravel": "w",
-      "Description": "Incident on Ramp from US 51/Stoughton Rd to US 12/18 West.",
-      "Reported": 1788236951,
-      "LastUpdated": 1788236939,
-      "StartDate": 1788236951,
-      "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 43.045448,
-      "Longitude": -89.310709,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "aiveG|nb`P",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
     }
   ]
 }
