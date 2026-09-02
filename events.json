@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T16:44:51Z",
+  "updatedAt": "2026-09-02T16:58:44Z",
   "events": [
     {
       "ID": 566011,
@@ -17761,8 +17761,8 @@
       "StartDate": 1787934691,
       "PlannedEndDate": 1788541200,
       "LanesAffected": "4 lane(s) of 4 blocked.",
-      "Latitude": 44.9449883,
-      "Longitude": -91.0364188,
+      "Latitude": 44.9449923,
+      "Longitude": -91.0364121,
       "LatitudeSecondary": 44.9455023,
       "LongitudeSecondary": -91.0355686,
       "EventType": "roadwork",
@@ -17770,7 +17770,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "eiiqGrpsjP}D{HkAiCcAkBeAmBeBeD}@oBw@yAgBiE_AiCqAkEq@kCc@yBm@mDc@mCo@iE}@mHc@}Eu@qJa@yH[_HQeHO}JAeF@aMAad@C{z@AkT?kT@mX?w@Ceg@?_SAwA?}}@CmdAAiVBaJB{MBgFByB?_BBoIDkJBaE?W@gHDaHBaKAy@@w@EaJEsFAaAAg@I{G[aTEgE",
+      "EncodedPolyline": "eiiqGppsjP}DyHkAiCcAkBeAmBeBeD}@oBw@yAgBiE_AiCqAkEq@kCc@yBm@mDc@mCo@iE}@mHc@}Eu@qJa@yH[_HQeHO}JAeF@aMAad@C{z@AkT?kT@mX?w@Ceg@?_SAwA?}}@CmdAAiVBaJB{MBgFByB?_BBoIDkJBaE?W@gHDaHBaKAy@@w@EaJEsFAaAAg@I{G[aTEgE",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
