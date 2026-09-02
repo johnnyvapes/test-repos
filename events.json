@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T06:25:55Z",
+  "updatedAt": "2026-09-02T06:48:29Z",
   "events": [
     {
       "ID": 566011,
@@ -43656,40 +43656,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Dane"
-    },
-    {
-      "ID": 739479,
-      "SourceId": "902000030",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-43",
-      "DirectionOfTravel": "n",
-      "Description": "I-43 North at I-794 West. The 2 right lanes are blocked due to a crash.",
-      "Reported": 1788328873,
-      "LastUpdated": 1788328772,
-      "StartDate": 1788328873,
-      "PlannedEndDate": null,
-      "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.038785,
-      "Longitude": -87.924852,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Crash",
-      "IsFullClosure": false,
-      "Severity": "2",
-      "Comment": "",
-      "EncodedPolyline": "m_ueGhyswO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
     },
     {
       "ID": 739410,
