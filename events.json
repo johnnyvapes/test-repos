@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T23:16:48Z",
+  "updatedAt": "2026-09-02T23:31:21Z",
   "events": [
     {
       "ID": 566011,
@@ -11063,8 +11063,8 @@
       "StartDate": 1783933200,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6688687,
-      "Longitude": -89.0314937,
+      "Latitude": 42.6688468,
+      "Longitude": -89.0314925,
       "LatitudeSecondary": 42.6685539,
       "LongitudeSecondary": -89.0314772,
       "EventType": "roadwork",
@@ -11072,7 +11072,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "mwlcGx}k~O~@AfAEvDI|EEnJErJCZA",
+      "EncodedPolyline": "iwlcGx}k~Oz@AfAEvDI|EEnJErJCZA",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -11097,8 +11097,8 @@
       "StartDate": 1784032872,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6630789,
-      "Longitude": -89.0313221,
+      "Latitude": 42.663109,
+      "Longitude": -89.0313225,
       "LatitudeSecondary": 42.6643202,
       "LongitudeSecondary": -89.0313355,
       "EventType": "roadwork",
@@ -11106,7 +11106,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "gskcGv|k~OwFBoJD}EDwDHgADO?",
+      "EncodedPolyline": "mskcGv|k~OqFBoJD}EDwDHgADO?",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -44719,7 +44719,7 @@
       "DirectionOfTravel": "n",
       "Description": "I-39/90/94 North at High Crossing Blvd. The right lane is closed due to a crash.",
       "Reported": 1788390193,
-      "LastUpdated": 1788390259,
+      "LastUpdated": 1788391767,
       "StartDate": 1788390193,
       "PlannedEndDate": null,
       "LanesAffected": "1 lane(s) of 4 blocked.",
