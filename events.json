@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T09:42:46Z",
+  "updatedAt": "2026-09-02T09:58:32Z",
   "events": [
     {
       "ID": 566011,
@@ -28505,8 +28505,8 @@
       "StartDate": 1788175989,
       "PlannedEndDate": 1790830799,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2410647,
-      "Longitude": -88.7921751,
+      "Latitude": 44.2410749,
+      "Longitude": -88.7921996,
       "LatitudeSecondary": 44.241654,
       "LongitudeSecondary": -88.7935851,
       "EventType": "roadwork",
@@ -28514,7 +28514,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "sy_mGbf}|OuBxGwFtQWv@cAfDcGfRgHhUsHxUWz@iHjUwB~GqAxEeAdFy@hFk@nFYvFIbDCdD@fDH`LTl[DtNG|KWtLUhG_@jI_@tGe@vGu@lIO`B}@zHa@xDs@fGaAxKc@jFEl@OtCU|EOfFMrFCfDAjDAbBBhC@hABjCDfEJbELhGDlBDrCNlGF`EHtCDfCFdC?dCCdCIfCWdEW`CYbCq@xDi@xBaApDmAfDqAbDsFlNeBlEA@yCtHADc@jA]x@s@nBYt@Qd@IP[x@q@rBOl@]hAEZs@zCg@hCy@pFs@`FEZUxAYbBi@~DUpAg@jD{@|Fy@|Fs@~Fo@~FQdCY`EKbA[fGKdCGdCAPErBGbCCdACfEEtGc@ba@Al@c@tWE`CG~BEbAKlBi@fGQfAIz@]nBm@nDOv@g@rBo@fCsAjE_AlCq@~AmArC{@~Au@tA}@zAiBnCSVc@j@iBzBmBpBuBjBsAbAwA~@sAx@WN",
+      "EncodedPolyline": "uy_mGff}|OsBtGwFtQWv@cAfDcGfRgHhUsHxUWz@iHjUwB~GqAxEeAdFy@hFk@nFYvFIbDCdD@fDH`LTl[DtNG|KWtLUhG_@jI_@tGe@vGu@lIO`B}@zHa@xDs@fGaAxKc@jFEl@OtCU|EOfFMrFCfDAjDAbBBhC@hABjCDfEJbELhGDlBDrCNlGF`EHtCDfCFdC?dCCdCIfCWdEW`CYbCq@xDi@xBaApDmAfDqAbDsFlNeBlEA@yCtHADc@jA]x@s@nBYt@Qd@IP[x@q@rBOl@]hAEZs@zCg@hCy@pFs@`FEZUxAYbBi@~DUpAg@jD{@|Fy@|Fs@~Fo@~FQdCY`EKbA[fGKdCGdCAPErBGbCCdACfEEtGc@ba@Al@c@tWE`CG~BEbAKlBi@fGQfAIz@]nBm@nDOv@g@rBo@fCsAjE_AlCq@~AmArC{@~Au@tA}@zAiBnCSVc@j@iBzBmBpBuBjBsAbAwA~@sAx@UL",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -33775,16 +33775,16 @@
       "StartDate": 1788325200,
       "PlannedEndDate": 1788497999,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9439169916845,
-      "Longitude": -90.4339798581884,
-      "LatitudeSecondary": 44.9439548573478,
-      "LongitudeSecondary": -90.4304740113825,
+      "Latitude": 44.9437766,
+      "Longitude": -90.4339694,
+      "LatitudeSecondary": 44.9437831,
+      "LongitudeSecondary": -90.4338825,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "obiqGj{}fPYojACk^u@i{B_@i}@Oe~@?qIk@mqBC{VbDehA`BaO`D_NtDwJ|EmIl[a^bG{IfEiLrBcLv@}LJoQ",
+      "EncodedPolyline": "saiqGh{}fP?QCmD?mHEiRA{DMs[?i@CaDG}]GiUMga@Mca@GwSCaNCsMGsQK_OGsLCeEGiMEeHIgJC{RAiMEaOEiYA}@EiUOaZEgPAGA}FAeC@{BDaCFqBVyJ|@oZBiA^}MDwBDkAJyCN{CTwCZuC`@qC`@uCl@qCr@mCh@qBhA}Cv@qBn@sAdAyBjAsBnAmBxBsCxBaCnG_HfBqBHOfBmBfDsDnA}AlA{AfAgBn@sAjAmCn@cBb@uAj@yBDGh@cC`@eCVcC`@}DPaED{BD{BBaGDuBA]CsA@U?q@DyBDqK",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
