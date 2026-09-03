@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T05:49:37Z",
+  "updatedAt": "2026-09-03T06:08:04Z",
   "events": [
     {
       "ID": 566011,
@@ -44540,40 +44540,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
-    },
-    {
-      "ID": 740952,
-      "SourceId": "903000030",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-39/90",
-      "DirectionOfTravel": "n",
-      "Description": "I-39/90 North 0.3 miles beyond Ramp from US 12/18. The right shoulder is blocked due to an incident.",
-      "Reported": 1788414134,
-      "LastUpdated": 1788414037,
-      "StartDate": 1788414134,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.055036,
-      "Longitude": -89.277151,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "_exeGd}{_P",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
     },
     {
       "ID": 740914,
