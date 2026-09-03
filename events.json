@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T09:16:40Z",
+  "updatedAt": "2026-09-03T09:33:52Z",
   "events": [
     {
       "ID": 566011,
@@ -8309,8 +8309,8 @@
       "StartDate": 1788404400,
       "PlannedEndDate": 1788433200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 43.5893945,
-      "Longitude": -89.7938809,
+      "Latitude": 43.5893948,
+      "Longitude": -89.7938811,
       "LatitudeSecondary": 43.5895472,
       "LongitudeSecondary": -89.7940037,
       "EventType": "roadwork",
@@ -16240,7 +16240,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "gjgiG`o`cPK}AK{AQuAMsASsAYmBUiAm@{Cg@wB[yA]mA[cAO]e@uAmEqJ",
+      "EncodedPolyline": "gjgiG`o`cPK}AK{AQuAMsASsAYmBUiAm@{Cg@wB[yA]mA[cAO]e@uAkEqJ",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -16265,8 +16265,8 @@
       "StartDate": 1788404400,
       "PlannedEndDate": 1788433200,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 43.62771,
-      "Longitude": -89.7824455,
+      "Latitude": 43.6277095,
+      "Longitude": -89.782448,
       "LatitudeSecondary": 43.6276676,
       "LongitudeSecondary": -89.7826308,
       "EventType": "roadwork",
@@ -36443,8 +36443,8 @@
         "Weight": null,
         "Speed": null
       },
-      "DetourPolyline": "whhmGno}zOaU}F|C}nPy~@}AcB}_@",
-      "DetourInstructions": "[{\"Instructions\":[\"Exit at County OO/Northland Ave.  Turn right and go east to County E/Ballard Rd. Turn left and go north to I-41 NB\"],\"Language\":\"en\"}]",
+      "DetourPolyline": null,
+      "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Outagamie"
@@ -44311,7 +44311,7 @@
       "DirectionOfTravel": "S",
       "Description": "Roadwork - I-41 South CLOSED from County F/Scheuring Rd to Ramp from County S because of road work until Thursday, September 3 at 4:30 am.",
       "Reported": 1788408000,
-      "LastUpdated": 1788408275,
+      "LastUpdated": 1788427800,
       "StartDate": 1788408000,
       "PlannedEndDate": 1788427800,
       "LanesAffected": "All lanes closed.",
@@ -44370,40 +44370,6 @@
       "Recurrence": "9/02/26 10:00 PM - 9/03/26 5:00 AM No Repeat",
       "RecurrenceSchedules": "",
       "County": "Waukesha"
-    },
-    {
-      "ID": 740937,
-      "SourceId": "-902001460",
-      "Organization": "WIATMSPLANNED",
-      "RoadwayName": "I-41",
-      "DirectionOfTravel": "s",
-      "Description": "Road Work - I-41 South CLOSED from County F/Scheuring Rd to Ramp from County S because of road work until Thursday, September 3 at 4:30 am. County F/Scheuring Rd - County U",
-      "Reported": 1788408000,
-      "LastUpdated": 1788408275,
-      "StartDate": 1788408000,
-      "PlannedEndDate": 1788427800,
-      "LanesAffected": "All lanes closed.",
-      "Latitude": 44.4328,
-      "Longitude": -88.108905,
-      "LatitudeSecondary": 44.38373,
-      "LongitudeSecondary": -88.163867,
-      "EventType": "closures",
-      "EventSubType": "Road Work",
-      "IsFullClosure": true,
-      "Severity": "4",
-      "Comment": "",
-      "EncodedPolyline": "_henGrwwxOpA~B~@hBLRLRtDbHhAtBNVb@v@nA~BfCxEtCrFdEvHpLnTpLnTbCrE|CzFfBbDzAdCfBlC|@nApA`BjCzC~FpGbH|H|FrGxHrIrD`EnP|QnP~QnP|Q|TvVvObQfDtD^b@`CjC|FlGTZ~DpEtC~CnBpBl@j@x@r@|@p@v@j@|@h@hAn@`Af@jAf@|VnK|M|F",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "9/02/26 11:00 PM - 9/03/26 4:30 AM No Repeat",
-      "RecurrenceSchedules": "",
-      "County": "Brown"
     }
   ]
 }
