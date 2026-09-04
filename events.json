@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T05:49:28Z",
+  "updatedAt": "2026-09-04T06:05:53Z",
   "events": [
     {
       "ID": 566011,
@@ -8284,7 +8284,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "cpwmGzg~~OWhAmAzGuCzNkAxFw@vDkBrJwB~Ke@bC_AfEgAxEyBnIwAnFgRzq@yBjIyAfFgBvGCDqB|Is@zCo@nCi@xBa@|AmApEyBvHeBrFcC~HaAxCsA~DuArDy@lBm@|A}BnFgJrT{BpFq@zAwOf_@sAvCsAzCoClGkAxC}AxEeAlDi@lBoCtI_BrEiA`Di@tA}@bCoBxF}EdN}BnGuC`IsFvOiChHgAxCmA|C}B|F_AdCgAdDkAbDiChIoCbIkDrJ{ApEeBrEmGjQwCrIi@vAm@fB}BlGyJvXUn@cAvCkBhF_ApC",
+      "EncodedPolyline": "cpwmGzg~~OWhAmAzGuCzNkAxFw@vDkBrJwB~Ke@bC_AfEgAxEyBnIwAnFgRzq@yBjIyAfFgBvGCDqB|Is@zCo@nCi@xBa@|AmApEyBvHeBrFcC~HaAxCsA~DuArDy@lBm@|A}BnFgJrT{BpFq@zAwOf_@sAvCsAzCoClGkAxC}AxEeAlDi@lBoCtI_BrEiA`Di@tA}@bCoBxF}EdN}BnGuC`IsFvOiChHgAxCmA|C}B|F_AdCgAdDkAbDiChIoCbIkDrJ{ApEeBrEmGjQwCrIi@vAm@fB}BlGyJvXUn@cAvCkBhFaArC",
       "Restrictions": {
         "Width": 14.0,
         "Height": null,
@@ -26669,8 +26669,8 @@
       "StartDate": 1788480000,
       "PlannedEndDate": 1788517800,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 43.3163302,
-      "Longitude": -88.2393777,
+      "Latitude": 43.3163255,
+      "Longitude": -88.2393712,
       "LatitudeSecondary": 43.3181447,
       "LongitudeSecondary": -88.2418831,
       "EventType": "roadwork",
@@ -26678,7 +26678,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "afkgGbgqyOiJrNwKvPyJjOmDpFsDtFkBzCU`@EHqHvKq@bAkF`IqCfE",
+      "EncodedPolyline": "afkgG`gqyOiJtNwKvPyJjOmDpFsDtFkBzCU`@EHqHvKq@bAkF`IqCfE",
       "Restrictions": {
         "Width": 13.0,
         "Height": null,
