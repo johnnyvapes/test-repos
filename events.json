@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T03:35:25Z",
+  "updatedAt": "2026-09-04T03:50:16Z",
   "events": [
     {
       "ID": 566011,
@@ -18985,8 +18985,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134333,
-      "Longitude": -88.00406,
+      "Latitude": 43.134258,
+      "Longitude": -88.004126,
       "LatitudeSecondary": 43.134246,
       "LongitudeSecondary": -88.007499,
       "EventType": "roadwork",
@@ -18994,7 +18994,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "qtgfGjhcxONnT",
+      "EncodedPolyline": "ctgfGxhcxO@`T",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -29423,8 +29423,8 @@
       "StartDate": 1788482373,
       "PlannedEndDate": 1788523200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 43.0859581,
-      "Longitude": -88.7831761,
+      "Latitude": 43.0859583,
+      "Longitude": -88.7831383,
       "LatitudeSecondary": 43.0859586,
       "LongitudeSecondary": -88.7830956,
       "EventType": "roadwork",
@@ -29432,7 +29432,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "gf~eGzm{|O?mJA}M?wI?uGC{IEgEAgCc@y[CaBAg@IwEk@_]GcCUcQM}HKeJCiBAaCBaIF{GFkI",
+      "EncodedPolyline": "gf~eGrm{|O?eJA}M?wI?uGC{IEgEAgCc@y[CaBAg@IwEk@_]GcCUcQM}HKeJCiBAaCBaIF{GFkI",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
