@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T15:14:44Z",
+  "updatedAt": "2026-09-05T15:30:35Z",
   "events": [
     {
       "ID": 566011,
@@ -4331,16 +4331,16 @@
       "StartDate": 1775473200,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9444945,
-      "Longitude": -89.8600075,
-      "LatitudeSecondary": 44.9444945,
-      "LongitudeSecondary": -89.86001,
+      "Latitude": 44.9444886,
+      "Longitude": -89.855652,
+      "LatitudeSecondary": 44.9444893,
+      "LongitudeSecondary": -89.855789,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "afiqG`xmcPAx@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
+      "EncodedPolyline": "afiqGx|lcP?rSAV?bA@rA?b@Ax@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -17897,8 +17897,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134116,
-      "Longitude": -88.007478,
+      "Latitude": 43.134045,
+      "Longitude": -88.00739,
       "LatitudeSecondary": 43.133986,
       "LongitudeSecondary": -88.001935,
       "EventType": "roadwork",
@@ -17906,7 +17906,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "gsgfGv}cxOXsa@",
+      "EncodedPolyline": "wrgfGd}cxOHaa@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -34986,40 +34986,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Racine"
-    },
-    {
-      "ID": 744271,
-      "SourceId": "905000310",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-41/US-45",
-      "DirectionOfTravel": "n",
-      "Description": "I-41/US 45 North at Ramp from Main St. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788620463,
-      "LastUpdated": 1788620391,
-      "StartDate": 1788620463,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.181099,
-      "Longitude": -88.098053,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "{xpfGxsuxO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Waukesha"
     }
   ]
 }
