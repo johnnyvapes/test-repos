@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T06:38:00Z",
+  "updatedAt": "2026-09-05T06:52:28Z",
   "events": [
     {
       "ID": 566011,
@@ -34886,40 +34886,6 @@
       "County": "Shawano"
     },
     {
-      "ID": 743429,
-      "SourceId": "904001090",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-39/90/94",
-      "DirectionOfTravel": "n",
-      "Description": "I-39/90/94 North 0.6 miles beyond I-94 West. Shoulders are blocked due to a disabled vehicle.",
-      "Reported": 1788559098,
-      "LastUpdated": 1788577411,
-      "StartDate": 1788559098,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.115756,
-      "Longitude": -89.28705,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "o`dfG`{}_P",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
-    },
-    {
       "ID": 743601,
       "SourceId": "904001300",
       "Organization": "WIATMS",
@@ -34988,27 +34954,27 @@
       "County": "Milwaukee"
     },
     {
-      "ID": 743837,
-      "SourceId": "905000050",
+      "ID": 743843,
+      "SourceId": "905000100",
       "Organization": "WIATMS",
-      "RoadwayName": "WI-77",
-      "DirectionOfTravel": "e",
-      "Description": "WIS 77 East CLOSED at WIS 35 South because of an incident.",
-      "Reported": 1788587647,
-      "LastUpdated": 1788588269,
-      "StartDate": 1788587647,
+      "RoadwayName": "US-12/18",
+      "DirectionOfTravel": "w",
+      "Description": "US 12/18 West 0.2 miles beyond Ramp from Rimrock Rd. The right shoulder is blocked due to an incident.",
+      "Reported": 1788591012,
+      "LastUpdated": 1788590930,
+      "StartDate": 1788591012,
       "PlannedEndDate": null,
-      "LanesAffected": "All lanes closed.",
-      "Latitude": 46.007028,
-      "Longitude": -92.363638,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.039064,
+      "Longitude": -89.383088,
       "LatitudeSecondary": null,
       "LongitudeSecondary": null,
-      "EventType": "closures",
+      "EventType": "accidentsAndIncidents",
       "EventSubType": "Incident",
-      "IsFullClosure": true,
-      "Severity": "4",
+      "IsFullClosure": false,
+      "Severity": "1",
       "Comment": "",
-      "EncodedPolyline": "}vxwGvwvrP",
+      "EncodedPolyline": "caueGhsp`P",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -35019,7 +34985,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Burnett"
+      "County": "Dane"
     }
   ]
 }
