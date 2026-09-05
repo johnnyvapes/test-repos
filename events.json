@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T02:33:51Z",
+  "updatedAt": "2026-09-05T02:49:13Z",
   "events": [
     {
       "ID": 566011,
@@ -600,7 +600,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "uafmGvevzOAzDGjKGbKIjPAxO@lI?hCErL?tA?|BAbD?bCAfICzH?jC?dI?hHCzEGf@@`@?jA@~FDvJBxDNb[AbF?fACpB?tB@v@ArA@tJ@fJDlI@f@JvW?\\",
+      "EncodedPolyline": "uafmGvevzOAzDGjKGbKIjPAxO@lI?hCErL?tA?|BAbD?bCAfICzH?jC?dI?hHCzEGf@@`@?jA@~FDvJBxDNb[AbF?fACpB?tB@v@ArA@tJ@fJDlI@f@JvW?hCBpDB`A",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -12220,7 +12220,7 @@
       "PlannedEndDate": 1793397600,
       "LanesAffected": "2 lane(s) of 4 blocked.",
       "Latitude": 44.7964337,
-      "Longitude": -88.7093199,
+      "Longitude": -88.7093188,
       "LatitudeSecondary": 44.7964315,
       "LongitudeSecondary": -88.7102299,
       "EventType": "roadwork",
@@ -18101,8 +18101,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 5 blocked.",
-      "Latitude": 43.148497,
-      "Longitude": -88.009845,
+      "Latitude": 43.14858,
+      "Longitude": -88.009898,
       "LatitudeSecondary": 43.148628,
       "LongitudeSecondary": -88.000979,
       "EventType": "roadwork",
@@ -18110,7 +18110,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "cmjfGnldxOYkv@",
+      "EncodedPolyline": "smjfGzldxOIwv@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -18271,8 +18271,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134283,
-      "Longitude": -88.004073,
+      "Latitude": 43.134196,
+      "Longitude": -88.004113,
       "LatitudeSecondary": 43.134285,
       "LongitudeSecondary": -88.007529,
       "EventType": "roadwork",
@@ -18280,7 +18280,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "gtgfGlhcxO?rT",
+      "EncodedPolyline": "wsgfGthcxOOjT",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -18339,8 +18339,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134007,
-      "Longitude": -88.007405,
+      "Latitude": 43.13404,
+      "Longitude": -88.007452,
       "LatitudeSecondary": 43.133986,
       "LongitudeSecondary": -88.001935,
       "EventType": "roadwork",
@@ -18348,7 +18348,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "qrgfGf}cxOBca@",
+      "EncodedPolyline": "wrgfGp}cxOHma@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -35598,40 +35598,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Rock"
-    },
-    {
-      "ID": 743763,
-      "SourceId": "904001410",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-43/94",
-      "DirectionOfTravel": "n",
-      "Description": "I-43/94 North at Ramp from Holt Ave. The right shoulder is closed due to a disabled vehicle.",
-      "Reported": 1788573191,
-      "LastUpdated": 1788574152,
-      "StartDate": 1788573191,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 42.985953,
-      "Longitude": -87.914646,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "eujeGpyqwO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
     }
   ]
 }
