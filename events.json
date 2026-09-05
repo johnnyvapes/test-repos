@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T11:13:49Z",
+  "updatedAt": "2026-09-05T11:29:20Z",
   "events": [
     {
       "ID": 566011,
@@ -11812,7 +11812,7 @@
       "PlannedEndDate": 1793397600,
       "LanesAffected": "2 lane(s) of 4 blocked.",
       "Latitude": 44.7964336,
-      "Longitude": -88.7093721,
+      "Longitude": -88.7093731,
       "LatitudeSecondary": 44.7964315,
       "LongitudeSecondary": -88.7102299,
       "EventType": "roadwork",
@@ -21909,8 +21909,8 @@
       "StartDate": 1787747131,
       "PlannedEndDate": 1790377200,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 43.0806255,
-      "Longitude": -88.0476852,
+      "Latitude": 43.0806925,
+      "Longitude": -88.0476836,
       "LatitudeSecondary": 43.0821023,
       "LongitudeSecondary": -88.0476488,
       "EventType": "roadwork",
@@ -21918,7 +21918,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "}d}eG`ykxOeHGU@}H?yBAiDCmA?",
+      "EncodedPolyline": "ie}eG~xkxOyGEU@}H?yBAiDCmA?",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -34893,7 +34893,7 @@
       "DirectionOfTravel": "s",
       "Description": "I-39/90 South at US 12/18 West. The right shoulder is blocked due to a disabled vehicle.",
       "Reported": 1788564666,
-      "LastUpdated": 1788579360,
+      "LastUpdated": 1788607159,
       "StartDate": 1788564666,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
@@ -34927,7 +34927,7 @@
       "DirectionOfTravel": "w",
       "Description": "I-41/43/894 West at Ramp from Loomis Rd. The right shoulder is blocked due to a disabled vehicle.",
       "Reported": 1788578650,
-      "LastUpdated": 1788578640,
+      "LastUpdated": 1788607171,
       "StartDate": 1788578650,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
@@ -34986,6 +34986,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Eau Claire"
+    },
+    {
+      "ID": 744160,
+      "SourceId": "905000180",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-41/94",
+      "DirectionOfTravel": "s",
+      "Description": "I-41/94 South 0.4 miles beyond I-94 East. The right shoulder is blocked due to a disabled vehicle.",
+      "Reported": 1788606902,
+      "LastUpdated": 1788606821,
+      "StartDate": 1788606902,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 42.963321,
+      "Longitude": -87.934282,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "wgfeGftuwO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
     }
   ]
 }
