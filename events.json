@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T07:30:09Z",
+  "updatedAt": "2026-09-05T07:48:13Z",
   "events": [
     {
       "ID": 566011,
@@ -7876,7 +7876,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "cpwmGzg~~OWhAmAzGuCzNkAxFw@vDkBrJwB~Ke@bC_AfEgAxEyBnIwAnFgRzq@yBjIyAfFgBvGCDqB|Is@zCo@nCi@xBa@|AmApEyBvHeBrFcC~HaAxCsA~DuArDy@lBm@|A}BnFgJrT{BpFq@zAwOf_@sAvCsAzCoClGkAxC}AxEeAlDi@lBoCtI_BrEiA`Di@tA}@bCoBxF}EdN}BnGuC`IsFvOiChHgAxCmA|C}B|F_AdCgAdDkAbDiChIoCbIkDrJ{ApEeBrEmGjQwCrIi@vAm@fB}BlGyJvXUn@cAvCkBhFaArC",
+      "EncodedPolyline": "cpwmGzg~~OWhAmAzGuCzNkAxFw@vDkBrJwB~Ke@bC_AfEgAxEyBnIwAnFgRzq@yBjIyAfFgBvGCDqB|Is@zCo@nCi@xBa@|AmApEyBvHeBrFcC~HaAxCsA~DuArDy@lBm@|A}BnFgJrT{BpFq@zAwOf_@sAvCsAzCoClGkAxC}AxEeAlDi@lBoCtI_BrEiA`Di@tA}@bCoBxF}EdN}BnGuC`IsFvOiChHgAxCmA|C}B|F_AdCgAdDkAbDiChIoCbIkDrJ{ApEeBrEmGjQwCrIi@vAm@fB}BlGyJvXUn@Wr@",
       "Restrictions": {
         "Width": 14.0,
         "Height": null,
@@ -17829,8 +17829,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134285,
-      "Longitude": -88.004081,
+      "Latitude": 43.134308,
+      "Longitude": -88.004063,
       "LatitudeSecondary": 43.134285,
       "LongitudeSecondary": -88.007529,
       "EventType": "roadwork",
@@ -17838,7 +17838,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "gtgfGnhcxO?pT",
+      "EncodedPolyline": "mtgfGjhcxODtT",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -34941,6 +34941,40 @@
       "Severity": "1",
       "Comment": "",
       "EncodedPolyline": "ycfeGpl}wO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
+    },
+    {
+      "ID": 744153,
+      "SourceId": "905000140",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "w",
+      "Description": "I-94 West at Mitchell Blvd. The right shoulder is blocked due to a disabled vehicle.",
+      "Reported": 1788594123,
+      "LastUpdated": 1788594084,
+      "StartDate": 1788594123,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.031283,
+      "Longitude": -87.978343,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "opseGrg~wO",
       "Restrictions": {
         "Width": null,
         "Height": null,
