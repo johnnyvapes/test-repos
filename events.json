@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T11:42:27Z",
+  "updatedAt": "2026-09-05T11:58:04Z",
   "events": [
     {
       "ID": 566011,
@@ -35020,6 +35020,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
+    },
+    {
+      "ID": 744170,
+      "SourceId": "905000200",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-43",
+      "DirectionOfTravel": "s",
+      "Description": "I-43 South 1.4 miles beyond Ramp from WIS 42. The right shoulder is blocked due to a disabled vehicle.",
+      "Reported": 1788609244,
+      "LastUpdated": 1788609198,
+      "StartDate": 1788609244,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.771355,
+      "Longitude": -87.765019,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "_bdjGjrtvO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Sheboygan"
     }
   ]
 }
