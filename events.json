@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T12:44:53Z",
+  "updatedAt": "2026-09-05T12:58:00Z",
   "events": [
     {
       "ID": 566011,
@@ -11812,7 +11812,7 @@
       "PlannedEndDate": 1793397600,
       "LanesAffected": "2 lane(s) of 4 blocked.",
       "Latitude": 44.7964336,
-      "Longitude": -88.7093721,
+      "Longitude": -88.7093731,
       "LatitudeSecondary": 44.7964315,
       "LongitudeSecondary": -88.7102299,
       "EventType": "roadwork",
@@ -21909,8 +21909,8 @@
       "StartDate": 1787747131,
       "PlannedEndDate": 1790377200,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 43.0805884,
-      "Longitude": -88.0476861,
+      "Latitude": 43.0805877,
+      "Longitude": -88.0476862,
       "LatitudeSecondary": 43.0821023,
       "LongitudeSecondary": -88.0476488,
       "EventType": "roadwork",
@@ -24187,16 +24187,16 @@
       "StartDate": 1788175989,
       "PlannedEndDate": 1790830799,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2410704,
-      "Longitude": -88.7921889,
-      "LatitudeSecondary": 44.241654,
-      "LongitudeSecondary": -88.7935851,
+      "Latitude": 44.2437604,
+      "Longitude": -88.7986642,
+      "LatitudeSecondary": 44.2446467,
+      "LongitudeSecondary": -88.8007755,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "uy_mGdf}|OsBvGwFtQWv@cAfDcGfRgHhUsHxUWz@iHjUwB~GqAxEeAdFy@hFk@nFYvFIbDCdD@fDH`LTl[DtNG|KWtLUhG_@jI_@tGe@vGu@lIO`B}@zHa@xDs@fGaAxKc@jFEl@OtCU|EOfFMrFCfDAjDAbBBhC@hABjCDfEJbELhGDlBDrCNlGF`EHtCDfCFdC?dCCdCIfCWdEW`CYbCq@xDi@xBaApDmAfDqAbDsFlNeBlEA@yCtHADc@jA]x@s@nBYt@Qd@IP[x@q@rBOl@]hAEZs@zCg@hCy@pFs@`FEZUxAYbBi@~DUpAg@jD{@|Fy@|Fs@~Fo@~FQdCY`EKbA[fGKdCGdCAPErBGbCCdACfEEtGc@ba@Al@c@tWE`CG~BEbAKlBi@fGQfAIz@]nBm@nDOv@g@rBo@fCsAjE_AlCq@~AmArC{@~Au@tA}@zAiBnCSVc@j@iBzBmBpBuBjBsAbAwA~@sAx@YN",
+      "EncodedPolyline": "oj`mGrn~|OqDfLgHhUsHxUWz@iHjUwB~GqAxEeAdFy@hFk@nFYvFIbDCdD@fDH`LTl[DtNG|KWtLUhG_@jI_@tGe@vGu@lIO`B}@zHa@xDs@fGaAxKc@jFEl@OtCU|EOfFMrFCfDAjDAbBBhC@hABjCDfEJbELhGDlBDrCNlGF`EHtCDfCFdC?dCCdCIfCWdEW`CYbCq@xDi@xBaApDmAfDqAbDsFlNeBlEA@yCtHADc@jA]x@s@nBYt@Qd@IP[x@q@rBOl@]hAEZs@zCg@hCy@pFs@`FEZUxAYbBi@~DUpAg@jD{@|Fy@|Fs@~Fo@~FQdCY`EKbA[fGKdCGdCAPErBGbCCdACfEEtGc@ba@Al@c@tWE`CG~BEbAKlBi@fGQfAIz@]nBm@nDOv@g@rBo@fCsAjE_AlCq@~AmArC{@~Au@tA}@zAiBnCw@bAiBzBmBpBuBjBsAbAwA~@sAx@YN",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -24207,7 +24207,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Winnebago"
+      "County": "Waupaca"
     },
     {
       "ID": 727250,
