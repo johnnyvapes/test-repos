@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T02:49:13Z",
+  "updatedAt": "2026-09-05T03:04:00Z",
   "events": [
     {
       "ID": 566011,
@@ -8216,7 +8216,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "cpwmGzg~~OWhAmAzGuCzNkAxFw@vDkBrJwB~Ke@bC_AfEgAxEyBnIwAnFgRzq@yBjIyAfFgBvGCDqB|Is@zCo@nCi@xBa@|AmApEyBvHeBrFcC~HaAxCsA~DuArDy@lBm@|A}BnFgJrT{BpFq@zAwOf_@sAvCsAzCoClGkAxC}AxEeAlDi@lBoCtI_BrEiA`Di@tA}@bCoBxF}EdN}BnGuC`IsFvOiChHgAxCmA|C}B|F_AdCgAdDkAbDiChIoCbIkDrJ{ApEeBrEmGjQwCrIi@vAm@fB}BlGyJvXUn@cAvCkBhFaArC",
+      "EncodedPolyline": "cpwmGzg~~OWhAmAzGuCzNkAxFw@vDkBrJwB~Ke@bC_AfEgAxEyBnIwAnFgRzq@yBjIyAfFgBvGCDqB|Is@zCo@nCi@xBa@|AmApEyBvHeBrFcC~HaAxCsA~DuArDy@lBm@|A}BnFgJrT{BpFq@zAwOf_@sAvCsAzCoClGkAxC}AxEeAlDi@lBoCtI_BrEiA`Di@tA}@bCoBxF}EdN}BnGuC`IsFvOiChHgAxCmA|C}B|F_AdCgAdDkAbDiChIoCbIkDrJ{ApEeBrEmGjQwCrIi@vAm@fB}BlGyJvXUn@Wr@",
       "Restrictions": {
         "Width": 14.0,
         "Height": null,
@@ -12220,7 +12220,7 @@
       "PlannedEndDate": 1793397600,
       "LanesAffected": "2 lane(s) of 4 blocked.",
       "Latitude": 44.7964337,
-      "Longitude": -88.7093188,
+      "Longitude": -88.7093199,
       "LatitudeSecondary": 44.7964315,
       "LongitudeSecondary": -88.7102299,
       "EventType": "roadwork",
@@ -18339,8 +18339,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.13404,
-      "Longitude": -88.007452,
+      "Latitude": 43.134051,
+      "Longitude": -88.007442,
       "LatitudeSecondary": 43.133986,
       "LongitudeSecondary": -88.001935,
       "EventType": "roadwork",
@@ -18348,7 +18348,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "wrgfGp}cxOHma@",
+      "EncodedPolyline": "yrgfGn}cxOJka@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -35539,7 +35539,7 @@
       "DirectionOfTravel": "n",
       "Description": "WIS 104 CLOSED in BOTH DIRECTIONS from County C West to Evansville Brooklyn Rd (MM: 10.9), due to a crash. Use alternate route.",
       "Reported": 1788571573,
-      "LastUpdated": 1788571480,
+      "LastUpdated": 1788577193,
       "StartDate": 1788571573,
       "PlannedEndDate": null,
       "LanesAffected": "All lanes closed.",
@@ -35573,7 +35573,7 @@
       "DirectionOfTravel": "s",
       "Description": "WIS 104 CLOSED in BOTH DIRECTIONS from County C West to Evansville Brooklyn Rd (MM: 10.9), due to a crash. Use alternate route.",
       "Reported": 1788571573,
-      "LastUpdated": 1788571479,
+      "LastUpdated": 1788577193,
       "StartDate": 1788571573,
       "PlannedEndDate": null,
       "LanesAffected": "All lanes closed.",
@@ -35598,6 +35598,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Rock"
+    },
+    {
+      "ID": 743792,
+      "SourceId": "904001440",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "e",
+      "Description": "I-94 East at County SS. The right shoulder is blocked due to a crash.",
+      "Reported": 1788576974,
+      "LastUpdated": 1788577228,
+      "StartDate": 1788576974,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.050611,
+      "Longitude": -88.303284,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Crash",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "iiweGnv}yO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Waukesha"
     }
   ]
 }
