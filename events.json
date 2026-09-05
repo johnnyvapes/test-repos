@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T14:52:49Z",
+  "updatedAt": "2026-09-05T15:14:44Z",
   "events": [
     {
       "ID": 566011,
@@ -4331,16 +4331,16 @@
       "StartDate": 1775473200,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9444886,
-      "Longitude": -89.855652,
-      "LatitudeSecondary": 44.9444893,
-      "LongitudeSecondary": -89.855789,
+      "Latitude": 44.9444945,
+      "Longitude": -89.8600075,
+      "LatitudeSecondary": 44.9444945,
+      "LongitudeSecondary": -89.86001,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "afiqGx|lcP?rSAV?bA@rA?b@Ax@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
+      "EncodedPolyline": "afiqG`xmcPAx@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -26460,10 +26460,10 @@
       "RoadwayName": "WI-96",
       "DirectionOfTravel": "E",
       "Description": "Roadwork - Mainline Various Lanes Closed on WIS 96 EB from HICKORY FARM LA to WILHARMS DR. Daily from 08/31/2026 to 09/25/2026, 06:00 PM - 10:00 AM, M, T, W, Th, F (excluding Sun, Sat)",
-      "Reported": 1788562800,
+      "Reported": 1788822000,
       "LastUpdated": 1787759842,
-      "StartDate": 1788562800,
-      "PlannedEndDate": 1788620400,
+      "StartDate": 1788822000,
+      "PlannedEndDate": 1788879600,
       "LanesAffected": "1 lane(s) of 3 blocked.",
       "Latitude": 44.273420225384,
       "Longitude": -88.4481877684985,
@@ -34988,19 +34988,19 @@
       "County": "Racine"
     },
     {
-      "ID": 744224,
-      "SourceId": "905000270",
+      "ID": 744271,
+      "SourceId": "905000310",
       "Organization": "WIATMS",
-      "RoadwayName": "I-41/94",
+      "RoadwayName": "I-41/US-45",
       "DirectionOfTravel": "n",
-      "Description": "I-41/94 North 0.3 miles beyond Ramp from County E. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788617468,
-      "LastUpdated": 1788617397,
-      "StartDate": 1788617468,
+      "Description": "I-41/US 45 North at Ramp from Main St. The right shoulder is blocked due to a disabled vehicle.",
+      "Reported": 1788620463,
+      "LastUpdated": 1788620391,
+      "StartDate": 1788620463,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
-      "Latitude": 42.649281,
-      "Longitude": -87.95256,
+      "Latitude": 43.181099,
+      "Longitude": -88.098053,
       "LatitudeSecondary": null,
       "LongitudeSecondary": null,
       "EventType": "accidentsAndIncidents",
@@ -35008,7 +35008,7 @@
       "IsFullClosure": false,
       "Severity": "1",
       "Comment": "",
-      "EncodedPolyline": "_}hcGnfywO",
+      "EncodedPolyline": "{xpfGxsuxO",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -35019,7 +35019,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Kenosha"
+      "County": "Waukesha"
     }
   ]
 }
