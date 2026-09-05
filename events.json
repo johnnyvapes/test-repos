@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T06:19:27Z",
+  "updatedAt": "2026-09-05T06:38:00Z",
   "events": [
     {
       "ID": 566011,
@@ -4331,16 +4331,16 @@
       "StartDate": 1775473200,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9444883,
-      "Longitude": -89.8555938,
-      "LatitudeSecondary": 44.9444893,
-      "LongitudeSecondary": -89.855789,
+      "Latitude": 44.9444945,
+      "Longitude": -89.8600075,
+      "LatitudeSecondary": 44.9444945,
+      "LongitudeSecondary": -89.86001,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "afiqGl|lcP?~SAV?bA@rA?b@Ax@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
+      "EncodedPolyline": "afiqG`xmcPAx@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -17897,8 +17897,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134071,
-      "Longitude": -88.007449,
+      "Latitude": 43.133921,
+      "Longitude": -88.006746,
       "LatitudeSecondary": 43.133986,
       "LongitudeSecondary": -88.001935,
       "EventType": "roadwork",
@@ -17906,7 +17906,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "}rgfGp}cxONma@",
+      "EncodedPolyline": "_rgfGdycxOMa]",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -35020,40 +35020,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Burnett"
-    },
-    {
-      "ID": 743841,
-      "SourceId": "905000080",
-      "Organization": "WIATMS",
-      "RoadwayName": "US-12/14/18/151",
-      "DirectionOfTravel": "w",
-      "Description": "Incident on Ramp from Fish Hatchery Rd to US 12/14/18/151 West.",
-      "Reported": 1788588918,
-      "LastUpdated": 1788588919,
-      "StartDate": 1788588918,
-      "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 43.034836,
-      "Longitude": -89.408581,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "wfteGrru`P",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
     }
   ]
 }
