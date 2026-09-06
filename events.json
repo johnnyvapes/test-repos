@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T12:27:46Z",
+  "updatedAt": "2026-09-06T12:46:42Z",
   "events": [
     {
       "ID": 566011,
@@ -9771,16 +9771,16 @@
       "StartDate": 1783944000,
       "PlannedEndDate": 1790337600,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.089071650506,
-      "Longitude": -88.0620425128214,
-      "LatitudeSecondary": 43.0890610867833,
-      "LongitudeSecondary": -88.0621114440296,
+      "Latitude": 43.0889669,
+      "Longitude": -88.0601871,
+      "LatitudeSecondary": 43.0890691,
+      "LongitudeSecondary": -88.0612491,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "uy~eGvrnxO@LBvHB`FGrKMfMCvAMrLm@p`@CdFQhTWdMCvRLfb@QrnA@bA?hBAhBUrT_@hT@dMIrMG|YIrNCxDsAtjAWlr@Cda@ThXDf@",
+      "EncodedPolyline": "ay~eGdgnxOSrEE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -41752,6 +41752,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Racine"
+    },
+    {
+      "ID": 745094,
+      "SourceId": "906000250",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-90",
+      "DirectionOfTravel": "e",
+      "Description": "Disabled vehicle on Exit to WIS 131 from I-90 East.",
+      "Reported": 1788697746,
+      "LastUpdated": 1788697637,
+      "StartDate": 1788697746,
+      "PlannedEndDate": null,
+      "LanesAffected": "No lanes blocked.",
+      "Latitude": 43.955513,
+      "Longitude": -90.508028,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "}`hkGdjlgP",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Monroe"
     }
   ]
 }
