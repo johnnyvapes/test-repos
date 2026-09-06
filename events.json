@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T08:36:33Z",
+  "updatedAt": "2026-09-06T08:51:24Z",
   "events": [
     {
       "ID": 566011,
@@ -11404,7 +11404,7 @@
       "PlannedEndDate": 1793397600,
       "LanesAffected": "2 lane(s) of 4 blocked.",
       "Latitude": 44.7964336,
-      "Longitude": -88.7093829,
+      "Longitude": -88.709381,
       "LatitudeSecondary": 44.7964315,
       "LongitudeSecondary": -88.7102299,
       "EventType": "roadwork",
@@ -41752,40 +41752,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Rock"
-    },
-    {
-      "ID": 745075,
-      "SourceId": "906000160",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "w",
-      "Description": "I-94 West 0.2 miles beyond Ramp from 70th St. The right shoulder is closed due to an incident.",
-      "Reported": 1788682868,
-      "LastUpdated": 1788682734,
-      "StartDate": 1788682868,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.028426,
-      "Longitude": -88.006927,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "u~reGhzcxO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
     }
   ]
 }
