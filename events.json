@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T07:22:33Z",
+  "updatedAt": "2026-09-06T07:41:26Z",
   "events": [
     {
       "ID": 566011,
@@ -2801,16 +2801,16 @@
       "StartDate": 1775469600,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9454417,
-      "Longitude": -90.0916174,
-      "LatitudeSecondary": 44.9454088,
-      "LongitudeSecondary": -90.0902902,
+      "Latitude": 44.9454006,
+      "Longitude": -90.1030828,
+      "LatitudeSecondary": 44.9454102,
+      "LongitudeSecondary": -90.0995055,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "_liqGr_{dPDiGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
+      "EncodedPolyline": "wkiqGfg}dPAoWCwOA{\\DyGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -25106,7 +25106,7 @@
       "PlannedEndDate": 1796104799,
       "LanesAffected": "2 lane(s) of 3 blocked.",
       "Latitude": 42.7259677,
-      "Longitude": -87.7830099,
+      "Longitude": -87.7830098,
       "LatitudeSecondary": 42.7259698,
       "LongitudeSecondary": -87.782617,
       "EventType": "roadwork",
@@ -41761,7 +41761,7 @@
       "DirectionOfTravel": "s",
       "Description": "I-39/90 South 1.2 miles beyond Ramp from WIS 30 East. The right shoulder is closed due to a disabled vehicle.",
       "Reported": 1788679337,
-      "LastUpdated": 1788679202,
+      "LastUpdated": 1788679344,
       "StartDate": 1788679337,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
@@ -41786,6 +41786,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Dane"
+    },
+    {
+      "ID": 745072,
+      "SourceId": "906000130",
+      "Organization": "WIATMS",
+      "RoadwayName": "US-53",
+      "DirectionOfTravel": "n",
+      "Description": "US 53 North at WIS 157/Main St. The right shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788680053,
+      "LastUpdated": 1788679967,
+      "StartDate": 1788680053,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.880405,
+      "Longitude": -91.210097,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "okyjGbnukP",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "La Crosse"
     }
   ]
 }
