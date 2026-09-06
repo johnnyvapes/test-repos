@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T12:46:42Z",
+  "updatedAt": "2026-09-06T12:59:33Z",
   "events": [
     {
       "ID": 566011,
@@ -20923,8 +20923,8 @@
       "StartDate": 1787747131,
       "PlannedEndDate": 1790377200,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 43.0806174,
-      "Longitude": -88.0476854,
+      "Latitude": 43.0805237,
+      "Longitude": -88.0476877,
       "LatitudeSecondary": 43.0821023,
       "LongitudeSecondary": -88.0476488,
       "EventType": "roadwork",
@@ -20932,7 +20932,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{d}eG`ykxOgHGU@}H?yBAiDCmA?",
+      "EncodedPolyline": "gd}eG`ykxO{HGU@}H?yBAiDCmA?",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -41754,19 +41754,19 @@
       "County": "Racine"
     },
     {
-      "ID": 745094,
-      "SourceId": "906000250",
+      "ID": 745100,
+      "SourceId": "906000260",
       "Organization": "WIATMS",
-      "RoadwayName": "I-90",
-      "DirectionOfTravel": "e",
-      "Description": "Disabled vehicle on Exit to WIS 131 from I-90 East.",
-      "Reported": 1788697746,
-      "LastUpdated": 1788697637,
-      "StartDate": 1788697746,
+      "RoadwayName": "I-39/90",
+      "DirectionOfTravel": "n",
+      "Description": "I-39/90 North 6.2 miles beyond Ramp From US 51 South. The right shoulder is blocked due to a disabled vehicle.",
+      "Reported": 1788699490,
+      "LastUpdated": 1788699441,
+      "StartDate": 1788699490,
       "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 43.955513,
-      "Longitude": -90.508028,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 42.993691,
+      "Longitude": -89.141572,
       "LatitudeSecondary": null,
       "LongitudeSecondary": null,
       "EventType": "accidentsAndIncidents",
@@ -41774,7 +41774,7 @@
       "IsFullClosure": false,
       "Severity": "1",
       "Comment": "",
-      "EncodedPolyline": "}`hkGdjlgP",
+      "EncodedPolyline": "qeleGxma_P",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -41785,7 +41785,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Monroe"
+      "County": "Dane"
     }
   ]
 }
