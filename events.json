@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T03:35:30Z",
+  "updatedAt": "2026-09-06T03:49:58Z",
   "events": [
     {
       "ID": 566011,
@@ -11404,7 +11404,7 @@
       "PlannedEndDate": 1793397600,
       "LanesAffected": "2 lane(s) of 4 blocked.",
       "Latitude": 44.7964336,
-      "Longitude": -88.7093721,
+      "Longitude": -88.7093731,
       "LatitudeSecondary": 44.7964315,
       "LongitudeSecondary": -88.7102299,
       "EventType": "roadwork",
@@ -17183,8 +17183,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.13404,
-      "Longitude": -88.007416,
+      "Latitude": 43.133999,
+      "Longitude": -88.007473,
       "LatitudeSecondary": 43.133986,
       "LongitudeSecondary": -88.001935,
       "EventType": "roadwork",
@@ -17192,7 +17192,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "wrgfGj}cxOHga@",
+      "EncodedPolyline": "orgfGt}cxO@qa@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -41888,6 +41888,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
+    },
+    {
+      "ID": 745050,
+      "SourceId": "905001030",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-41",
+      "DirectionOfTravel": "n",
+      "Description": "I-41 North 3.3 miles beyond Ramp from County J. The right shoulder is blocked due to a disabled vehicle.",
+      "Reported": 1788666315,
+      "LastUpdated": 1788666251,
+      "StartDate": 1788666315,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 44.339014,
+      "Longitude": -88.202305,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "y}rmGj_jyO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Outagamie"
     }
   ]
 }
