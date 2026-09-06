@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T05:16:59Z",
+  "updatedAt": "2026-09-06T05:32:11Z",
   "events": [
     {
       "ID": 566011,
@@ -5589,16 +5589,16 @@
       "StartDate": 1788690600,
       "PlannedEndDate": 1788757140,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 42.9160592,
-      "Longitude": -88.2043675,
-      "LatitudeSecondary": 42.9157322,
-      "LongitudeSecondary": -88.2050129,
+      "Latitude": 42.9160591923724,
+      "Longitude": -88.2043674597326,
+      "LatitudeSecondary": 42.9157321417974,
+      "LongitudeSecondary": -88.2050129420329,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "k`}dGhljyO`D|H|@~B~@nC~@nCz@rC`A`Df@lBr@hCx@fDp@zChAtFpEtUFVpFhYvF|YvF~YjIxb@zBpL`ChMbCbMxH`a@rBnKv@`Ef@~Bh@bCl@xBp@~Br@zBt@tBrAdDz@nB~@lBdAtBnAvBlAfB`B`CbB|BdDrE~DrFdEzFjJlM~HvKxHlKnG|IbHnJpe@~o@dRnWhRnWjH|JpBpCbEzF~KjOhCnDnEfGrC~DlCdEpCvEzCrFzDpHjD~GjBpDlBpDpHrNzJnRdDnGnJzQvCxFbCrEjCjEhBtCxAzBz@nAV^nAfB~BdDnCbE~CtE`ArA`GtIhDbF",
+      "EncodedPolyline": "k`}dGhljyO`D|H|@~B~@nC~@nCz@rC`A`Df@lBr@hCx@fDp@zChAtFpEtUFVpFhYvF|YvF~YjIxb@zBpL`CfMbCdMxH`a@rBnKv@`Ef@~Bh@bCl@xBp@~Br@zBt@tBrAdDz@nB~@lBdAtBnAvBlAfB`B`CbB|BdDrE~DrFdEzFjJlM~HvKxHlKnG|IbHnJpe@~o@dRnWhRnWjH|JpBpCbEzF~KjOhCnDnEfGrC~DlCdEpCvEzCrFzDpHjD~GjBpDlBpDpHrNzJnRdDnGnJzQvCxFbCrEjCjEhBtCxAzBz@nAV^nAfB~BdDnCbE~CtE`ArAzEbH",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -41890,27 +41890,27 @@
       "County": "Milwaukee"
     },
     {
-      "ID": 745061,
-      "SourceId": "906000010",
+      "ID": 745063,
+      "SourceId": "906000020",
       "Organization": "WIATMS",
-      "RoadwayName": "US-12/18",
-      "DirectionOfTravel": "w",
-      "Description": "Incident on Exit to South Towne Dr from US 12/18 West.",
-      "Reported": 1788671599,
-      "LastUpdated": 1788671523,
-      "StartDate": 1788671599,
+      "RoadwayName": "WI-175",
+      "DirectionOfTravel": "n",
+      "Description": "WIS 175 North at I-94 East. The right shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788671953,
+      "LastUpdated": 1788671893,
+      "StartDate": 1788671953,
       "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 43.043957,
-      "Longitude": -89.350392,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.029799,
+      "Longitude": -87.969362,
       "LatitudeSecondary": null,
       "LongitudeSecondary": null,
       "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
+      "EventSubType": "Disabled Vehicle",
       "IsFullClosure": false,
       "Severity": "1",
       "Comment": "",
-      "EncodedPolyline": "w_veG|fj`P",
+      "EncodedPolyline": "ggseGno|wO",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -41921,7 +41921,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Dane"
+      "County": "Milwaukee"
     }
   ]
 }
