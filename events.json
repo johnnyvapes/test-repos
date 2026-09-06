@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T08:51:24Z",
+  "updatedAt": "2026-09-06T09:15:38Z",
   "events": [
     {
       "ID": 566011,
@@ -23201,8 +23201,8 @@
       "StartDate": 1788175989,
       "PlannedEndDate": 1790830799,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2410656,
-      "Longitude": -88.7921773,
+      "Latitude": 44.2410677,
+      "Longitude": -88.7921825,
       "LatitudeSecondary": 44.241654,
       "LongitudeSecondary": -88.7935851,
       "EventType": "roadwork",
