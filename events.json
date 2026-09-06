@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T08:19:26Z",
+  "updatedAt": "2026-09-06T08:36:33Z",
   "events": [
     {
       "ID": 566011,
@@ -2801,16 +2801,16 @@
       "StartDate": 1775469600,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9454006,
-      "Longitude": -90.1030828,
-      "LatitudeSecondary": 44.9454102,
-      "LongitudeSecondary": -90.0995055,
+      "Latitude": 44.9454417,
+      "Longitude": -90.0916174,
+      "LatitudeSecondary": 44.9454088,
+      "LongitudeSecondary": -90.0902902,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "wkiqGfg}dPAoWCwOA{\\DyGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
+      "EncodedPolyline": "_liqGr_{dPDiGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -25105,8 +25105,8 @@
       "StartDate": 1788444384,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "2 lane(s) of 3 blocked.",
-      "Latitude": 42.7259677,
-      "Longitude": -87.7830098,
+      "Latitude": 42.7259676,
+      "Longitude": -87.7830329,
       "LatitudeSecondary": 42.7259698,
       "LongitudeSecondary": -87.782617,
       "EventType": "roadwork",
@@ -25114,7 +25114,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "i|wcGxbxvO?mA[?kBRi@B",
+      "EncodedPolyline": "i|wcG|bxvO?qA[?kBRi@B",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -41752,6 +41752,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Rock"
+    },
+    {
+      "ID": 745075,
+      "SourceId": "906000160",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "w",
+      "Description": "I-94 West 0.2 miles beyond Ramp from 70th St. The right shoulder is closed due to an incident.",
+      "Reported": 1788682868,
+      "LastUpdated": 1788682734,
+      "StartDate": 1788682868,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.028426,
+      "Longitude": -88.006927,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Incident",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "u~reGhzcxO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
     }
   ]
 }
