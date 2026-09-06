@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T16:58:12Z",
+  "updatedAt": "2026-09-06T17:16:12Z",
   "events": [
     {
       "ID": 566011,
@@ -9363,8 +9363,8 @@
       "StartDate": 1783933200,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6689003,
-      "Longitude": -89.0314953,
+      "Latitude": 42.6687922,
+      "Longitude": -89.0314897,
       "LatitudeSecondary": 42.6685539,
       "LongitudeSecondary": -89.0314772,
       "EventType": "roadwork",
@@ -9372,7 +9372,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "swlcGz}k~OdACfAEvDI|EEnJErJCZA",
+      "EncodedPolyline": "}vlcGx}k~On@AfAEvDI|EEnJErJCZA",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -9771,8 +9771,8 @@
       "StartDate": 1783944000,
       "PlannedEndDate": 1790337600,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.0889448,
-      "Longitude": -88.0597591,
+      "Latitude": 43.0889456,
+      "Longitude": -88.0598056,
       "LatitudeSecondary": 43.0889488,
       "LongitudeSecondary": -88.0599998,
       "EventType": "roadwork",
@@ -9780,7 +9780,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{x~eGndnxOAn@WxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
+      "EncodedPolyline": "}x~eGxdnxO?d@WxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -41897,10 +41897,10 @@
       "DirectionOfTravel": "e",
       "Description": "US 18 East at N 121st St. The left lane is blocked due to a crash.",
       "Reported": 1788713644,
-      "LastUpdated": 1788713528,
+      "LastUpdated": 1788714254,
       "StartDate": 1788713644,
       "PlannedEndDate": null,
-      "LanesAffected": "1 lane(s) of 3 blocked.",
+      "LanesAffected": "1 lane(s) of 2 blocked.",
       "Latitude": 43.036246,
       "Longitude": -88.062712,
       "LatitudeSecondary": null,
@@ -41908,7 +41908,7 @@
       "EventType": "accidentsAndIncidents",
       "EventSubType": "Crash",
       "IsFullClosure": false,
-      "Severity": "2",
+      "Severity": "3",
       "Comment": "",
       "EncodedPolyline": "qoteG|vnxO",
       "Restrictions": {
@@ -41922,6 +41922,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
+    },
+    {
+      "ID": 745232,
+      "SourceId": "-903000270",
+      "Organization": "WIATMSPLANNED",
+      "RoadwayName": "WI-23",
+      "DirectionOfTravel": "e",
+      "Description": "WIS 23 East",
+      "Reported": 1788714000,
+      "LastUpdated": 1788714085,
+      "StartDate": 1788714000,
+      "PlannedEndDate": 1788742800,
+      "LanesAffected": "No lanes blocked.",
+      "Latitude": 43.761505,
+      "Longitude": -87.981825,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "specialEvents",
+      "EventSubType": "Special Event",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "kdbjGj}~wO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "9/06/26 12:00 PM - 9/06/26 8:00 PM No Repeat",
+      "RecurrenceSchedules": "",
+      "County": "Sheboygan"
     }
   ]
 }
