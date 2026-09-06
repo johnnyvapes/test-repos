@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T09:15:38Z",
+  "updatedAt": "2026-09-06T09:32:00Z",
   "events": [
     {
       "ID": 566011,
@@ -13409,8 +13409,8 @@
       "StartDate": 1785492000,
       "PlannedEndDate": 1789120800,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 44.9631047,
-      "Longitude": -92.7357423,
+      "Latitude": 44.9631014,
+      "Longitude": -92.7358668,
       "LatitudeSecondary": 44.9630944,
       "LongitudeSecondary": -92.7361236,
       "EventType": "roadwork",
@@ -13418,7 +13418,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "kzlqGjm_uP`@xe@DtIRr`@BxI?r@?nACbG?NKjR?|BB`GDnD?p@?^",
+      "EncodedPolyline": "kzlqGdn_uP`@~d@DtIRr`@BxI?r@?nACbG?NKjR?|BB`GDnD?p@?^",
       "Restrictions": {
         "Width": 27.0,
         "Height": null,
@@ -25105,8 +25105,8 @@
       "StartDate": 1788444384,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "2 lane(s) of 3 blocked.",
-      "Latitude": 42.7259676,
-      "Longitude": -87.7830329,
+      "Latitude": 42.7259678,
+      "Longitude": -87.7829875,
       "LatitudeSecondary": 42.7259698,
       "LongitudeSecondary": -87.782617,
       "EventType": "roadwork",
@@ -25114,7 +25114,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "i|wcG|bxvO?qA[?kBRi@B",
+      "EncodedPolyline": "i|wcGtbxvO?iA[?kBRi@B",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -41718,40 +41718,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Outagamie"
-    },
-    {
-      "ID": 745053,
-      "SourceId": "905000940",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-39/90",
-      "DirectionOfTravel": "s",
-      "Description": "Disabled vehicle on Exit to WIS 11 West/Avalon Rd from I-39/90 South.",
-      "Reported": 1788668344,
-      "LastUpdated": 1788668304,
-      "StartDate": 1788668344,
-      "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 42.637991,
-      "Longitude": -88.983075,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "mvfcGdob~O",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Rock"
     }
   ]
 }
