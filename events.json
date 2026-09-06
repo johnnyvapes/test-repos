@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T06:02:45Z",
+  "updatedAt": "2026-09-06T06:27:36Z",
   "events": [
     {
       "ID": 566011,
@@ -9771,8 +9771,8 @@
       "StartDate": 1783944000,
       "PlannedEndDate": 1790337600,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.0889485,
-      "Longitude": -88.0599792,
+      "Latitude": 43.0889428,
+      "Longitude": -88.0596409,
       "LatitudeSecondary": 43.0889488,
       "LongitudeSecondary": -88.0599998,
       "EventType": "roadwork",
@@ -9780,7 +9780,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "}x~eGzenxO?BWxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
+      "EncodedPolyline": "{x~eGvcnxOAfAWxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -41788,19 +41788,19 @@
       "County": "Dane"
     },
     {
-      "ID": 745068,
-      "SourceId": "906000080",
+      "ID": 745069,
+      "SourceId": "906000090",
       "Organization": "WIATMS",
-      "RoadwayName": "I-43/94",
-      "DirectionOfTravel": "n",
-      "Description": "I-43/94 North 0.3 miles beyond I-41/94 North. The right shoulder is closed due to an incident.",
-      "Reported": 1788674224,
-      "LastUpdated": 1788674131,
-      "StartDate": 1788674224,
+      "RoadwayName": "US-12/18",
+      "DirectionOfTravel": "e",
+      "Description": "Incident on Ramp from Monona Dr to US 12/18 East.",
+      "Reported": 1788674895,
+      "LastUpdated": 1788674843,
+      "StartDate": 1788674895,
       "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 42.949131,
-      "Longitude": -87.934809,
+      "LanesAffected": "No lanes blocked.",
+      "Latitude": 43.044794,
+      "Longitude": -89.323043,
       "LatitudeSecondary": null,
       "LongitudeSecondary": null,
       "EventType": "accidentsAndIncidents",
@@ -41808,7 +41808,7 @@
       "IsFullClosure": false,
       "Severity": "1",
       "Comment": "",
-      "EncodedPolyline": "aoceGpwuwO",
+      "EncodedPolyline": "}dveG~{d`P",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -41819,7 +41819,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Milwaukee"
+      "County": "Dane"
     }
   ]
 }
