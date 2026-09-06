@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T01:30:48Z",
+  "updatedAt": "2026-09-06T01:50:01Z",
   "events": [
     {
       "ID": 566011,
@@ -9635,7 +9635,7 @@
       "StartDate": 1783933200,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6688306,
+      "Latitude": 42.6688321,
       "Longitude": -89.0314917,
       "LatitudeSecondary": 42.6685539,
       "LongitudeSecondary": -89.0314772,
@@ -25479,16 +25479,16 @@
       "StartDate": 1788649200,
       "PlannedEndDate": 1788710400,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.2729304,
-      "Longitude": -88.4762768,
-      "LatitudeSecondary": 44.2729837,
-      "LongitudeSecondary": -88.4723301,
+      "Latitude": 44.2728991,
+      "Longitude": -88.4849471,
+      "LatitudeSecondary": 44.2728964,
+      "LongitudeSecondary": -88.4826699,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "y`fmGvo_{OIuWEsLIiQAiAAqA?y@?wB?wA@qFAc@CeFMcVC}EIyP@uAA]Kc@B{E?iH?eI?kCB{H@gI?cC@cD?}B?uADsL?iCAmI@yODgH",
+      "EncodedPolyline": "s`fmG|ea{O?gMGwMHmDQmk@EsLIiQAiAAqA?y@?wB?wA@qFAc@CeFMcVC}EIyP@uAA]Kc@B{E?iH?eI?kCB{H@gI?cC@cD?}B?uADsL?iCAmI@yODgH",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -34748,40 +34748,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Rock"
-    },
-    {
-      "ID": 744782,
-      "SourceId": "905000870",
-      "Organization": "WIATMS",
-      "RoadwayName": "US-12/18",
-      "DirectionOfTravel": "e",
-      "Description": "Incident on Exit to Rimrock Rd from US 12/18 East.",
-      "Reported": 1788658093,
-      "LastUpdated": 1788658004,
-      "StartDate": 1788658093,
-      "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 43.039732,
-      "Longitude": -89.380192,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "ieueGdap`P",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
     }
   ]
 }
