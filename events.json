@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T12:48:26Z",
+  "updatedAt": "2026-09-07T13:03:18Z",
   "events": [
     {
       "ID": 566011,
@@ -5113,8 +5113,8 @@
       "StartDate": 1779361200,
       "PlannedEndDate": 1788865200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 43.3244989,
-      "Longitude": -88.2450448,
+      "Latitude": 43.3244987,
+      "Longitude": -88.245027,
       "LatitudeSecondary": 43.3245017,
       "LongitudeSecondary": -88.2453998,
       "EventType": "roadwork",
@@ -5122,7 +5122,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "cylgGnjryO?fA?hBBxH?rC@|C@lFCdBA`A?|BAjCCzA@h@?j@Dd@?^Gb`@Kj@@hC?VAnIAhC",
+      "EncodedPolyline": "cylgGljryO?hA?hBBxH?rC@|C@lFCdBA`A?|BAjCCzA@h@?j@Dd@?^Gb`@Kj@@hC?VAnIAhC",
       "Restrictions": {
         "Width": 25.0,
         "Height": null,
@@ -9397,8 +9397,8 @@
       "StartDate": 1784032872,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.6630977,
-      "Longitude": -89.0313223,
+      "Latitude": 42.6631358,
+      "Longitude": -89.0313227,
       "LatitudeSecondary": 42.6643202,
       "LongitudeSecondary": -89.0313355,
       "EventType": "roadwork",
@@ -9406,7 +9406,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "kskcGv|k~OsFBoJD}EDwDHgADO?",
+      "EncodedPolyline": "sskcGv|k~OkFBoJD}EDwDHgADO?",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -17183,8 +17183,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134025,
-      "Longitude": -88.007437,
+      "Latitude": 43.134046,
+      "Longitude": -88.007308,
       "LatitudeSecondary": 43.133986,
       "LongitudeSecondary": -88.001935,
       "EventType": "roadwork",
@@ -17192,7 +17192,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "srgfGn}cxODka@",
+      "EncodedPolyline": "yrgfGt|cxOJq`@",
       "Restrictions": {
         "Width": null,
         "Height": null,
