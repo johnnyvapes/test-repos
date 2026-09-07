@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T07:06:29Z",
+  "updatedAt": "2026-09-07T07:27:57Z",
   "events": [
     {
       "ID": 566011,
@@ -41516,40 +41516,6 @@
       "County": "Eau Claire"
     },
     {
-      "ID": 746260,
-      "SourceId": "907000050",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "e",
-      "Description": "I-94 East 3.4 miles beyond Ramp from County B (St Croix County). The right shoulder is closed due to a crash.",
-      "Reported": 1788761405,
-      "LastUpdated": 1788761310,
-      "StartDate": 1788761405,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 44.933406,
-      "Longitude": -92.207025,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Crash",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "y`gqGzdxqP",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "St Croix"
-    },
-    {
       "ID": 746261,
       "SourceId": "907000060",
       "Organization": "WIATMS",
@@ -41582,6 +41548,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Brown"
+    },
+    {
+      "ID": 746265,
+      "SourceId": "907000080",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-41/43/894",
+      "DirectionOfTravel": "w",
+      "Description": "Incident on Ramp from 27th St South to I-41/43/894 West.",
+      "Reported": 1788765484,
+      "LastUpdated": 1788765382,
+      "StartDate": 1788765484,
+      "PlannedEndDate": null,
+      "LanesAffected": "No lanes blocked.",
+      "Latitude": 42.962763,
+      "Longitude": -87.953929,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Incident",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "gdfeG`oywO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
     }
   ]
 }
