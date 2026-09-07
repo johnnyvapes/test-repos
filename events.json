@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T06:49:24Z",
+  "updatedAt": "2026-09-07T07:06:29Z",
   "events": [
     {
       "ID": 566011,
@@ -17183,8 +17183,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134086,
-      "Longitude": -88.007446,
+      "Latitude": 43.134057,
+      "Longitude": -88.007437,
       "LatitudeSecondary": 43.133986,
       "LongitudeSecondary": -88.001935,
       "EventType": "roadwork",
@@ -17192,7 +17192,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "asgfGp}cxORma@",
+      "EncodedPolyline": "{rgfGn}cxOLka@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -41482,40 +41482,6 @@
       "County": "Outagamie"
     },
     {
-      "ID": 745942,
-      "SourceId": "906000760",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-41",
-      "DirectionOfTravel": "s",
-      "Description": "Disabled vehicle on Ramp from Breezewood/Bell to I-41 South.",
-      "Reported": 1788751517,
-      "LastUpdated": 1788751458,
-      "StartDate": 1788751517,
-      "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 44.1518,
-      "Longitude": -88.486869,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "wknlG|qa{O",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Winnebago"
-    },
-    {
       "ID": 746257,
       "SourceId": "907000030",
       "Organization": "WIATMS",
@@ -41616,40 +41582,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Brown"
-    },
-    {
-      "ID": 746262,
-      "SourceId": "907000070",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-41/94",
-      "DirectionOfTravel": "s",
-      "Description": "I-41/94 South 0.6 miles beyond Ramp from Drexel Ave. The right shoulder is closed due to an incident.",
-      "Reported": 1788763092,
-      "LastUpdated": 1788763007,
-      "StartDate": 1788763092,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 42.889989,
-      "Longitude": -87.936749,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "m}wdGtcvwO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
     }
   ]
 }
