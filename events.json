@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T09:27:10Z",
+  "updatedAt": "2026-09-07T09:46:43Z",
   "events": [
     {
       "ID": 566011,
@@ -13409,16 +13409,16 @@
       "StartDate": 1785492000,
       "PlannedEndDate": 1789120800,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 44.9631048,
-      "Longitude": -92.7357418,
-      "LatitudeSecondary": 44.9630944,
-      "LongitudeSecondary": -92.7361236,
+      "Latitude": 44.9628904054866,
+      "Longitude": -92.7403884346109,
+      "LatitudeSecondary": 44.9628805561456,
+      "LongitudeSecondary": -92.7406949136877,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "kzlqGjm_uP`@xe@DtIRr`@BxI?r@?nACbG?NKjR?|BB`GDnD?p@?^",
+      "EncodedPolyline": "aylqGlj`uPDfERfA?tLB~@h@fe@FnCTlKHzCBfIRtX",
       "Restrictions": {
         "Width": 27.0,
         "Height": null,
