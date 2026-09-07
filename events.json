@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T01:32:25Z",
+  "updatedAt": "2026-09-07T01:51:08Z",
   "events": [
     {
       "ID": 566011,
@@ -41482,40 +41482,6 @@
       "County": "Outagamie"
     },
     {
-      "ID": 745581,
-      "SourceId": "906000620",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-41/894",
-      "DirectionOfTravel": "n",
-      "Description": "I-41/894 North at Ramp from Greenfield Ave. The right lane is blocked due to a disabled vehicle.",
-      "Reported": 1788741131,
-      "LastUpdated": 1788741020,
-      "StartDate": 1788741131,
-      "PlannedEndDate": null,
-      "LanesAffected": "1 lane(s) of 5 blocked.",
-      "Latitude": 43.016467,
-      "Longitude": -88.036391,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "}speGlrixO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
-    },
-    {
       "ID": 745603,
       "SourceId": "906000660",
       "Organization": "WIATMS",
@@ -41582,6 +41548,74 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Winnebago"
+    },
+    {
+      "ID": 745616,
+      "SourceId": "906000680",
+      "Organization": "WIATMS",
+      "RoadwayName": "WI-29",
+      "DirectionOfTravel": "w",
+      "Description": "WIS 29 West CLOSED at County F (Shawano County) because of a crash.\nWestbound traffic to use CTH F northbound, then go westbound on River Rd, and go southbound on Broadway Rd to return to WIS 29 westbound.",
+      "Reported": 1788744791,
+      "LastUpdated": 1788744677,
+      "StartDate": 1788744791,
+      "PlannedEndDate": null,
+      "LanesAffected": "All lanes closed.",
+      "Latitude": 44.700953,
+      "Longitude": -88.36318,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "closures",
+      "EventSubType": "Crash",
+      "IsFullClosure": true,
+      "Severity": "4",
+      "Comment": "",
+      "EncodedPolyline": "}syoGzlizO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Shawano"
+    },
+    {
+      "ID": 745618,
+      "SourceId": "906000690",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-39/90",
+      "DirectionOfTravel": "n",
+      "Description": "I-39/90 North 6.7 miles beyond Ramp from WIS 26. The left shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788745456,
+      "LastUpdated": 1788745386,
+      "StartDate": 1788745456,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 42.817355,
+      "Longitude": -89.022574,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "mwidG`fj~O",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Rock"
     }
   ]
 }
