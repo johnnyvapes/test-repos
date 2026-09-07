@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T11:39:04Z",
+  "updatedAt": "2026-09-07T11:54:26Z",
   "events": [
     {
       "ID": 566011,
@@ -13409,8 +13409,8 @@
       "StartDate": 1785492000,
       "PlannedEndDate": 1789120800,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 44.9631043,
-      "Longitude": -92.7357589,
+      "Latitude": 44.9631047,
+      "Longitude": -92.7357432,
       "LatitudeSecondary": 44.9630944,
       "LongitudeSecondary": -92.7361236,
       "EventType": "roadwork",
@@ -13418,7 +13418,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "kzlqGnm_uP`@te@DtIRr`@BxI?r@?nACbG?NKjR?|BB`GDnD?p@?^",
+      "EncodedPolyline": "kzlqGjm_uP`@xe@DtIRr`@BxI?r@?nACbG?NKjR?|BB`GDnD?p@?^",
       "Restrictions": {
         "Width": 27.0,
         "Height": null,
@@ -20923,8 +20923,8 @@
       "StartDate": 1787747131,
       "PlannedEndDate": 1790377200,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 43.0806127,
-      "Longitude": -88.0476855,
+      "Latitude": 43.0807069,
+      "Longitude": -88.0476832,
       "LatitudeSecondary": 43.0821023,
       "LongitudeSecondary": -88.0476488,
       "EventType": "roadwork",
@@ -20932,7 +20932,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "yd}eG`ykxOiHGU@}H?yBAiDCmA?",
+      "EncodedPolyline": "me}eG~xkxOuGEU@}H?yBAiDCmA?",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -41582,40 +41582,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Kenosha"
-    },
-    {
-      "ID": 746284,
-      "SourceId": "907000210",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "e",
-      "Description": "I-94 East 1.4 miles beyond Ramp from Moorland Rd. The left shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788780967,
-      "LastUpdated": 1788780905,
-      "StartDate": 1788780967,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.028523,
-      "Longitude": -88.072817,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "g_seGbvpxO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Waukesha"
     }
   ]
 }
