@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T22:48:15Z",
+  "updatedAt": "2026-09-07T23:02:33Z",
   "events": [
     {
       "ID": 566011,
@@ -9669,8 +9669,8 @@
       "StartDate": 1783944000,
       "PlannedEndDate": 1790337600,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.0889455,
-      "Longitude": -88.0598045,
+      "Latitude": 43.0889462,
+      "Longitude": -88.0598412,
       "LatitudeSecondary": 43.0889488,
       "LongitudeSecondary": -88.0599998,
       "EventType": "roadwork",
@@ -9678,7 +9678,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "}x~eGvdnxO?f@WxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
+      "EncodedPolyline": "}x~eG~dnxO?^WxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -27297,8 +27297,8 @@
         "Weight": null,
         "Speed": null
       },
-      "DetourPolyline": "yenqGvtbbPRroAzAP`@fBtAxDvCfExGfCnKRbeBYI_pAGaR",
-      "DetourInstructions": "[{\"Instructions\":[\"Business 51 SB will take Bridge Street West to 17th Avenue, follow 17th Avenue South to Thomas Street and the continue east on Thomas Street back to Business 51.\"],\"Language\":\"en\"}]",
+      "DetourPolyline": null,
+      "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Marathon"
@@ -27331,8 +27331,8 @@
         "Weight": null,
         "Speed": null
       },
-      "DetourPolyline": "qdnqGvebbPc@jDBxxAxB`AtAlEfAxC|FpExRf@nbBg@[sjB",
-      "DetourInstructions": "[{\"Instructions\":[\"Business 51 NB will continue on Thomas Street west to 17th Avenue, north on 17th Avenue to Bridge Street and then east on Bridge Street back to Business 51NB\"],\"Language\":\"en\"}]",
+      "DetourPolyline": null,
+      "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Marathon"
@@ -41040,40 +41040,6 @@
       "County": "Racine"
     },
     {
-      "ID": 747326,
-      "SourceId": "907000760",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-41",
-      "DirectionOfTravel": "s",
-      "Description": "I-41 South 3.9 miles beyond Ramp from Breezewood/Bell. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788817389,
-      "LastUpdated": 1788817309,
-      "StartDate": 1788817389,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 44.106662,
-      "Longitude": -88.529347,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "sqelGl{i{O",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Winnebago"
-    },
-    {
       "ID": 747336,
       "SourceId": "907000780",
       "Organization": "WIATMS",
@@ -41142,19 +41108,19 @@
       "County": "Dane"
     },
     {
-      "ID": 747392,
-      "SourceId": "907000860",
+      "ID": 747416,
+      "SourceId": "907000880",
       "Organization": "WIATMS",
-      "RoadwayName": "I-41/US-45",
-      "DirectionOfTravel": "s",
-      "Description": "Disabled vehicle on Ramp from Good Hope Rd West to I-41/US 45 South.",
-      "Reported": 1788820568,
-      "LastUpdated": 1788820555,
-      "StartDate": 1788820568,
+      "RoadwayName": "I-39/90",
+      "DirectionOfTravel": "n",
+      "Description": "I-39/90 North 0.4 miles beyond Ramp from US 12/18. The right shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788822123,
+      "LastUpdated": 1788822020,
+      "StartDate": 1788822123,
       "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 43.144664,
-      "Longitude": -88.054926,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.05668,
+      "Longitude": -89.27707,
       "LatitudeSecondary": null,
       "LongitudeSecondary": null,
       "EventType": "accidentsAndIncidents",
@@ -41162,7 +41128,7 @@
       "IsFullClosure": false,
       "Severity": "1",
       "Comment": "",
-      "EncodedPolyline": "cuifGhfmxO",
+      "EncodedPolyline": "goxeGt|{_P",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -41173,41 +41139,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Milwaukee"
-    },
-    {
-      "ID": 747399,
-      "SourceId": "907000870",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-41/894",
-      "DirectionOfTravel": "s",
-      "Description": "I-41/894 South at Greenfield Ave. The right shoulder is closed due to an incident.",
-      "Reported": 1788820750,
-      "LastUpdated": 1788820726,
-      "StartDate": 1788820750,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.018593,
-      "Longitude": -88.036624,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "eaqeGzsixO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
+      "County": "Dane"
     }
   ]
 }
