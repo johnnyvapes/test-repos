@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T19:15:06Z",
+  "updatedAt": "2026-09-07T19:31:08Z",
   "events": [
     {
       "ID": 566011,
@@ -9737,8 +9737,8 @@
       "StartDate": 1783944000,
       "PlannedEndDate": 1790337600,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.0889472,
-      "Longitude": -88.0599005,
+      "Latitude": 43.0889458,
+      "Longitude": -88.0598204,
       "LatitudeSecondary": 43.0889488,
       "LongitudeSecondary": -88.0599998,
       "EventType": "roadwork",
@@ -9746,7 +9746,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "}x~eGjenxO?RWxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
+      "EncodedPolyline": "}x~eGzdnxO?b@WxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -25071,8 +25071,8 @@
       "StartDate": 1788444384,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "2 lane(s) of 3 blocked.",
-      "Latitude": 42.7259672,
-      "Longitude": -87.7831008,
+      "Latitude": 42.7259673,
+      "Longitude": -87.7830882,
       "LatitudeSecondary": 42.7259698,
       "LongitudeSecondary": -87.782617,
       "EventType": "roadwork",
@@ -25080,7 +25080,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "i|wcGjcxvO?_B[?kBRi@B",
+      "EncodedPolyline": "i|wcGhcxvO?}A[?kBRi@B",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -41210,40 +41210,6 @@
       "County": "Dane"
     },
     {
-      "ID": 747060,
-      "SourceId": "907000550",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-43/94",
-      "DirectionOfTravel": "s",
-      "Description": "I-43/94 South 0.6 miles beyond Ramp from Becher St. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788806825,
-      "LastUpdated": 1788807163,
-      "StartDate": 1788806825,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 42.995034,
-      "Longitude": -87.915185,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "}mleGz|qwO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
-    },
-    {
       "ID": 747077,
       "SourceId": "907000560",
       "Organization": "WIATMS",
@@ -41310,40 +41276,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Waukesha"
-    },
-    {
-      "ID": 747100,
-      "SourceId": "907000580",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-41",
-      "DirectionOfTravel": "s",
-      "Description": "I-41 South 0.3 miles beyond Lombardi Ave. The left shoulder is closed due to a disabled vehicle.",
-      "Reported": 1788808148,
-      "LastUpdated": 1788808387,
-      "StartDate": 1788808148,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 44.509303,
-      "Longitude": -88.082786,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "cftnGltrxO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Brown"
     }
   ]
 }
