@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T02:51:08Z",
+  "updatedAt": "2026-09-07T03:17:20Z",
   "events": [
     {
       "ID": 566011,
@@ -9771,8 +9771,8 @@
       "StartDate": 1783944000,
       "PlannedEndDate": 1790337600,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.0889466,
-      "Longitude": -88.059866,
+      "Latitude": 43.0889472,
+      "Longitude": -88.0599027,
       "LatitudeSecondary": 43.0889488,
       "LongitudeSecondary": -88.0599998,
       "EventType": "roadwork",
@@ -9780,7 +9780,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "}x~eGdenxO?XWxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
+      "EncodedPolyline": "}x~eGjenxO?RWxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -33329,7 +33329,7 @@
       "DirectionOfTravel": "e",
       "Description": "WIS 121 East at I-94 West. The right shoulder is blocked due to a disabled vehicle.",
       "Reported": 1788636851,
-      "LastUpdated": 1788721136,
+      "LastUpdated": 1788749544,
       "StartDate": 1788636851,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
@@ -41482,40 +41482,6 @@
       "County": "Outagamie"
     },
     {
-      "ID": 745925,
-      "SourceId": "906000710",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-39/90",
-      "DirectionOfTravel": "s",
-      "Description": "I-39/90 South 4.1 miles beyond Ramp from US 12/18 East. The left shoulder is closed due to a disabled vehicle.",
-      "Reported": 1788748141,
-      "LastUpdated": 1788748079,
-      "StartDate": 1788748141,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.005403,
-      "Longitude": -89.212011,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "wnneG`fo_P",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
-    },
-    {
       "ID": 745930,
       "SourceId": "906000740",
       "Organization": "WIATMS",
@@ -41523,7 +41489,7 @@
       "DirectionOfTravel": "w",
       "Description": "WIS 29 West 0.4 miles beyond Ramp from US 53 South. The right shoulder is closed due to a disabled vehicle.",
       "Reported": 1788748808,
-      "LastUpdated": 1788748713,
+      "LastUpdated": 1788749764,
       "StartDate": 1788748808,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
@@ -41548,40 +41514,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Chippewa"
-    },
-    {
-      "ID": 745931,
-      "SourceId": "906000750",
-      "Organization": "WIATMS",
-      "RoadwayName": "US-12/14",
-      "DirectionOfTravel": "s",
-      "Description": "US 12/14 East 0.2 miles beyond US 18/Verona Rd. The right shoulder is closed due to an incident.",
-      "Reported": 1788749227,
-      "LastUpdated": 1788748925,
-      "StartDate": 1788749227,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.036753,
-      "Longitude": -89.4526,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "urteGve~`P",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
     }
   ]
 }
