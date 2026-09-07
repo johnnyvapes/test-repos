@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T13:59:55Z",
+  "updatedAt": "2026-09-07T14:21:47Z",
   "events": [
     {
       "ID": 566011,
@@ -5113,8 +5113,8 @@
       "StartDate": 1779361200,
       "PlannedEndDate": 1788865200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 43.3244987,
-      "Longitude": -88.245027,
+      "Latitude": 43.3244989,
+      "Longitude": -88.2450478,
       "LatitudeSecondary": 43.3245017,
       "LongitudeSecondary": -88.2453998,
       "EventType": "roadwork",
@@ -5122,7 +5122,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "cylgGljryO?hA?hBBxH?rC@|C@lFCdBA`A?|BAjCCzA@h@?j@Dd@?^Gb`@Kj@@hC?VAnIAhC",
+      "EncodedPolyline": "cylgGpjryO?dA?hBBxH?rC@|C@lFCdBA`A?|BAjCCzA@h@?j@Dd@?^Gb`@Kj@@hC?VAnIAhC",
       "Restrictions": {
         "Width": 25.0,
         "Height": null,
@@ -9771,8 +9771,8 @@
       "StartDate": 1783944000,
       "PlannedEndDate": 1790337600,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.0889469,
-      "Longitude": -88.0598844,
+      "Latitude": 43.0889468,
+      "Longitude": -88.0598784,
       "LatitudeSecondary": 43.0889488,
       "LongitudeSecondary": -88.0599998,
       "EventType": "roadwork",
@@ -25105,8 +25105,8 @@
       "StartDate": 1788444384,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "2 lane(s) of 3 blocked.",
-      "Latitude": 42.725968,
-      "Longitude": -87.7829507,
+      "Latitude": 42.7259681,
+      "Longitude": -87.7829376,
       "LatitudeSecondary": 42.7259698,
       "LongitudeSecondary": -87.782617,
       "EventType": "roadwork",
@@ -25114,7 +25114,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "i|wcGlbxvO?aA[?kBRi@B",
+      "EncodedPolyline": "i|wcGjbxvO?_A[?kBRi@B",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -41616,6 +41616,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Sauk"
+    },
+    {
+      "ID": 746331,
+      "SourceId": "907000240",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "w",
+      "Description": "I-94 West 7.2 miles beyond Ramp from WIS 89. The right shoulder is blocked due to a disabled vehicle.",
+      "Reported": 1788789845,
+      "LastUpdated": 1788789987,
+      "StartDate": 1788789845,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.110108,
+      "Longitude": -89.044726,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "e}bfGppn~O",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Dane"
     }
   ]
 }
