@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T08:47:16Z",
+  "updatedAt": "2026-09-07T09:01:00Z",
   "events": [
     {
       "ID": 566011,
@@ -17183,8 +17183,8 @@
       "StartDate": 1773896400,
       "PlannedEndDate": 1788843599,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.134057,
-      "Longitude": -88.007437,
+      "Latitude": 43.134051,
+      "Longitude": -88.00751,
       "LatitudeSecondary": 43.133986,
       "LongitudeSecondary": -88.001935,
       "EventType": "roadwork",
@@ -17192,7 +17192,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{rgfGn}cxOLka@",
+      "EncodedPolyline": "yrgfG|}cxOJya@",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -41548,6 +41548,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Sauk"
+    },
+    {
+      "ID": 746271,
+      "SourceId": "907000130",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-43/94",
+      "DirectionOfTravel": "n",
+      "Description": "I-43/94 North 0.3 miles beyond Howard Ave. The right shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788770942,
+      "LastUpdated": 1788771546,
+      "StartDate": 1788770942,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 42.975713,
+      "Longitude": -87.915484,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "euheGv~qwO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
     }
   ]
 }
