@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T08:27:57Z",
+  "updatedAt": "2026-09-07T08:47:16Z",
   "events": [
     {
       "ID": 566011,
@@ -9771,8 +9771,8 @@
       "StartDate": 1783944000,
       "PlannedEndDate": 1790337600,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.0889459,
-      "Longitude": -88.0598236,
+      "Latitude": 43.0889468,
+      "Longitude": -88.0598813,
       "LatitudeSecondary": 43.0889488,
       "LongitudeSecondary": -88.0599998,
       "EventType": "roadwork",
@@ -9780,7 +9780,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "}x~eGzdnxO?b@WxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
+      "EncodedPolyline": "}x~eGfenxO?VWxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -13409,8 +13409,8 @@
       "StartDate": 1785492000,
       "PlannedEndDate": 1789120800,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 44.9631049,
-      "Longitude": -92.7357365,
+      "Latitude": 44.9631048,
+      "Longitude": -92.7357418,
       "LatitudeSecondary": 44.9630944,
       "LongitudeSecondary": -92.7361236,
       "EventType": "roadwork",
@@ -41548,40 +41548,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Sauk"
-    },
-    {
-      "ID": 746270,
-      "SourceId": "907000120",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-43",
-      "DirectionOfTravel": "s",
-      "Description": "Disabled vehicle on Ramp from Hampton Ave to I-43 South.",
-      "Reported": 1788769578,
-      "LastUpdated": 1788769468,
-      "StartDate": 1788769578,
-      "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 43.100684,
-      "Longitude": -87.918253,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "gbafG`prwO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
     }
   ]
 }
