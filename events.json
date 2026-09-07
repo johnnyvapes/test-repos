@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T16:43:30Z",
+  "updatedAt": "2026-09-07T16:58:31Z",
   "events": [
     {
       "ID": 566011,
@@ -9771,8 +9771,8 @@
       "StartDate": 1783944000,
       "PlannedEndDate": 1790337600,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.0889439,
-      "Longitude": -88.0597102,
+      "Latitude": 43.088946,
+      "Longitude": -88.0598289,
       "LatitudeSecondary": 43.0889488,
       "LongitudeSecondary": -88.0599998,
       "EventType": "roadwork",
@@ -9780,7 +9780,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{x~eGddnxOAx@WxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
+      "EncodedPolyline": "}x~eG|dnxO?`@WxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -41480,40 +41480,6 @@
       "Recurrence": "9/07/26 9:40 AM - 9/07/26 1:10 PM No Repeat",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
-    },
-    {
-      "ID": 746804,
-      "SourceId": "907000370",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-39/90",
-      "DirectionOfTravel": "s",
-      "Description": "I-39/90 South at Ramp from WIS 59. The right shoulder is blocked due to a crash.",
-      "Reported": 1788798133,
-      "LastUpdated": 1788798563,
-      "StartDate": 1788798133,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 42.832523,
-      "Longitude": -89.027386,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Crash",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "gvldGddk~O",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Rock"
     }
   ]
 }
