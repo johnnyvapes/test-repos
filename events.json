@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T09:01:00Z",
+  "updatedAt": "2026-09-07T09:27:10Z",
   "events": [
     {
       "ID": 566011,
@@ -41514,74 +41514,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Brown"
-    },
-    {
-      "ID": 746269,
-      "SourceId": "907000110",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-90/94",
-      "DirectionOfTravel": "w",
-      "Description": "I-90/94 West 10.5 miles beyond Ramp from WIS 33. The right shoulder is closed due to a disabled vehicle.",
-      "Reported": 1788769455,
-      "LastUpdated": 1788769404,
-      "StartDate": 1788769455,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.560536,
-      "Longitude": -89.723278,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "k|zhGnasbP",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Sauk"
-    },
-    {
-      "ID": 746271,
-      "SourceId": "907000130",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-43/94",
-      "DirectionOfTravel": "n",
-      "Description": "I-43/94 North 0.3 miles beyond Howard Ave. The right shoulder is closed due to a disabled vehicle.",
-      "Reported": 1788770942,
-      "LastUpdated": 1788771546,
-      "StartDate": 1788770942,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 42.975713,
-      "Longitude": -87.915484,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "euheGv~qwO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
     }
   ]
 }
