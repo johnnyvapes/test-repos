@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T08:00:50Z",
+  "updatedAt": "2026-09-07T08:27:57Z",
   "events": [
     {
       "ID": 566011,
@@ -41516,27 +41516,27 @@
       "County": "Brown"
     },
     {
-      "ID": 746268,
-      "SourceId": "907000100",
+      "ID": 746269,
+      "SourceId": "907000110",
       "Organization": "WIATMS",
-      "RoadwayName": "US-12/18",
-      "DirectionOfTravel": "e",
-      "Description": "US 12/18 East 0.9 mile beyond Ramp from South Towne Dr. The right shoulder is closed due to an incident.",
-      "Reported": 1788767947,
-      "LastUpdated": 1788767842,
-      "StartDate": 1788767947,
+      "RoadwayName": "I-90/94",
+      "DirectionOfTravel": "w",
+      "Description": "I-90/94 West 10.5 miles beyond Ramp from WIS 33. The right shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788769455,
+      "LastUpdated": 1788769404,
+      "StartDate": 1788769455,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.044174,
-      "Longitude": -89.333835,
+      "Latitude": 43.560536,
+      "Longitude": -89.723278,
       "LatitudeSecondary": null,
       "LongitudeSecondary": null,
       "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
+      "EventSubType": "Disabled Vehicle",
       "IsFullClosure": false,
       "Severity": "1",
       "Comment": "",
-      "EncodedPolyline": "aaveGn_g`P",
+      "EncodedPolyline": "k|zhGnasbP",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -41547,7 +41547,41 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Dane"
+      "County": "Sauk"
+    },
+    {
+      "ID": 746270,
+      "SourceId": "907000120",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-43",
+      "DirectionOfTravel": "s",
+      "Description": "Disabled vehicle on Ramp from Hampton Ave to I-43 South.",
+      "Reported": 1788769578,
+      "LastUpdated": 1788769468,
+      "StartDate": 1788769578,
+      "PlannedEndDate": null,
+      "LanesAffected": "No lanes blocked.",
+      "Latitude": 43.100684,
+      "Longitude": -87.918253,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "gbafG`prwO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
     }
   ]
 }
