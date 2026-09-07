@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T10:22:02Z",
+  "updatedAt": "2026-09-07T10:58:34Z",
   "events": [
     {
       "ID": 566011,
@@ -33329,7 +33329,7 @@
       "DirectionOfTravel": "e",
       "Description": "WIS 121 East at I-94 West. The right shoulder is blocked due to a disabled vehicle.",
       "Reported": 1788636851,
-      "LastUpdated": 1788749544,
+      "LastUpdated": 1788778549,
       "StartDate": 1788636851,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
@@ -41489,7 +41489,7 @@
       "DirectionOfTravel": "n",
       "Description": "I-41 North 0.4 miles beyond Oneida St. The right shoulder is closed due to a disabled vehicle.",
       "Reported": 1788761777,
-      "LastUpdated": 1788761683,
+      "LastUpdated": 1788778547,
       "StartDate": 1788761777,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
