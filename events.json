@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T17:18:33Z",
+  "updatedAt": "2026-09-07T17:34:36Z",
   "events": [
     {
       "ID": 566011,
@@ -4986,7 +4986,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "gylgGz`uyOFu_@?_@J_@B_@@gA?wABaH?cA@}D?sBAyDBcFFeIL{G@gA",
+      "EncodedPolyline": "gylgGz`uyOFu_@?_@J_@B_@@gA?wABaH?cA@}D?sBA_D",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -11913,8 +11913,8 @@
       "StartDate": 1785560400,
       "PlannedEndDate": 1791608399,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.6183711,
-      "Longitude": -88.7712106,
+      "Latitude": 44.6183883,
+      "Longitude": -88.7712676,
       "LatitudeSecondary": 44.6184551,
       "LongitudeSecondary": -88.7714893,
       "EventType": "roadwork",
@@ -11922,7 +11922,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "yoioG`cy|OQv@k@dDc@hCeAlFc@`CUzAe@zDO|Am@nFUnAYfB]zAaAtDw@hC{@fC{@jCyAdFs@bCiCzIeDhLeExNmBxG{@tCADoBxGk@lB_AdDwAbFyAdFqB`HsBjH_BrFm@zBwA`FsCvJ}AnFeApD{AlFWv@y@`Ds@nCg@dBi@~A_AdCk@tAWb@Wf@e@l@iAfB{@nA{AlBwApB{AlB_BvBoCnDoBdCuD|EuAjBaBvBcHdJ[d@eElFuCrD_C~C}BvC}@lAaFtG_@f@W\\gAzAcC|C}AvBaFtGi@n@aG|HyAlBYb@ED}AtBqEbGiChDkChDgB|BmE`GaJpLmClDiBbCyFnHaBvBeAtAiBbCkB`CmCnDoEfGaAlAoGnIwCzDuFfIqChEiC~DkBtCkBtCyGbKoBzCuA|By@rA_@v@m@nAeAlC}@fCg@pBs@rDu@rFOhAmAtI{AxIKf@gAtFo@pCGVa@xA_A`Eu@lCyAvF_A`D{B~HuBnHENi@fBqArE{@|CsAbESt@",
+      "EncodedPolyline": "}oioGlcy|OMj@k@dDc@hCeAlFc@`CUzAe@zDO|Am@nFUnAYfB]zAaAtDw@hC{@fC{@jCyAdFs@bCiCzIeDhLeExNmBxG{@tCADoBxGk@lB_AdDwAbFyAdFqB`HsBjH_BrFm@zBwA`FsCvJ}AnFeApD{AlFWv@y@`Ds@nCg@dBi@~A_AdCk@tAWb@Wf@e@l@iAfB{@nA{AlBwApB{AlB_BvBoCnDoBdCuD|EuAjBaBvBcHdJ[d@eElFuCrD_C~C}BvC}@lAaFtG_@f@W\\gAzAcC|C}AvBaFtGi@n@aG|HyAlBYb@ED}AtBqEbGiChDkChDgB|BmE`GaJpLmClDiBbCyFnHaBvBeAtAiBbCkB`CmCnDoEfGaAlAoGnIwCzDuFfIqChEiC~DkBtCkBtCyGbKoBzCuA|By@rA_@v@m@nAeAlC}@fCg@pBs@rDu@rFOhAmAtI{AxIKf@gAtFo@pCGVa@xA_A`Eu@lCyAvF_A`D{B~HuBnHENi@fBqArE{@|CsAbESt@",
       "Restrictions": {
         "Width": 13.0,
         "Height": null,
@@ -27535,8 +27535,8 @@
         "Weight": null,
         "Speed": null
       },
-      "DetourPolyline": "kzsqGxijzOpDBMv|@yDF",
-      "DetourInstructions": "[{\"Instructions\":[\"Barkman St to Groninger St to Jackson St, back to STH 32\"],\"Language\":\"en\"}]",
+      "DetourPolyline": null,
+      "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Oconto"
@@ -27569,8 +27569,8 @@
         "Weight": null,
         "Speed": null
       },
-      "DetourPolyline": "kzsqGxijzOpDBMv|@yDF",
-      "DetourInstructions": "[{\"Instructions\":[\"Barkman St to Groninger St to Jackson St, back to STH 32\"],\"Language\":\"en\"}]",
+      "DetourPolyline": null,
+      "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Oconto"
@@ -41278,40 +41278,6 @@
       "County": "Outagamie"
     },
     {
-      "ID": 746331,
-      "SourceId": "907000240",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "w",
-      "Description": "I-94 West 7.2 miles beyond Ramp from WIS 89. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788789845,
-      "LastUpdated": 1788789987,
-      "StartDate": 1788789845,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.110108,
-      "Longitude": -89.044726,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "e}bfGppn~O",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
-    },
-    {
       "ID": 746365,
       "SourceId": "-902000950",
       "Organization": "WIATMSPLANNED",
@@ -41346,27 +41312,27 @@
       "County": "Milwaukee"
     },
     {
-      "ID": 746870,
-      "SourceId": "907000420",
+      "ID": 746921,
+      "SourceId": "907000450",
       "Organization": "WIATMS",
       "RoadwayName": "I-94",
-      "DirectionOfTravel": "w",
-      "Description": "I-94 West 1.1 miles beyond Ramp from Bluemound Rd. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788800707,
-      "LastUpdated": 1788801395,
-      "StartDate": 1788800707,
+      "DirectionOfTravel": "e",
+      "Description": "Debris on Exit to WIS 65 from I-94 East.",
+      "Reported": 1788802274,
+      "LastUpdated": 1788802171,
+      "StartDate": 1788802274,
       "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.044717,
-      "Longitude": -88.19557,
+      "LanesAffected": "No lanes blocked.",
+      "Latitude": 44.960046,
+      "Longitude": -92.563907,
       "LatitudeSecondary": null,
       "LongitudeSecondary": null,
       "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
+      "EventSubType": "Debris",
       "IsFullClosure": false,
       "Severity": "1",
       "Comment": "",
-      "EncodedPolyline": "odveGhuhyO",
+      "EncodedPolyline": "iglqGl{}sP",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -41377,41 +41343,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Waukesha"
-    },
-    {
-      "ID": 746876,
-      "SourceId": "907000430",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "w",
-      "Description": "I-94 West 2.4 miles beyond Ramp from County F. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788800830,
-      "LastUpdated": 1788800731,
-      "StartDate": 1788800830,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.085233,
-      "Longitude": -88.637962,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "ua~eGfb_|O",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Jefferson"
+      "County": "St Croix"
     }
   ]
 }
