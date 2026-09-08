@@ -249,9 +249,25 @@ function initMap() {
     { lat:44.4699357, lng:-87.9819307, title:"Johnny Vapes — Lime Kiln" }
   ];
 
+  const center = { lat:44.5058308, lng:-88.0375296 };
+  const baseZoom = 13;
+
+  // TV Bro/Android exposes a smaller CSS viewport than the physical 1080p TV.
+  // Google Maps zoom is pixel-based, so zoom 13 there shows a smaller geographic
+  // area than zoom 13 on the 1920x1080 PC page. Compensate ONLY the zoom on
+  // Android; do not scale the iframe and do not touch marker size/rendering.
+  function displayZoom(){
+    if(!/Android/i.test(navigator.userAgent)) return baseZoom;
+    const w = Math.max(1, window.innerWidth || document.documentElement.clientWidth || 1920);
+    const h = Math.max(1, window.innerHeight || document.documentElement.clientHeight || 1080);
+    const viewportScale = Math.min(w / 1920, h / 1080);
+    const safeScale = Math.max(0.40, Math.min(1, viewportScale));
+    return baseZoom + Math.log2(safeScale);
+  }
+
   const map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat:44.5058308, lng:-88.0375296 },
-    zoom: 13,
+    center,
+    zoom: displayZoom(),
     mapTypeId:"roadmap",
     disableDefaultUI:true,
     clickableIcons:false,
@@ -285,7 +301,8 @@ function initMap() {
 
   window.addEventListener("resize", () => {
     google.maps.event.trigger(map,"resize");
-    map.setCenter({lat:44.5058308,lng:-88.0375296});
+    map.setCenter(center);
+    map.setZoom(displayZoom());
   });
 }
 
