@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T09:22:36Z",
+  "updatedAt": "2026-09-08T09:45:00Z",
   "events": [
     {
       "ID": 566011,
@@ -4773,8 +4773,8 @@
       "StartDate": 1778821200,
       "PlannedEndDate": 1792213199,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 44.4317054,
-      "Longitude": -88.1106248,
+      "Latitude": 44.4317066,
+      "Longitude": -88.1106228,
       "LatitudeSecondary": 44.4310102,
       "LongitudeSecondary": -88.1117389,
       "EventType": "roadwork",
@@ -9669,8 +9669,8 @@
       "StartDate": 1783944000,
       "PlannedEndDate": 1790337600,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.088945,
-      "Longitude": -88.0597755,
+      "Latitude": 43.0889464,
+      "Longitude": -88.0598542,
       "LatitudeSecondary": 43.0889488,
       "LongitudeSecondary": -88.0599998,
       "EventType": "roadwork",
@@ -9678,7 +9678,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{x~eGrdnxOAj@WxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
+      "EncodedPolyline": "}x~eG`enxO?\\WxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -11743,8 +11743,8 @@
       "StartDate": 1785560400,
       "PlannedEndDate": 1791608399,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.6183669,
-      "Longitude": -88.7711968,
+      "Latitude": 44.6183723,
+      "Longitude": -88.7712146,
       "LatitudeSecondary": 44.6184551,
       "LongitudeSecondary": -88.7714893,
       "EventType": "roadwork",
@@ -11752,7 +11752,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "yoioG~by|OQx@k@dDc@hCeAlFc@`CUzAe@zDO|Am@nFUnAYfB]zAaAtDw@hC{@fC{@jCyAdFs@bCiCzIeDhLeExNmBxG{@tCADoBxGk@lB_AdDwAbFyAdFqB`HsBjH_BrFm@zBwA`FsCvJ}AnFeApD{AlFWv@y@`Ds@nCg@dBi@~A_AdCk@tAWb@Wf@e@l@iAfB{@nA{AlBwApB{AlB_BvBoCnDoBdCuD|EuAjBaBvBcHdJ[d@eElFuCrD_C~C}BvC}@lAaFtG_@f@W\\gAzAcC|C}AvBaFtGi@n@aG|HyAlBYb@ED}AtBqEbGiChDkChDgB|BmE`GaJpLmClDiBbCyFnHaBvBeAtAiBbCkB`CmCnDoEfGaAlAoGnIwCzDuFfIqChEiC~DkBtCkBtCyGbKoBzCuA|By@rA_@v@m@nAeAlC}@fCg@pBs@rDu@rFOhAmAtI{AxIKf@gAtFo@pCGVa@xA_A`Eu@lCyAvF_A`D{B~HuBnHENi@fBqArE{@|CsAbESt@",
+      "EncodedPolyline": "yoioG`cy|OQv@k@dDc@hCeAlFc@`CUzAe@zDO|Am@nFUnAYfB]zAaAtDw@hC{@fC{@jCyAdFs@bCiCzIeDhLeExNmBxG{@tCADoBxGk@lB_AdDwAbFyAdFqB`HsBjH_BrFm@zBwA`FsCvJ}AnFeApD{AlFWv@y@`Ds@nCg@dBi@~A_AdCk@tAWb@Wf@e@l@iAfB{@nA{AlBwApB{AlB_BvBoCnDoBdCuD|EuAjBaBvBcHdJ[d@eElFuCrD_C~C}BvC}@lAaFtG_@f@W\\gAzAcC|C}AvBaFtGi@n@aG|HyAlBYb@ED}AtBqEbGiChDkChDgB|BmE`GaJpLmClDiBbCyFnHaBvBeAtAiBbCkB`CmCnDoEfGaAlAoGnIwCzDuFfIqChEiC~DkBtCkBtCyGbKoBzCuA|By@rA_@v@m@nAeAlC}@fCg@pBs@rDu@rFOhAmAtI{AxIKf@gAtFo@pCGVa@xA_A`Eu@lCyAvF_A`D{B~HuBnHENi@fBqArE{@|CsAbESt@",
       "Restrictions": {
         "Width": 13.0,
         "Height": null,
@@ -23984,7 +23984,7 @@
       "PlannedEndDate": 1788883200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
       "Latitude": 44.2728991,
-      "Longitude": -88.4849395,
+      "Longitude": -88.4849422,
       "LatitudeSecondary": 44.2728964,
       "LongitudeSecondary": -88.4826699,
       "EventType": "roadwork",
@@ -40462,19 +40462,19 @@
       "County": "Outagamie"
     },
     {
-      "ID": 747544,
-      "SourceId": "908000060",
+      "ID": 747548,
+      "SourceId": "908000100",
       "Organization": "WIATMS",
-      "RoadwayName": "I-43/94",
-      "DirectionOfTravel": "n",
-      "Description": "I-43/94 North at I-41/43/894 East. The right shoulder is closed due to a crash.",
-      "Reported": 1788855733,
-      "LastUpdated": 1788855638,
-      "StartDate": 1788855733,
+      "RoadwayName": "US-151",
+      "DirectionOfTravel": "s",
+      "Description": "US 151 South 3.7 miles beyond Ramp from County VV. The right shoulder is closed due to a crash.",
+      "Reported": 1788860526,
+      "LastUpdated": 1788860512,
+      "StartDate": 1788860526,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
-      "Latitude": 42.965939,
-      "Longitude": -87.92739,
+      "Latitude": 43.200867,
+      "Longitude": -89.198277,
       "LatitudeSecondary": null,
       "LongitudeSecondary": null,
       "EventType": "accidentsAndIncidents",
@@ -40482,7 +40482,7 @@
       "IsFullClosure": false,
       "Severity": "1",
       "Comment": "",
-      "EncodedPolyline": "cxfeGditwO",
+      "EncodedPolyline": "mttfGfpl_P",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -40493,7 +40493,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Milwaukee"
+      "County": "Dane"
     }
   ]
 }
