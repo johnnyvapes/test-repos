@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T06:48:27Z",
+  "updatedAt": "2026-09-08T07:25:53Z",
   "events": [
     {
       "ID": 566011,
@@ -40528,6 +40528,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
+    },
+    {
+      "ID": 747542,
+      "SourceId": "908000040",
+      "Organization": "WIATMS",
+      "RoadwayName": "US-12",
+      "DirectionOfTravel": "e",
+      "Description": "Crash on Exit to US 14 West from US 12 East.",
+      "Reported": 1788851894,
+      "LastUpdated": 1788851854,
+      "StartDate": 1788851894,
+      "PlannedEndDate": null,
+      "LanesAffected": "No lanes blocked.",
+      "Latitude": 43.101603,
+      "Longitude": -89.515369,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Crash",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "_hafG`njaP",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Dane"
     }
   ]
 }
