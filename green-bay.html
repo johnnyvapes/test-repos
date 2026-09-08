@@ -103,7 +103,7 @@ html,body { width:100%; height:100%; margin:0; overflow:hidden; background:#111;
     z-index: 6;
     right: 1.2vw;
     left: auto;
-    top: 50%;
+    top: 60%; /* moved down slightly so legend clears the main header text */
     bottom: auto;
     transform: translateY(-50%);
     background: rgba(17,17,17,.88);
@@ -242,6 +242,34 @@ async function refreshIncidents(stores,radiusMiles){
 const incidentStores = [{lat:44.5417259,lng:-88.0931285},{lat:44.4699357,lng:-87.9819307}];
 document.addEventListener("DOMContentLoaded",()=>{refreshIncidents(incidentStores,18);setInterval(()=>refreshIncidents(incidentStores,18),INCIDENT_REFRESH_MS);});
 
+
+function markerScaleCompensation(){
+  // Direct page: preserve the original 42x42 marker exactly.
+  if(window.self === window.top || !window.frameElement) return 1;
+
+  try{
+    const frame = window.frameElement;
+    const rect = frame.getBoundingClientRect();
+    const rawW = frame.offsetWidth || 0;
+    const rawH = frame.offsetHeight || 0;
+
+    if(!rawW || !rawH) return 1;
+
+    // TV Bro compatibility renders the iframe at 1920x1080 and scales it down.
+    // Compensate only the marker bitmap so its final visible size/detail matches
+    // the direct Green Bay page.
+    const sx = rect.width / rawW;
+    const sy = rect.height / rawH;
+    const visibleScale = Math.min(sx, sy);
+
+    if(visibleScale > 0 && visibleScale < 0.98){
+      return Math.min(4, 1 / visibleScale);
+    }
+  }catch(e){}
+
+  return 1;
+}
+
 function initMap() {
   // Center between Packerland and Lime Kiln so both stores share one map.
   const stores = [
@@ -276,7 +304,10 @@ function initMap() {
       title: store.title,
       icon: {
         url:"johnny-logo.png",
-        scaledSize:new google.maps.Size(42,42),
+        scaledSize:(()=>{
+          const markerPx=Math.round(42*markerScaleCompensation());
+          return new google.maps.Size(markerPx,markerPx);
+        })(),
         anchor:new google.maps.Point(21,21)
       },
       zIndex:1000
