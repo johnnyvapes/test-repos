@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T03:35:18Z",
+  "updatedAt": "2026-09-08T03:52:15Z",
   "events": [
     {
       "ID": 566011,
@@ -4773,8 +4773,8 @@
       "StartDate": 1778821200,
       "PlannedEndDate": 1792213199,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 44.4317054,
-      "Longitude": -88.1106248,
+      "Latitude": 44.4317066,
+      "Longitude": -88.1106228,
       "LatitudeSecondary": 44.4310102,
       "LongitudeSecondary": -88.1117389,
       "EventType": "roadwork",
@@ -9669,8 +9669,8 @@
       "StartDate": 1783944000,
       "PlannedEndDate": 1790337600,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.0889486,
-      "Longitude": -88.0599824,
+      "Latitude": 43.0889477,
+      "Longitude": -88.0599339,
       "LatitudeSecondary": 43.0889488,
       "LongitudeSecondary": -88.0599998,
       "EventType": "roadwork",
@@ -9678,7 +9678,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "}x~eGzenxO?BWxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
+      "EncodedPolyline": "}x~eGpenxO?LWxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -20753,7 +20753,7 @@
       "StartDate": 1787747131,
       "PlannedEndDate": 1790377200,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 43.0807026,
+      "Latitude": 43.0807038,
       "Longitude": -88.0476833,
       "LatitudeSecondary": 43.0821023,
       "LongitudeSecondary": -88.0476488,
@@ -24392,7 +24392,7 @@
       "PlannedEndDate": 1788883200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
       "Latitude": 44.2728991,
-      "Longitude": -88.4849395,
+      "Longitude": -88.4849422,
       "LatitudeSecondary": 44.2728964,
       "LongitudeSecondary": -88.4826699,
       "EventType": "roadwork",
@@ -41004,6 +41004,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Waukesha"
+    },
+    {
+      "ID": 747533,
+      "SourceId": "907001080",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "w",
+      "Description": "I-94 West 1.2 miles beyond Ramp from WIS 73. The left shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788839109,
+      "LastUpdated": 1788839052,
+      "StartDate": 1788839109,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.108597,
+      "Longitude": -89.109159,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "wsbfGfc{~O",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Dane"
     }
   ]
 }
