@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T09:45:00Z",
+  "updatedAt": "2026-09-08T09:59:20Z",
   "events": [
     {
       "ID": 566011,
@@ -4773,8 +4773,8 @@
       "StartDate": 1778821200,
       "PlannedEndDate": 1792213199,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 44.4317066,
-      "Longitude": -88.1106228,
+      "Latitude": 44.4317054,
+      "Longitude": -88.1106248,
       "LatitudeSecondary": 44.4310102,
       "LongitudeSecondary": -88.1117389,
       "EventType": "roadwork",
@@ -13239,8 +13239,8 @@
       "StartDate": 1785492000,
       "PlannedEndDate": 1789120800,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 44.9631065,
-      "Longitude": -92.7356754,
+      "Latitude": 44.9631041,
+      "Longitude": -92.7357658,
       "LatitudeSecondary": 44.9630944,
       "LongitudeSecondary": -92.7361236,
       "EventType": "roadwork",
@@ -13248,7 +13248,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "mzlqG~l_uPb@df@DtIRr`@BxI?r@?nACbG?NKjR?|BB`GDnD?p@?^",
+      "EncodedPolyline": "kzlqGpm_uP`@re@DtIRr`@BxI?r@?nACbG?NKjR?|BB`GDnD?p@?^",
       "Restrictions": {
         "Width": 27.0,
         "Height": null,
@@ -23984,7 +23984,7 @@
       "PlannedEndDate": 1788883200,
       "LanesAffected": "2 lane(s) of 4 blocked.",
       "Latitude": 44.2728991,
-      "Longitude": -88.4849422,
+      "Longitude": -88.4849395,
       "LatitudeSecondary": 44.2728964,
       "LongitudeSecondary": -88.4826699,
       "EventType": "roadwork",
@@ -40494,6 +40494,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Dane"
+    },
+    {
+      "ID": 747552,
+      "SourceId": "908000110",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-41/US-45",
+      "DirectionOfTravel": "n",
+      "Description": "I-41/US 45 North at Main St West. The right shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788861547,
+      "LastUpdated": 1788861506,
+      "StartDate": 1788861547,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.178533,
+      "Longitude": -88.092204,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "yhpfGfotxO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Waukesha"
     }
   ]
 }
