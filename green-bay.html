@@ -255,15 +255,15 @@ function markerScaleCompensation(){
 
     if(!rawW || !rawH) return 1;
 
-    // TV Bro compatibility renders the iframe at 1920x1080 and scales it down.
-    // Compensate only the marker bitmap so its final visible size/detail matches
-    // the direct Green Bay page.
+    // TV Bro compatibility renders the iframe larger and scales it down.
+    // Target about 30px visible on the TV: large enough to keep the face clean,
+    // but not oversized relative to the map.
     const sx = rect.width / rawW;
     const sy = rect.height / rawH;
     const visibleScale = Math.min(sx, sy);
 
     if(visibleScale > 0 && visibleScale < 0.98){
-      return Math.min(4, 1 / visibleScale);
+      return Math.min(4, (30 / 42) / visibleScale);
     }
   }catch(e){}
 
@@ -308,7 +308,10 @@ function initMap() {
           const markerPx=Math.round(42*markerScaleCompensation());
           return new google.maps.Size(markerPx,markerPx);
         })(),
-        anchor:new google.maps.Point(21,21)
+        anchor:(()=>{
+          const markerPx=Math.round(42*markerScaleCompensation());
+          return new google.maps.Point(markerPx/2,markerPx/2);
+        })()
       },
       zIndex:1000
     });
