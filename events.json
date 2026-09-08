@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T07:25:53Z",
+  "updatedAt": "2026-09-08T07:45:43Z",
   "events": [
     {
       "ID": 566011,
@@ -9669,8 +9669,8 @@
       "StartDate": 1783944000,
       "PlannedEndDate": 1790337600,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 43.088943,
-      "Longitude": -88.0596572,
+      "Latitude": 43.0889463,
+      "Longitude": -88.0598499,
       "LatitudeSecondary": 43.0889488,
       "LongitudeSecondary": -88.0599998,
       "EventType": "roadwork",
@@ -9678,7 +9678,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{x~eGzcnxOAbAWxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
+      "EncodedPolyline": "}x~eG`enxO?\\WxFE`BCrCBv@A\\J`ED`FBt@DjD?R?^@pBAn@G~AAt@OdFGlAKrFGpBEjBMlKMpKCfCCTWpUEtBMpNKfLEjDC|@HlTBzK@lAA|HAdN?vOCbM?~ACvMChD?rCCnDKzHGpHs@bq@AvI?nDBvI@dK?nB@~CA`@AhACvAAtBALC`CEfBA\\EvCGzDG|B_@`VY~RE~CAbHChEDnU@rG?d@@|@?pGBnI?hH@bG@nBAdA@VBrCHjDP|EBT",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -40496,40 +40496,6 @@
       "County": "Milwaukee"
     },
     {
-      "ID": 747540,
-      "SourceId": "908000030",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-43/94",
-      "DirectionOfTravel": "n",
-      "Description": "I-43/94 North at Ramp from Lapham St. The right lane is closed due to a crash.",
-      "Reported": 1788849915,
-      "LastUpdated": 1788849809,
-      "StartDate": 1788849915,
-      "PlannedEndDate": null,
-      "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.019355,
-      "Longitude": -87.917248,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Crash",
-      "IsFullClosure": false,
-      "Severity": "2",
-      "Comment": "",
-      "EncodedPolyline": "}eqeGxirwO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
-    },
-    {
       "ID": 747542,
       "SourceId": "908000040",
       "Organization": "WIATMS",
@@ -40537,7 +40503,7 @@
       "DirectionOfTravel": "e",
       "Description": "Crash on Exit to US 14 West from US 12 East.",
       "Reported": 1788851894,
-      "LastUpdated": 1788851854,
+      "LastUpdated": 1788852404,
       "StartDate": 1788851894,
       "PlannedEndDate": null,
       "LanesAffected": "No lanes blocked.",
