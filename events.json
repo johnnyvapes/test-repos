@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T03:52:15Z",
+  "updatedAt": "2026-09-08T04:16:52Z",
   "events": [
     {
       "ID": 566011,
@@ -41013,7 +41013,7 @@
       "DirectionOfTravel": "w",
       "Description": "I-94 West 1.2 miles beyond Ramp from WIS 73. The left shoulder is closed due to a disabled vehicle.",
       "Reported": 1788839109,
-      "LastUpdated": 1788839052,
+      "LastUpdated": 1788839762,
       "StartDate": 1788839109,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
@@ -41038,6 +41038,74 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Dane"
+    },
+    {
+      "ID": 747534,
+      "SourceId": "907001090",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "e",
+      "Description": "I-94 East 4.6 miles beyond Ramp from County N. The right shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788839897,
+      "LastUpdated": 1788839779,
+      "StartDate": 1788839897,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.108453,
+      "Longitude": -89.105167,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "yrbfGhjz~O",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Dane"
+    },
+    {
+      "ID": 747537,
+      "SourceId": "907001100",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-90/94",
+      "DirectionOfTravel": "w",
+      "Description": "Crash on Ramp from US 12/WIS 16 to I-90/94 West.",
+      "Reported": 1788840911,
+      "LastUpdated": 1788840924,
+      "StartDate": 1788840911,
+      "PlannedEndDate": null,
+      "LanesAffected": "No lanes blocked.",
+      "Latitude": 43.651801,
+      "Longitude": -89.812673,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Crash",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "wvliGdpdcP",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Juneau"
     }
   ]
 }
