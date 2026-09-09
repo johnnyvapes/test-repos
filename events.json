@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T23:17:42Z",
+  "updatedAt": "2026-09-09T23:32:12Z",
   "events": [
     {
       "ID": 566011,
@@ -4331,8 +4331,8 @@
       "StartDate": 1775473200,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9444884,
-      "Longitude": -89.8556236,
+      "Latitude": 44.9444886,
+      "Longitude": -89.8556528,
       "LatitudeSecondary": 44.9444893,
       "LongitudeSecondary": -89.855789,
       "EventType": "roadwork",
@@ -4340,7 +4340,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "afiqGr|lcP?xSAV?bA@rA?b@Ax@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
+      "EncodedPolyline": "afiqGx|lcP?rSAV?bA@rA?b@Ax@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -23337,8 +23337,8 @@
       "StartDate": 1788778800,
       "PlannedEndDate": 1789156800,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 44.9326961,
-      "Longitude": -91.3624782,
+      "Latitude": 44.9325902,
+      "Longitude": -91.3624847,
       "LatitudeSecondary": 44.9328156,
       "LongitudeSecondary": -91.3624708,
       "EventType": "roadwork",
@@ -23346,7 +23346,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "k|fqGnfslPWA_AMo@G_A_@}@Ue@Wm@WmAy@i@]i@_@cBgAgAs@uA{@mD}BuBwAu@_@{@k@iCaB_@WmBoAqAy@qAy@g@]q@a@mAy@",
+      "EncodedPolyline": "u{fqGnfslPm@A_AMo@G_A_@}@Ue@Wm@WmAy@i@]i@_@cBgAgAs@uA{@mD}BuBwAu@_@{@k@iCaB_@WmBoAqAy@qAy@g@]q@a@mAy@",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -39100,6 +39100,40 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Dane"
+    },
+    {
+      "ID": 749601,
+      "SourceId": "909001500",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-41",
+      "DirectionOfTravel": "n",
+      "Description": "I-41 North 0.6 miles beyond Ramp from County U. The right lane is closed due to a disabled vehicle.",
+      "Reported": 1788996064,
+      "LastUpdated": 1788996055,
+      "StartDate": 1788996064,
+      "PlannedEndDate": null,
+      "LanesAffected": "1 lane(s) of 2 blocked.",
+      "Latitude": 44.357739,
+      "Longitude": -88.185664,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "3",
+      "Comment": "",
+      "EncodedPolyline": "{rvmGjwfyO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Brown"
     }
   ]
 }
