@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T06:48:16Z",
+  "updatedAt": "2026-09-09T07:03:33Z",
   "events": [
     {
       "ID": 566011,
@@ -47,16 +47,16 @@
       "StartDate": 1772604000,
       "PlannedEndDate": 1795240799,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.3494158479332,
-      "Longitude": -88.1934612288233,
-      "LatitudeSecondary": 44.3510296591206,
-      "LongitudeSecondary": -88.1920194433269,
+      "Latitude": 44.3493411,
+      "Longitude": -88.1932314,
+      "LatitudeSecondary": 44.3493411,
+      "LongitudeSecondary": -88.1932314,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{~tmGbhhyOyKoJ{YiW_NoLwLkK{BqByIwHiDyC_XoU_@EUm@aQaO",
+      "EncodedPolyline": "k~tmGtfhyOOOyEgEiDwCqGqFcJcIkDyCSQiHkGoEwDuUoSuUmSsSsQ",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -14565,8 +14565,8 @@
       "StartDate": 1788584340,
       "PlannedEndDate": 1790398799,
       "LanesAffected": "4 lane(s) of 4 blocked.",
-      "Latitude": 44.9449933,
-      "Longitude": -91.0364104,
+      "Latitude": 44.9449784,
+      "Longitude": -91.0364352,
       "LatitudeSecondary": 44.9455023,
       "LongitudeSecondary": -91.0355686,
       "EventType": "roadwork",
@@ -14574,7 +14574,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "eiiqGppsjP}DyHkAiCcAkBeAmBeBeD}@oBw@yAgBiE_AiCqAkEq@kCc@yBm@mDc@mCo@iE}@mHc@}Eu@qJa@yH[_HQeHO}JAeF@aMAad@C{z@AkT?kT@mX?w@Ceg@?_SAwA?}}@CmdAAiVBaJB{MBgFByB?_BBoIDkJBaE?W@gHDaHBaKAy@@w@EaJEsFAaAAg@I{G[aTEgE",
+      "EncodedPolyline": "ciiqGvpsjP_E_IkAiCcAkBeAmBeBeD}@oBw@yAgBiE_AiCqAkEq@kCc@yBm@mDc@mCo@iE}@mHc@}Eu@qJa@yH[_HQeHO}JAeF@aMAad@C{z@AkT?kT@mX?w@Ceg@?_SAwA?}}@CmdAAiVBaJB{MBgFByB?_BBoIDkJBaE?W@gHDaHBaKAy@@w@EaJEsFAaAAg@I{G[aTEgE",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -39678,6 +39678,40 @@
       "Recurrence": "9/08/26 11:00 PM - 9/09/26 4:30 AM No Repeat",
       "RecurrenceSchedules": "",
       "County": "Brown"
+    },
+    {
+      "ID": 748615,
+      "SourceId": "909000030",
+      "Organization": "WIATMS",
+      "RoadwayName": "I-94",
+      "DirectionOfTravel": "e",
+      "Description": "I-94 East at Ramp from 68th St. The right shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788937034,
+      "LastUpdated": 1788936975,
+      "StartDate": 1788937034,
+      "PlannedEndDate": null,
+      "LanesAffected": "Shoulder blocked.",
+      "Latitude": 43.030342,
+      "Longitude": -87.991929,
+      "LatitudeSecondary": null,
+      "LongitudeSecondary": null,
+      "EventType": "accidentsAndIncidents",
+      "EventSubType": "Disabled Vehicle",
+      "IsFullClosure": false,
+      "Severity": "1",
+      "Comment": "",
+      "EncodedPolyline": "sjseGp|`xO",
+      "Restrictions": {
+        "Width": null,
+        "Height": null,
+        "Weight": null,
+        "Speed": null
+      },
+      "DetourPolyline": null,
+      "DetourInstructions": null,
+      "Recurrence": "",
+      "RecurrenceSchedules": "",
+      "County": "Milwaukee"
     }
   ]
 }
