@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T22:41:30Z",
+  "updatedAt": "2026-09-09T22:57:56Z",
   "events": [
     {
       "ID": 566011,
@@ -13851,8 +13851,8 @@
       "StartDate": 1788903214,
       "PlannedEndDate": 1790398799,
       "LanesAffected": "4 lane(s) of 4 blocked.",
-      "Latitude": 44.9523959,
-      "Longitude": -90.854742,
+      "Latitude": 44.9523963,
+      "Longitude": -90.8546292,
       "LatitudeSecondary": 44.9523908,
       "LongitudeSecondary": -90.8559905,
       "EventType": "roadwork",
@@ -13860,7 +13860,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "owjqGbapiP@xF@pUArK@hN@vc@Bv[BznA@l^Bp^Dl~@?|^BpJ@xOBzJDfHNlK",
+      "EncodedPolyline": "owjqGl`piP@nG@pUArK@hN@vc@Bv[BznA@l^Bp^Dl~@?|^BpJ@xOBzJDfHNlK",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -39066,40 +39066,6 @@
       "Recurrence": "",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
-    },
-    {
-      "ID": 749541,
-      "SourceId": "909001430",
-      "Organization": "WIATMS",
-      "RoadwayName": "WI-67",
-      "DirectionOfTravel": "n",
-      "Description": "WIS 67 North at I-94 West. The right lane is blocked due to a crash.",
-      "Reported": 1788992645,
-      "LastUpdated": 1788992549,
-      "StartDate": 1788992645,
-      "PlannedEndDate": null,
-      "LanesAffected": "1 lane(s) of 3 blocked.",
-      "Latitude": 43.069861,
-      "Longitude": -88.471115,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Crash",
-      "IsFullClosure": false,
-      "Severity": "2",
-      "Comment": "",
-      "EncodedPolyline": "sa{eGlo~zO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Waukesha"
     },
     {
       "ID": 749542,
