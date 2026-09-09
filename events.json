@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T09:44:39Z",
+  "updatedAt": "2026-09-09T09:58:44Z",
   "events": [
     {
       "ID": 566011,
@@ -8955,8 +8955,8 @@
       "StartDate": 1783933200,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 42.668839,
-      "Longitude": -89.0314921,
+      "Latitude": 42.6688282,
+      "Longitude": -89.0314915,
       "LatitudeSecondary": 42.6685539,
       "LongitudeSecondary": -89.0314772,
       "EventType": "roadwork",
@@ -8964,7 +8964,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "gwlcGx}k~Ox@AfAEvDI|EEnJErJCZA",
+      "EncodedPolyline": "ewlcGx}k~Ov@AfAEvDI|EEnJErJCZA",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -12933,8 +12933,8 @@
       "StartDate": 1785492000,
       "PlannedEndDate": 1789120800,
       "LanesAffected": "2 lane(s) of 5 blocked.",
-      "Latitude": 44.9631045,
-      "Longitude": -92.7357501,
+      "Latitude": 44.963104,
+      "Longitude": -92.73577,
       "LatitudeSecondary": 44.9630944,
       "LongitudeSecondary": -92.7361236,
       "EventType": "roadwork",
@@ -12942,7 +12942,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "kzlqGlm_uP`@ve@DtIRr`@BxI?r@?nACbG?NKjR?|BB`GDnD?p@?^",
+      "EncodedPolyline": "kzlqGpm_uP`@re@DtIRr`@BxI?r@?nACbG?NKjR?|BB`GDnD?p@?^",
       "Restrictions": {
         "Width": 27.0,
         "Height": null,
@@ -30545,8 +30545,8 @@
       "StartDate": 1788897177,
       "PlannedEndDate": 1789776000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 45.0757426,
-      "Longitude": -92.7545203,
+      "Latitude": 45.0757413,
+      "Longitude": -92.7545222,
       "LatitudeSecondary": 45.0757426,
       "LongitudeSecondary": -92.7545203,
       "EventType": "roadwork",
