@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T02:16:37Z",
+  "updatedAt": "2026-09-09T02:34:11Z",
   "events": [
     {
       "ID": 566011,
@@ -21025,16 +21025,16 @@
       "StartDate": 1787785503,
       "PlannedEndDate": 1789880399,
       "LanesAffected": "1 lane(s) of 4 blocked.",
-      "Latitude": 43.7536259505238,
-      "Longitude": -87.7748928029076,
-      "LatitudeSecondary": 43.7536262910625,
-      "LongitudeSecondary": -87.7748725544392,
+      "Latitude": 43.7536609,
+      "Longitude": -87.7796218,
+      "LatitudeSecondary": 43.753642,
+      "LongitudeSecondary": -87.7786505,
       "EventType": "roadwork",
       "EventSubType": "roadwork",
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "es`jG`pvvOQ_SRuFO{C",
+      "EncodedPolyline": "ks`jGrmwvOBaERed@@sADeD@aDCmDAU",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -24085,8 +24085,8 @@
       "StartDate": 1788444384,
       "PlannedEndDate": 1796104799,
       "LanesAffected": "2 lane(s) of 3 blocked.",
-      "Latitude": 42.7259674,
-      "Longitude": -87.7830609,
+      "Latitude": 42.7259679,
+      "Longitude": -87.7829718,
       "LatitudeSecondary": 42.7259698,
       "LongitudeSecondary": -87.782617,
       "EventType": "roadwork",
@@ -24094,7 +24094,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "i|wcGbcxvO?wA[?kBRi@B",
+      "EncodedPolyline": "i|wcGpbxvO?eA[?kBRi@B",
       "Restrictions": {
         "Width": 11.0,
         "Height": null,
@@ -39680,40 +39680,6 @@
       "County": "Milwaukee"
     },
     {
-      "ID": 748552,
-      "SourceId": "908001350",
-      "Organization": "WIATMS",
-      "RoadwayName": "US-53",
-      "DirectionOfTravel": "s",
-      "Description": "US 53 South at US 12/Clairemont Ave. The right shoulder is blocked due to a disabled vehicle.",
-      "Reported": 1788916923,
-      "LastUpdated": 1788917403,
-      "StartDate": 1788916923,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 44.799114,
-      "Longitude": -91.456107,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "mylpGtoemP",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Eau Claire"
-    },
-    {
       "ID": 748559,
       "SourceId": "-902001130",
       "Organization": "WIATMSPLANNED",
@@ -39782,19 +39748,19 @@
       "County": "Dane"
     },
     {
-      "ID": 748568,
-      "SourceId": "908001400",
+      "ID": 748576,
+      "SourceId": "908001420",
       "Organization": "WIATMS",
-      "RoadwayName": "US-51",
-      "DirectionOfTravel": "s",
-      "Description": "US 51 South 0.2 miles beyond Ramp from County NN. The left shoulder is closed due to a disabled vehicle.",
-      "Reported": 1788919329,
-      "LastUpdated": 1788919260,
-      "StartDate": 1788919329,
+      "RoadwayName": "I-41/94",
+      "DirectionOfTravel": "n",
+      "Description": "I-41/94 North at WIS 119/Gen Mitchell Airport. The right shoulder is closed due to a disabled vehicle.",
+      "Reported": 1788920402,
+      "LastUpdated": 1788920365,
+      "StartDate": 1788920402,
       "PlannedEndDate": null,
       "LanesAffected": "Shoulder blocked.",
-      "Latitude": 44.92758,
-      "Longitude": -89.66223,
+      "Latitude": 42.931586,
+      "Longitude": -87.935171,
       "LatitudeSecondary": null,
       "LongitudeSecondary": null,
       "EventType": "accidentsAndIncidents",
@@ -39802,7 +39768,7 @@
       "IsFullClosure": false,
       "Severity": "1",
       "Comment": "",
-      "EncodedPolyline": "k|eqG|cgbP",
+      "EncodedPolyline": "ma`eGxyuwO",
       "Restrictions": {
         "Width": null,
         "Height": null,
@@ -39813,7 +39779,7 @@
       "DetourInstructions": null,
       "Recurrence": "",
       "RecurrenceSchedules": "",
-      "County": "Marathon"
+      "County": "Milwaukee"
     }
   ]
 }
