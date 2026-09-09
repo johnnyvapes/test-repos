@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T07:26:24Z",
+  "updatedAt": "2026-09-09T07:45:44Z",
   "events": [
     {
       "ID": 566011,
@@ -2801,8 +2801,8 @@
       "StartDate": 1775469600,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9454005,
-      "Longitude": -90.1031119,
+      "Latitude": 44.9454006,
+      "Longitude": -90.1030859,
       "LatitudeSecondary": 44.9454102,
       "LongitudeSecondary": -90.0995055,
       "EventType": "roadwork",
@@ -2810,7 +2810,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "wkiqGlg}dPAuWCwOA{\\DyGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
+      "EncodedPolyline": "wkiqGhg}dPAqWCwOA{\\DyGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -11437,8 +11437,8 @@
       "StartDate": 1785560400,
       "PlannedEndDate": 1791608399,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.6183701,
-      "Longitude": -88.7712074,
+      "Latitude": 44.6183807,
+      "Longitude": -88.7712425,
       "LatitudeSecondary": 44.6184551,
       "LongitudeSecondary": -88.7714893,
       "EventType": "roadwork",
@@ -11446,7 +11446,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "yoioG`cy|OQv@k@dDc@hCeAlFc@`CUzAe@zDO|Am@nFUnAYfB]zAaAtDw@hC{@fC{@jCyAdFs@bCiCzIeDhLeExNmBxG{@tCADoBxGk@lB_AdDwAbFyAdFqB`HsBjH_BrFm@zBwA`FsCvJ}AnFeApD{AlFWv@y@`Ds@nCg@dBi@~A_AdCk@tAWb@Wf@e@l@iAfB{@nA{AlBwApB{AlB_BvBoCnDoBdCuD|EuAjBaBvBcHdJ[d@eElFuCrD_C~C}BvC}@lAaFtG_@f@W\\gAzAcC|C}AvBaFtGi@n@aG|HyAlBYb@ED}AtBqEbGiChDkChDgB|BmE`GaJpLmClDiBbCyFnHaBvBeAtAiBbCkB`CmCnDoEfGaAlAoGnIwCzDuFfIqChEiC~DkBtCkBtCyGbKoBzCuA|By@rA_@v@m@nAeAlC}@fCg@pBs@rDu@rFOhAmAtI{AxIKf@gAtFo@pCGVa@xA_A`Eu@lCyAvF_A`D{B~HuBnHENi@fBqArE{@|CsAbESt@",
+      "EncodedPolyline": "{oioGfcy|OOp@k@dDc@hCeAlFc@`CUzAe@zDO|Am@nFUnAYfB]zAaAtDw@hC{@fC{@jCyAdFs@bCiCzIeDhLeExNmBxG{@tCADoBxGk@lB_AdDwAbFyAdFqB`HsBjH_BrFm@zBwA`FsCvJ}AnFeApD{AlFWv@y@`Ds@nCg@dBi@~A_AdCk@tAWb@Wf@e@l@iAfB{@nA{AlBwApB{AlB_BvBoCnDoBdCuD|EuAjBaBvBcHdJ[d@eElFuCrD_C~C}BvC}@lAaFtG_@f@W\\gAzAcC|C}AvBaFtGi@n@aG|HyAlBYb@ED}AtBqEbGiChDkChDgB|BmE`GaJpLmClDiBbCyFnHaBvBeAtAiBbCkB`CmCnDoEfGaAlAoGnIwCzDuFfIqChEiC~DkBtCkBtCyGbKoBzCuA|By@rA_@v@m@nAeAlC}@fCg@pBs@rDu@rFOhAmAtI{AxIKf@gAtFo@pCGVa@xA_A`Eu@lCyAvF_A`D{B~HuBnHENi@fBqArE{@|CsAbESt@",
       "Restrictions": {
         "Width": 13.0,
         "Height": null,
@@ -39678,40 +39678,6 @@
       "Recurrence": "9/08/26 11:00 PM - 9/09/26 4:30 AM No Repeat",
       "RecurrenceSchedules": "",
       "County": "Brown"
-    },
-    {
-      "ID": 748615,
-      "SourceId": "909000030",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-94",
-      "DirectionOfTravel": "e",
-      "Description": "I-94 East at Ramp from 68th St. The right shoulder is closed due to a disabled vehicle.",
-      "Reported": 1788937034,
-      "LastUpdated": 1788936975,
-      "StartDate": 1788937034,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.030342,
-      "Longitude": -87.991929,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Disabled Vehicle",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "sjseGp|`xO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
     },
     {
       "ID": 748616,
