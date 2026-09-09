@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T07:45:44Z",
+  "updatedAt": "2026-09-09T07:59:07Z",
   "events": [
     {
       "ID": 566011,
@@ -56,7 +56,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "k~tmGtfhyOOOyEgEiDwCqGqFcJcIkDyCSQiHkGoEwDuUoSuUmSsSsQ",
+      "EncodedPolyline": "k~tmGtfhyOOOyEgEiDwCqGqFcJcIkDyCSQiHkGoEwDuUoSuUmSgSiQ",
       "Restrictions": {
         "Width": 23.0,
         "Height": null,
@@ -2802,7 +2802,7 @@
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
       "Latitude": 44.9454006,
-      "Longitude": -90.1030859,
+      "Longitude": -90.1030719,
       "LatitudeSecondary": 44.9454102,
       "LongitudeSecondary": -90.0995055,
       "EventType": "roadwork",
@@ -2810,7 +2810,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "wkiqGhg}dPAqWCwOA{\\DyGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
+      "EncodedPolyline": "wkiqGdg}dPAmWCwOA{\\DyGDgHNsNH_I^ma@p@y_@HwCBa@f@gVj@gVZgNLcF@gBT}KJyF@iKH}G?mI@aG@kD@eLBgDDmPF{TACFaR?q@C{JE_GKuFGwFQwKIuFEqFC_TAqe@?aaAAiUGu^Ii~A@u@Ea[E_w@?}FEi`@Acb@AqJ@{[Eac@Au^Eu^As^As^B}^Fu~@@y~A?a_@@c_@@_f@Awq@@qZ?cX@mF?{A@e@?{@A[@m@AiA@aI",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -4331,8 +4331,8 @@
       "StartDate": 1775473200,
       "PlannedEndDate": 1794006000,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.9444884,
-      "Longitude": -89.8556107,
+      "Latitude": 44.9444882,
+      "Longitude": -89.8555767,
       "LatitudeSecondary": 44.9444893,
       "LongitudeSecondary": -89.855789,
       "EventType": "roadwork",
@@ -4340,7 +4340,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "afiqGp|lcP?zSAV?bA@rA?b@Ax@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
+      "EncodedPolyline": "afiqGj|lcP?`TAV?bA@rA?b@Ax@?b@?|A@dFAdXEptDG~~AAt^Ct~@?v^@r^@l~@F|_AFvm@@h`@@fGFzw@?n[Dt^Fl~@@z^@jk@?~I@xM?dQ@ne@A~JDbHBjEJlGPzKHpGJbE@zG@bKAV?vRE~TExIEbWC`EAbG?~ICpGIhKKtFSzKCxBKlEYlNk@fVm@jVC|@KhHm@jZ_@t`@MhHM|[ChIAbV@tT",
       "Restrictions": {
         "Width": 17.0,
         "Height": null,
@@ -11437,8 +11437,8 @@
       "StartDate": 1785560400,
       "PlannedEndDate": 1791608399,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.6183807,
-      "Longitude": -88.7712425,
+      "Latitude": 44.6183815,
+      "Longitude": -88.7712451,
       "LatitudeSecondary": 44.6184551,
       "LongitudeSecondary": -88.7714893,
       "EventType": "roadwork",
@@ -11446,7 +11446,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "{oioGfcy|OOp@k@dDc@hCeAlFc@`CUzAe@zDO|Am@nFUnAYfB]zAaAtDw@hC{@fC{@jCyAdFs@bCiCzIeDhLeExNmBxG{@tCADoBxGk@lB_AdDwAbFyAdFqB`HsBjH_BrFm@zBwA`FsCvJ}AnFeApD{AlFWv@y@`Ds@nCg@dBi@~A_AdCk@tAWb@Wf@e@l@iAfB{@nA{AlBwApB{AlB_BvBoCnDoBdCuD|EuAjBaBvBcHdJ[d@eElFuCrD_C~C}BvC}@lAaFtG_@f@W\\gAzAcC|C}AvBaFtGi@n@aG|HyAlBYb@ED}AtBqEbGiChDkChDgB|BmE`GaJpLmClDiBbCyFnHaBvBeAtAiBbCkB`CmCnDoEfGaAlAoGnIwCzDuFfIqChEiC~DkBtCkBtCyGbKoBzCuA|By@rA_@v@m@nAeAlC}@fCg@pBs@rDu@rFOhAmAtI{AxIKf@gAtFo@pCGVa@xA_A`Eu@lCyAvF_A`D{B~HuBnHENi@fBqArE{@|CsAbESt@",
+      "EncodedPolyline": "{oioGhcy|OOn@k@dDc@hCeAlFc@`CUzAe@zDO|Am@nFUnAYfB]zAaAtDw@hC{@fC{@jCyAdFs@bCiCzIeDhLeExNmBxG{@tCADoBxGk@lB_AdDwAbFyAdFqB`HsBjH_BrFm@zBwA`FsCvJ}AnFeApD{AlFWv@y@`Ds@nCg@dBi@~A_AdCk@tAWb@Wf@e@l@iAfB{@nA{AlBwApB{AlB_BvBoCnDoBdCuD|EuAjBaBvBcHdJ[d@eElFuCrD_C~C}BvC}@lAaFtG_@f@W\\gAzAcC|C}AvBaFtGi@n@aG|HyAlBYb@ED}AtBqEbGiChDkChDgB|BmE`GaJpLmClDiBbCyFnHaBvBeAtAiBbCkB`CmCnDoEfGaAlAoGnIwCzDuFfIqChEiC~DkBtCkBtCyGbKoBzCuA|By@rA_@v@m@nAeAlC}@fCg@pBs@rDu@rFOhAmAtI{AxIKf@gAtFo@pCGVa@xA_A`Eu@lCyAvF_A`D{B~HuBnHENi@fBqArE{@|CsAbESt@",
       "Restrictions": {
         "Width": 13.0,
         "Height": null,
@@ -23371,8 +23371,8 @@
       "StartDate": 1788778800,
       "PlannedEndDate": 1789156800,
       "LanesAffected": "3 lane(s) of 5 blocked.",
-      "Latitude": 44.9326939,
-      "Longitude": -91.3624783,
+      "Latitude": 44.9326854,
+      "Longitude": -91.3624788,
       "LatitudeSecondary": 44.9328156,
       "LongitudeSecondary": -91.3624708,
       "EventType": "roadwork",
@@ -39678,40 +39678,6 @@
       "Recurrence": "9/08/26 11:00 PM - 9/09/26 4:30 AM No Repeat",
       "RecurrenceSchedules": "",
       "County": "Brown"
-    },
-    {
-      "ID": 748616,
-      "SourceId": "909000040",
-      "Organization": "WIATMS",
-      "RoadwayName": "I-43",
-      "DirectionOfTravel": "s",
-      "Description": "Crash on Ramp from WIS 145/Fond Du Lac Ave to I-43 South.",
-      "Reported": 1788938594,
-      "LastUpdated": 1788938557,
-      "StartDate": 1788938594,
-      "PlannedEndDate": null,
-      "LanesAffected": "No lanes blocked.",
-      "Latitude": 43.045659,
-      "Longitude": -87.926588,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Crash",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "kjveGddtwO",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Milwaukee"
     }
   ]
 }
