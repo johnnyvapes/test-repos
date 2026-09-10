@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T05:50:54Z",
+  "updatedAt": "2026-09-10T06:21:51Z",
   "events": [
     {
       "ID": 566011,
@@ -14565,8 +14565,8 @@
       "StartDate": 1788584340,
       "PlannedEndDate": 1790398799,
       "LanesAffected": "4 lane(s) of 4 blocked.",
-      "Latitude": 44.9449876,
-      "Longitude": -91.0364199,
+      "Latitude": 44.944961,
+      "Longitude": -91.0364639,
       "LatitudeSecondary": 44.9455023,
       "LongitudeSecondary": -91.0355686,
       "EventType": "roadwork",
@@ -14574,7 +14574,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "eiiqGrpsjP}D{HkAiCcAkBeAmBeBeD}@oBw@yAgBiE_AiCqAkEq@kCc@yBm@mDc@mCo@iE}@mHc@}Eu@qJa@yH[_HQeHO}JAeF@aMAad@C{z@AkT?kT@mX?w@Ceg@?_SAwA?}}@CmdAAiVBaJB{MBgFByB?_BBoIDkJBaE?W@gHDaHBaKAy@@w@EaJEsFAaAAg@I{G[aTEgE",
+      "EncodedPolyline": "_iiqGzpsjPcEcIkAiCcAkBeAmBeBeD}@oBw@yAgBiE_AiCqAkEq@kCc@yBm@mDc@mCo@iE}@mHc@}Eu@qJa@yH[_HQeHO}JAeF@aMAad@C{z@AkT?kT@mX?w@Ceg@?_SAwA?}}@CmdAAiVBaJB{MBgFByB?_BBoIDkJBaE?W@gHDaHBaKAy@@w@EaJEsFAaAAg@I{G[aTEgE",
       "Restrictions": {
         "Width": 15.0,
         "Height": null,
@@ -23439,8 +23439,8 @@
       "StartDate": 1781240400,
       "PlannedEndDate": 1790978400,
       "LanesAffected": "2 lane(s) of 4 blocked.",
-      "Latitude": 44.7222329,
-      "Longitude": -88.4228042,
+      "Latitude": 44.7222809,
+      "Longitude": -88.4229118,
       "LatitudeSecondary": 44.7225522,
       "LongitudeSecondary": -88.4235212,
       "EventType": "roadwork",
@@ -23448,7 +23448,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "}x}oGnauzOyBpGu@vBWr@_BzE_CrIwBrKeAtHq@xFYnFcAhOqApQaAfOe@hHm@fHSzBYbDe@tCs@vESdAe@lCg@hCk@hCo@hCq@bCYbAu@bCu@`Cy@`CgBrEEHiAjCqAnCw@|Aw@tAw@vAcAdBu@hAcAxAy@lAa@f@cAtAo@t@}AfBc@f@oCtCsNrNkGhGsDtD_CpCcB~BeBvCsBbEqBrFsAnEmC|KyEbRmErQsJp_@}Jha@sJ``@iCvK{AxFk@`Cs@rCk@bCk@pCS`AKl@W|AUpAOlAQhAMhASnBQxAObB[hEyBzW_@nEo@hIs@lHa@|COhAw@xEw@vEcB`Jo@~CwBrLi@pCy@vE[jB[dBc@|CQzAk@pEWxCYxCSxCMhCMtCOpDExCC|BCvDA`EG`JEhNCvCCdFGxCKdFErCQ~HExCCnAAzC@lA@jA@jA@lA?t@BVDjAHxCPzCFjAVtCVnCHl@Fb@n@`F|AtJPfAv@~Ef@~CJ|@b@tCJl@xCjRxBnNh@hDhAjH`BfKvAjJ^zBjAxHVbCT|CNvCFtC@zJ@jN?bEFnX@zHDnZ@fQ@`GDz`@@xC@pH?lD@zC@jF@bK@|CCxC?x@KlDGnAKjAWxCMlAa@tCc@pCWfAk@nCs@hC{@`C]dA_@~@cA|Bu@zAw@tAOPGPOTmAdBsBhC_DnD_@d@qFfGkBrB_BhByBfCcCpCmBxB[^wElFmKzLgDxDcCpCqC|CGF",
+      "EncodedPolyline": "gy}oGdbuzOoBzFu@vBWr@_BzE_CrIwBrKeAtHq@xFYnFcAhOqApQaAfOe@hHm@fHSzBYbDe@tCs@vESdAe@lCg@hCk@hCo@hCq@bCYbAu@bCu@`Cy@`CgBrEEHiAjCqAnCw@|Aw@tAw@vAcAdBu@hAcAxAy@lAa@f@cAtAo@t@}AfBc@f@oCtCsNrNkGhGsDtD_CpCcB~BeBvCsBbEqBrFsAnEmC|KyEbRmErQsJp_@}Jha@sJ``@iCvK{AxFk@`Cs@rCk@bCk@pCS`AKl@W|AUpAOlAQhAMhASnBQxAObB[hEyBzW_@nEo@hIs@lHa@|COhAw@xEw@vEcB`Jo@~CwBrLi@pCy@vE[jB[dBc@|CQzAk@pEWxCYxCSxCMhCMtCOpDExCC|BCvDA`EG`JEhNCvCCdFGxCKdFErCQ~HExCCnAAzC@lA@jA@jA@lA?t@BVDjAHxCPzCFjAVtCVnCHl@Fb@n@`F|AtJPfAv@~Ef@~CJ|@b@tCJl@xCjRxBnNh@hDhAjH`BfKvAjJ^zBjAxHVbCT|CNvCFtC@zJ@jN?bEFnX@zHDnZ@fQ@`GDz`@@xC@pH?lD@zC@jF@bK@|CCxC?x@KlDGnAKjAWxCMlAa@tCc@pCWfAk@nCs@hC{@`C]dA_@~@cA|Bu@zAw@tAOPGPOTmAdBsBhC_DnD_@d@qFfGkBrB_BhByBfCcCpCmBxB[^wElFmKzLgDxDcCpCqC|CGF",
       "Restrictions": {
         "Width": 14.0,
         "Height": null,
@@ -27043,8 +27043,8 @@
       "StartDate": 1789002374,
       "PlannedEndDate": 1812776399,
       "LanesAffected": "1 lane(s) of 2 blocked.",
-      "Latitude": 43.5912081,
-      "Longitude": -89.7938928,
+      "Latitude": 43.5910785,
+      "Longitude": -89.7939004,
       "LatitudeSecondary": 43.5913208,
       "LongitudeSecondary": -89.7938862,
       "EventType": "roadwork",
@@ -27052,7 +27052,7 @@
       "IsFullClosure": false,
       "Severity": "Unknown",
       "Comment": "",
-      "EncodedPolyline": "a|`iGxz`cP}O]eCA_@E}VIsG?u@Cc@?e@Gi@Ce@GGA",
+      "EncodedPolyline": "g{`iGzz`cPwP_@eCA_@E}VIsG?u@Cc@?e@Gi@Ce@GGA",
       "Restrictions": {
         "Width": 10.0,
         "Height": null,
@@ -39100,40 +39100,6 @@
       "Recurrence": "9/09/26 11:59 PM - 9/10/26 4:00 AM No Repeat",
       "RecurrenceSchedules": "",
       "County": "Milwaukee"
-    },
-    {
-      "ID": 749739,
-      "SourceId": "910000030",
-      "Organization": "WIATMS",
-      "RoadwayName": "US-12/18",
-      "DirectionOfTravel": "w",
-      "Description": "US 12/18 West at South Towne Dr. The right shoulder is closed due to an incident.",
-      "Reported": 1789018920,
-      "LastUpdated": 1789018822,
-      "StartDate": 1789018920,
-      "PlannedEndDate": null,
-      "LanesAffected": "Shoulder blocked.",
-      "Latitude": 43.043955,
-      "Longitude": -89.349837,
-      "LatitudeSecondary": null,
-      "LongitudeSecondary": null,
-      "EventType": "accidentsAndIncidents",
-      "EventSubType": "Incident",
-      "IsFullClosure": false,
-      "Severity": "1",
-      "Comment": "",
-      "EncodedPolyline": "u_veGncj`P",
-      "Restrictions": {
-        "Width": null,
-        "Height": null,
-        "Weight": null,
-        "Speed": null
-      },
-      "DetourPolyline": null,
-      "DetourInstructions": null,
-      "Recurrence": "",
-      "RecurrenceSchedules": "",
-      "County": "Dane"
     }
   ]
 }
